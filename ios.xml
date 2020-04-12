@@ -822,8 +822,8 @@
         <pair id="suggestEnabled">true</pair>
         <pair id="listCardEnabled">true</pair>
         <pair id="simpleListCardEnabled">true</pair>
-		<pair id="sendMessageMetadata">true</pair>
-		<pair id="sendOpenChatEvents">true</pair>
+		<pair id="sendMessageMetadata">false</pair>
+		<pair id="sendOpenChatEvents">false</pair>
         <pair id="darkRedesignEnabled">false</pair>
       	<pair id="NavigationBarEntryPointEnabled">true</pair>
       	<pair id="VoiceAssistantP2PHistoryOperationDetailDeeplinks">true</pair>
@@ -885,8 +885,8 @@
               <pair id="simpleListCardEnabled">true</pair>
               <pair id="listCardEnabled">true</pair>
               <pair id="suggestEnabled">true</pair>
-              <pair id="sendMessageMetadata">true</pair>
-			  <pair id="sendOpenChatEvents">true</pair>
+              <pair id="sendMessageMetadata">false</pair>
+			  <pair id="sendOpenChatEvents">false</pair>
               <pair id="darkRedesignEnabled">false</pair>
           </map>
         </map>
