@@ -1,0 +1,20 @@
+{
+  "objects": [
+    {
+      "characters": [
+        "sber"
+      ], 
+      "id": "idle", 
+      "name": "idle.zip", 
+      "revision": 1
+    }, 
+    {
+      "characters": [
+        "sber"
+      ], 
+      "id": "listen", 
+      "name": "listen.zip", 
+      "revision": 1
+    }
+  ]
+}
