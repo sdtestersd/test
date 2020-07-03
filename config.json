@@ -5,15 +5,7 @@
         "sber"
       ], 
       "id": "idle", 
-      "name": "idle1.zip", 
-      "revision": 2
-    }, 
-    {
-      "characters": [
-        "sber"
-      ], 
-      "id": "listen", 
-      "name": "listen.zip", 
+      "name": "idle.zip", 
       "revision": 1
     }
   ]
