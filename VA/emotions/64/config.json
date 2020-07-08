@@ -8,6 +8,14 @@
       "id": "idle",
       "name": "64_idle_sber.zip",
       "revision": 1
+    },
+    {
+      "characters": [
+        "joy"
+      ],
+      "id": "idle",
+      "name": "64_idle_joy.zip",
+      "revision": 1
     }
   ]
 }
