@@ -1,181 +1,65 @@
 {
-  "items": [
-    {
-      "card": {
-        "type": "list_card",
-        "paddings": {
-          "top": "9x",
-          "bottom": "12x",
-          "left": "8x",
-          "right": "8x"
+  "card": {
+    "type": "list_card",
+    "paddings": {
+      "top": "4x",
+      "bottom": "4x"
+    },
+    "cells": [
+      {
+        "type": "text_cell_view",
+        "content": {
+          "text": "MasterCard Mass",
+          "typeface": "title1",
+          "text_color": "default"
         },
-        "cells": [
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Последние новости",
-              "typeface": "headline3",
-              "text_color": "default"
-            },
-            "paddings": {
+        "paddings": {
+          "left": "8x",
+          "top": "6x",
+          "right": "8x",
+          "bottom": "6x"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "6x",
+          "right": "8x",
+          "bottom": "6x"
+        },
+        "left": {
+          "type": "fast_answer_left_view",
+          "label": {
+            "text": "••1234",
+            "typeface": "body1",
+            "text_color": "secondary",
+            "margins": {
               "bottom": "2x"
             }
           },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "top": "6x",
-              "bottom": "6x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d1"
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "https://ria.ru/location_Moskva/"
+          "icon_and_value": {
+            "icon": {
+              "address": {
+                "type": "local",
+                "identificator": "card_mc_black"
+              },
+              "size": {
+                "width": "medium",
+                "height": "medium"
+              },
+              "margins": {
+                "right": "6x"
               }
-            ],
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "ФСБ объявила о предотвращении теракта в Хабаровске",
-                  "typeface": "footnote2",
-                  "text_color": "default",
-                  "max_lines": 0
-                }
-              }
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "top": "6x",
-              "bottom": "6x"
             },
-            "divider": {
-              "style": "default",
-              "size": "d1"
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "https://ria.ru/location_Moskva/"
-              }
-            ],
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "В Фонд борьбы с коррупцией пришли с обыском",
-                  "typeface": "footnote2",
-                  "text_color": "default",
-                  "max_lines": 0
-                }
-              }
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "top": "6x",
-              "bottom": "6x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d1"
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "https://ria.ru/location_Moskva/"
-              }
-            ],
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Собянин: у 60% жителей Москвы есть коллективный иммунитет к коронавирусу",
-                  "typeface": "footnote2",
-                  "text_color": "default",
-                  "max_lines": 0
-                }
-              }
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "top": "6x",
-              "bottom": "6x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d1"
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "https://ria.ru/location_Moskva/"
-              }
-            ],
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Сотрудник Сбербанка Руслан Гафаров объявил об увольнении после обвинений в домогательствах и изнасиловании",
-                  "typeface": "footnote2",
-                  "text_color": "default",
-                  "max_lines": 0
-                }
-              }
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "top": "6x",
-              "bottom": "6x"
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "https://ria.ru/location_Moskva/"
-              }
-            ],
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Канье Уэст прифотошопил себя на гору Рашмор к другим президентам США",
-                  "typeface": "footnote2",
-                  "text_color": "default",
-                  "max_lines": 0
-                }
-              }
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "По данным Lenta.ru",
-              "typeface": "footnote1",
-              "text_color": "secondary",
-              "actions": [
-                {
-                  "type": "deep_link",
-                  "deep_link": "https://lenta.ru"
-                }
-              ]
-            },
-            "paddings": {
-              "top": "6x"
+            "value": {
+              "text": "15 000,93 ₽",
+              "typeface": "headline1",
+              "text_color": "default"
             }
           }
-        ]
+        }
       }
-    }
-  ]
+    ]
+  }
 }
