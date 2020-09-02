@@ -1,0 +1,1087 @@
+{
+	"type": "list_card",
+	"cells":
+		[
+		{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "abpermissions",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "abpermissions"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "actions",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "actions"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "actionswithoutrequest",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "actionswithoutrequest"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "applink",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "applink"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "asr hints",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "asr hints"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "atm",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "atm"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "avatar",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "avatar"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "balance",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "balance"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "buttons",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "buttons"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "card",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "card"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "characters",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "characters"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "command with action",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "command with action"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "disabled card",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "disabled card"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "emoji suggests",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "emoji suggests"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "emotion list",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "emotion list"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "exchange",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "exchange"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "exchange long",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "exchange long"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "exchange one item",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "exchange one item"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "fail",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "fail"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "gallery",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "gallery"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "greeting",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "greeting"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "icon hash check",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "icon hash check"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "icon with wrong hash check",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "icon with wrong hash check"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "image",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "image"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "image hash check",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "image hash check"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "image with wrong hash check",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "image with wrong hash check"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "items",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "items"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "many",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "many"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "markdownitems",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "markdownitems"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "news",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "news"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "one card balance",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "one card balance"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "p",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "p"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "server action",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "server action"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "suggests",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "suggests"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "transfer",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "transfer"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "typeface",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "typeface"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "weather",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "weather"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "weather day forecast",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "weather day forecast"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "weather week forecast",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "weather week forecast"
+	  }
+	]
+},{
+	"type": "left_right_cell_view",
+	"left": {
+		"type": "simple_left_view",
+		"title": {
+			"text": "мк_подтверждаю",
+			"typeface": "body1",
+			"text_color": "default",
+			"max_lines": 1,
+			"margins": {
+				"top": "4x",
+				"bottom": "4x",
+				"left": "9x",
+				"right": "9x"
+			}
+		}
+	},
+	"divider": {
+		"style": "default",
+		"size": "d3"
+	},
+	"actions": [
+	  {
+		"type": "text",
+		"text": "мк_подтверждаю"
+	  }
+	]
+},
+		]
+	}
