@@ -1,5 +1,4 @@
 {
-"card":{
 "type":"list_card","cells":[{
 "type":"image_cell_view","content":{
 "url":"https:\/\/cdn.sberdevices.ru\/VA\/images\/Gref.png","hash":"392f529af7ccddb5ef2a99ff4e0d66aa","size":{
@@ -16,5 +15,4 @@
 "paddings":{
 "top":"8x","right":"8x","left":"8x"}}],"paddings":{
 "bottom":"9x"}
-}
 }
