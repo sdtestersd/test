@@ -1,0 +1,20 @@
+{
+"card":{
+"type":"list_card","cells":[{
+"type":"image_cell_view","content":{
+"url":"https:\/\/cdn.sberdevices.ru\/VA\/images\/Gref.png","hash":"392f529af7ccddb5ef2a99ff4e0d66aa","size":{
+"aspect_ratio":0.57999999999999996,"width":"resizable"}}},
+{
+"type":"text_cell_view","content":{
+"typeface":"body2","text_color":"default","max_lines":0,"text":"Герман Греф — Президент, Председатель Правления Сбербанка."},
+"paddings":{
+"top":"4x","right":"8x","left":"8x"}},
+{
+"type":"text_cell_view","content":{
+"typeface":"button1","text_color":"brand","actions":[{
+"type":"deep_link","deep_link":"https:\/\/www.sberbank.com\/ru\/investor-relations\/corporate-governance\/sberbank-executive-board\/president"}],"text":"Подробнее"},
+"paddings":{
+"top":"8x","right":"8x","left":"8x"}}],"paddings":{
+"bottom":"9x"}
+}
+}
