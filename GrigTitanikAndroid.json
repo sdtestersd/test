@@ -1,0 +1,203 @@
+{
+      "card": {
+"type":"gallery_card","items":[{
+"margins":{
+"bottom":"5x","top":"4x","left":"6x","right":"6x"},
+"top_text":{
+"typeface":"footnote1","text_color":"default","max_lines":2,"text":"Леонардо Ди Каприо"},
+"type":"media_gallery_item","image":{
+"url":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/46\/Leonardo_Dicaprio_Cannes_2019.jpg","hash":"c87cddd5da6d303772dbad0d97b13573","size":{
+"width":"small","aspect_ratio":1.4199999999999999}},
+"actions":[{
+"type":"deep_link","deep_link":"https:\/\/ru.wikipedia.org\/wiki\/?curid=35157"}]},
+{
+"margins":{
+"bottom":"5x","top":"4x","left":"6x","right":"6x"},
+"top_text":{
+"typeface":"footnote1","text_color":"default","max_lines":2,"text":"Кейт Уинслет"},
+"type":"media_gallery_item","image":{
+"url":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/7\/7d\/Kate_Winslet_at_the_2017_Toronto_International_Film_Festival_%28cropped%29.jpg","hash":"e904760863a51c440b34efd6b648f27e","size":{
+"width":"small","aspect_ratio":1.4199999999999999}},
+"actions":[{
+"type":"deep_link","deep_link":"https:\/\/ru.wikipedia.org\/wiki\/?curid=368859"}]},
+{
+"margins":{
+"bottom":"5x","top":"4x","left":"6x","right":"6x"},
+"top_text":{
+"typeface":"footnote1","text_color":"default","max_lines":2,"text":"Билли Зейн"},
+"type":"media_gallery_item","image":{
+"url":"https:\/\/cdn.sberdevices.ru\/VA\/images\/movies_icon_2x.png","hash":"dfb3e9be55b9cee5dcaae5df20336abe","size":{
+"width":"small","aspect_ratio":1.4199999999999999}},
+"actions":[{
+"type":"deep_link","deep_link":"https:\/\/ru.wikipedia.org\/wiki\/?curid=1058095"}]},
+{
+"margins":{
+"bottom":"5x","top":"4x","left":"6x","right":"6x"},
+"top_text":{
+"typeface":"footnote1","text_color":"default","max_lines":2,"text":"Кэти Бэйтс"},
+"type":"media_gallery_item","image":{
+"url":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/1\/1a\/Kathy_Bates_by_Gage_Skidmore.jpg","hash":"f7482e8f42abf644c776397cd210601e","size":{
+"width":"small","aspect_ratio":1.4199999999999999}},
+"actions":[{
+"type":"deep_link","deep_link":"https:\/\/ru.wikipedia.org\/wiki\/?curid=357793"}]},
+{
+"margins":{
+"bottom":"5x","top":"4x","left":"6x","right":"6x"},
+"top_text":{
+"typeface":"footnote1","text_color":"default","max_lines":2,"text":"Фрэнсис Фишер"},
+"type":"media_gallery_item","image":{
+"url":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/a\/ae\/Francis_Fisher_2014.jpg","hash":"a8b17c3c3c3fd8e37b1fc0c9a00bcaa0","size":{
+"width":"small","aspect_ratio":1.4199999999999999}},
+"actions":[{
+"type":"deep_link","deep_link":"https:\/\/ru.wikipedia.org\/wiki\/?curid=2758937"}]},
+{
+"margins":{
+"bottom":"5x","top":"4x","left":"6x","right":"6x"},
+"top_text":{
+"typeface":"footnote1","text_color":"default","max_lines":2,"text":"Бернард Хилл"},
+"type":"media_gallery_item","image":{
+"url":"https:\/\/cdn.sberdevices.ru\/VA\/images\/movies_icon_2x.png","hash":"dfb3e9be55b9cee5dcaae5df20336abe","size":{
+"width":"small","aspect_ratio":1.4199999999999999}},
+"actions":[{
+"type":"deep_link","deep_link":"https:\/\/ru.wikipedia.org\/wiki\/?curid=3170718"}]},
+{
+"margins":{
+"bottom":"5x","top":"4x","left":"6x","right":"6x"},
+"top_text":{
+"typeface":"footnote1","text_color":"default","max_lines":2,"text":"Джонатан Хайд"},
+"type":"media_gallery_item","image":{
+"url":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/e\/e0\/Jonathan_Hyde_by_Gage_Skidmore.jpg","hash":"c5fb1fd6a1f4ec8bfb9c819ced72cf68","size":{
+"width":"small","aspect_ratio":1.4199999999999999}},
+"actions":[{
+"type":"deep_link","deep_link":"https:\/\/ru.wikipedia.org\/wiki\/?curid=4121108"}]},
+{
+"margins":{
+"bottom":"5x","top":"4x","left":"6x","right":"6x"},
+"top_text":{
+"typeface":"footnote1","text_color":"default","max_lines":2,"text":"Дэвид Уорнер"},
+"type":"media_gallery_item","image":{
+"url":"https:\/\/cdn.sberdevices.ru\/VA\/images\/movies_icon_2x.png","hash":"dfb3e9be55b9cee5dcaae5df20336abe","size":{
+"width":"small","aspect_ratio":1.4199999999999999}},
+"actions":[{
+"type":"deep_link","deep_link":"https:\/\/ru.wikipedia.org\/wiki\/?curid=1801974"}]},
+{
+"margins":{
+"bottom":"5x","top":"4x","left":"6x","right":"6x"},
+"top_text":{
+"typeface":"footnote1","text_color":"default","max_lines":2,"text":"Виктор Гарбер"},
+"type":"media_gallery_item","image":{
+"url":"https:\/\/cdn.sberdevices.ru\/VA\/images\/movies_icon_2x.png","hash":"dfb3e9be55b9cee5dcaae5df20336abe","size":{
+"width":"small","aspect_ratio":1.4199999999999999}},
+"actions":[{
+"type":"deep_link","deep_link":"https:\/\/ru.wikipedia.org\/wiki\/?curid=2262930"}]},
+{
+"margins":{
+"bottom":"5x","top":"4x","left":"6x","right":"6x"},
+"top_text":{
+"typeface":"footnote1","text_color":"default","max_lines":2,"text":"Билл Пэкстон"},
+"type":"media_gallery_item","image":{
+"url":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/5\/55\/Bill_Paxton_2014.jpg","hash":"209b7b5dcae140a41b4b71a8e9e1abda","size":{
+"width":"small","aspect_ratio":1.4199999999999999}},
+"actions":[{
+"type":"deep_link","deep_link":"https:\/\/ru.wikipedia.org\/wiki\/?curid=1737327"}]},
+{
+"margins":{
+"bottom":"5x","top":"4x","left":"6x","right":"6x"},
+"top_text":{
+"typeface":"footnote1","text_color":"default","max_lines":2,"text":"Глория Стюарт"},
+"type":"media_gallery_item","image":{
+"url":"https:\/\/cdn.sberdevices.ru\/VA\/images\/movies_icon_2x.png","hash":"dfb3e9be55b9cee5dcaae5df20336abe","size":{
+"width":"small","aspect_ratio":1.4199999999999999}},
+"actions":[{
+"type":"deep_link","deep_link":"https:\/\/ru.wikipedia.org\/wiki\/?curid=358110"}]},
+{
+"margins":{
+"bottom":"5x","top":"4x","left":"6x","right":"6x"},
+"top_text":{
+"typeface":"footnote1","text_color":"default","max_lines":2,"text":"Дэнни Нуччи"},
+"type":"media_gallery_item","image":{
+"url":"https:\/\/cdn.sberdevices.ru\/VA\/images\/movies_icon_2x.png","hash":"dfb3e9be55b9cee5dcaae5df20336abe","size":{
+"width":"small","aspect_ratio":1.4199999999999999}},
+"actions":[{
+"type":"deep_link","deep_link":"https:\/\/ru.wikipedia.org\/wiki\/?curid=3661609"}]},
+{
+"margins":{
+"bottom":"5x","top":"4x","left":"6x","right":"6x"},
+"top_text":{
+"typeface":"footnote1","text_color":"default","max_lines":2,"text":"Джейсон Бэрри"},
+"type":"media_gallery_item","image":{
+"url":"https:\/\/cdn.sberdevices.ru\/VA\/images\/movies_icon_2x.png","hash":"dfb3e9be55b9cee5dcaae5df20336abe","size":{
+"width":"small","aspect_ratio":1.4199999999999999}},
+"actions":[{
+"type":"deep_link","deep_link":"https:\/\/en.wikipedia.org\/wiki\/Jason_Barry"}]},
+{
+"margins":{
+"bottom":"5x","top":"4x","left":"6x","right":"6x"},
+"top_text":{
+"typeface":"footnote1","text_color":"default","max_lines":2,"text":"Сьюзи Эмис"},
+"type":"media_gallery_item","image":{
+"url":"https:\/\/cdn.sberdevices.ru\/VA\/images\/movies_icon_2x.png","hash":"dfb3e9be55b9cee5dcaae5df20336abe","size":{
+"width":"small","aspect_ratio":1.4199999999999999}},
+"actions":[{
+"type":"deep_link","deep_link":"https:\/\/ru.wikipedia.org\/wiki\/?curid=4351282"}]},
+{
+"margins":{
+"bottom":"5x","top":"4x","left":"6x","right":"6x"},
+"top_text":{
+"typeface":"footnote1","text_color":"default","max_lines":2,"text":"Марк Линдсэй Чэпман"},
+"type":"media_gallery_item","image":{
+"url":"https:\/\/cdn.sberdevices.ru\/VA\/images\/movies_icon_2x.png","hash":"dfb3e9be55b9cee5dcaae5df20336abe","size":{
+"width":"small","aspect_ratio":1.4199999999999999}},
+"actions":[{
+"type":"deep_link","deep_link":"https:\/\/ru.wikipedia.org\/wiki\/?curid=8204636"}]},
+{
+"margins":{
+"bottom":"5x","top":"4x","left":"6x","right":"6x"},
+"top_text":{
+"typeface":"footnote1","text_color":"default","max_lines":2,"text":"Стюарт, Ивэн"},
+"type":"media_gallery_item","image":{
+"url":"https:\/\/cdn.sberdevices.ru\/VA\/images\/movies_icon_2x.png","hash":"dfb3e9be55b9cee5dcaae5df20336abe","size":{
+"width":"small","aspect_ratio":1.4199999999999999}},
+"actions":[{
+"type":"deep_link","deep_link":"https:\/\/ru.wikipedia.org\/wiki\/?curid=5114380"}]},
+{
+"margins":{
+"bottom":"5x","top":"4x","left":"6x","right":"6x"},
+"top_text":{
+"typeface":"footnote1","text_color":"default","max_lines":2,"text":"Джонатан Филлипс"},
+"type":"media_gallery_item","image":{
+"url":"https:\/\/cdn.sberdevices.ru\/VA\/images\/movies_icon_2x.png","hash":"dfb3e9be55b9cee5dcaae5df20336abe","size":{
+"width":"small","aspect_ratio":1.4199999999999999}},
+"actions":[{
+"type":"deep_link","deep_link":"https:\/\/en.wikipedia.org\/wiki\/Jonny_Phillips_(actor)"}]},
+{
+"margins":{
+"bottom":"5x","top":"4x","left":"6x","right":"6x"},
+"top_text":{
+"typeface":"footnote1","text_color":"default","max_lines":2,"text":"Йоан Гриффит"},
+"type":"media_gallery_item","image":{
+"url":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/8\/82\/Ioan_Gruffudd_%285983095758%29.jpg","hash":"b8107821172dbeecca369ca92a00feb0","size":{
+"width":"small","aspect_ratio":1.4199999999999999}},
+"actions":[{
+"type":"deep_link","deep_link":"https:\/\/ru.wikipedia.org\/wiki\/?curid=2271895"}]},
+{
+"margins":{
+"bottom":"5x","top":"4x","left":"6x","right":"6x"},
+"top_text":{
+"typeface":"footnote1","text_color":"default","max_lines":2,"text":"Эдвард Флетчер"},
+"type":"media_gallery_item","image":{
+"url":"https:\/\/cdn.sberdevices.ru\/VA\/images\/movies_icon_2x.png","hash":"dfb3e9be55b9cee5dcaae5df20336abe","size":{
+"width":"small","aspect_ratio":1.4199999999999999}}},
+{
+"margins":{
+"bottom":"5x","top":"4x","left":"6x","right":"6x"},
+"top_text":{
+"typeface":"footnote1","text_color":"default","max_lines":2,"text":"Бернард Фокс"},
+"type":"media_gallery_item","image":{
+"url":"https:\/\/cdn.sberdevices.ru\/VA\/images\/movies_icon_2x.png","hash":"dfb3e9be55b9cee5dcaae5df20336abe","size":{
+"width":"small","aspect_ratio":1.4199999999999999}},
+"actions":[{
+"type":"deep_link","deep_link":"https:\/\/ru.wikipedia.org\/wiki\/?curid=3168958"}]
+}]
+}
+}
