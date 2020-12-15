@@ -1,0 +1,59 @@
+{
+                "card": {
+                    "type": "grid_card",
+                    "columns": 2,
+                    "item_width": "resizable",
+                    "items": [{
+                            "type": "greeting_grid_item",
+                            "paddings": {
+                                "top": "5x",
+                                "left": "5x",
+                                "right": "5x",
+                                "bottom": "5x"
+                            },
+                            "top_text": {
+                                "type": "text_cell_view",
+                                "text": "1",
+                                "typeface": "caption",
+                                "text_color": "default"
+                            },
+                            "bottom_text": {
+                                "type": "text_cell_view",
+                                "text": "Привет1",
+                                "typeface": "body3",
+                                "text_color": "default",
+                                "max_lines": 1
+                            },
+                            "actions": [{
+                                    "text": "Привет1"
+                                }
+                            ]
+                        }, {
+                            "type": "greeting_grid_item",
+                            "paddings": {
+                                "top": "5x",
+                                "left": "5x",
+                                "right": "5x",
+                                "bottom": "5x"
+                            },
+                            "top_text": {
+                                "type": "text_cell_view",
+                                "text": "2",
+                                "typeface": "caption",
+                                "text_color": "default"
+                            },
+                            "bottom_text": {
+                                "type": "text_cell_view",
+                                "text": "Привет2",
+                                "typeface": "body3",
+                                "text_color": "default",
+                                "max_lines": 1
+                            },
+                            "actions": [{
+                                    "text": "Привет2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
