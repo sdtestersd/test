@@ -1,0 +1,364 @@
+{
+                      "card": {
+                        "type": "grid_card",
+                        "items": [
+                          {
+                            "type": "greeting_grid_item",
+                            "top_text": {
+                              "type": "text_cell_view",
+                              "text": "Цель",
+                              "typeface": "caption",
+                              "text_color": "default"
+                            },
+                            "bottom_text": {
+                              "type": "text_cell_view",
+                              "text": "Участие в производственном совещании (Сбербанкиада)",
+                              "typeface": "body3",
+                              "text_color": "default",
+                              "max_lines": 3,
+                              "margins": {
+                                "top": "4x"
+                              }
+                            },
+                            "paddings": {
+                              "top": "6x",
+                              "left": "6x",
+                              "right": "6x",
+                              "bottom": "6x"
+                            },
+                            "actions": [
+                              {
+                                "text": "1"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "greeting_grid_item",
+                            "top_text": {
+                              "type": "text_cell_view",
+                              "text": "Цель",
+                              "typeface": "caption",
+                              "text_color": "default"
+                            },
+                            "bottom_text": {
+                              "type": "text_cell_view",
+                              "text": "Встреча с руководством территориальных банков",
+                              "typeface": "body2",
+                              "text_color": "default",
+                              "max_lines": 3,
+                              "margins": {
+                                "top": "4x"
+                              }
+                            },
+                            "paddings": {
+                              "top": "6x",
+                              "left": "6x",
+                              "right": "6x",
+                              "bottom": "6x"
+                            },
+                            "actions": [
+                              {
+                                "text": "2"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "greeting_grid_item",
+                            "top_text": {
+                              "type": "text_cell_view",
+                              "text": "Цель",
+                              "typeface": "caption",
+                              "text_color": "default"
+                            },
+                            "bottom_text": {
+                              "type": "text_cell_view",
+                              "text": "Оказание методологической помощи",
+                              "typeface": "body1",
+                              "text_color": "default",
+                              "max_lines": 3,
+                              "margins": {
+                                "top": "4x"
+                              }
+                            },
+                            "paddings": {
+                              "top": "6x",
+                              "left": "6x",
+                              "right": "6x",
+                              "bottom": "6x"
+                            }
+                          },
+                          {
+                            "type": "greeting_grid_item",
+                            "top_text": {
+                              "type": "text_cell_view",
+                              "text": "Цель",
+                              "typeface": "caption",
+                              "text_color": "default"
+                            },
+                            "bottom_text": {
+                              "type": "text_cell_view",
+                              "text": "Оказание методологической помощи по (цель/процесс/проект/направление)  сотрудникам..",
+                              "typeface": "text1",
+                              "text_color": "default",
+                              "max_lines": 3,
+                              "margins": {
+                                "top": "4x"
+                              }
+                            },
+                            "paddings": {
+                              "top": "6x",
+                              "left": "6x",
+                              "right": "6x",
+                              "bottom": "6x"
+                            },
+                            "actions": [
+                              {
+                                "text": "4"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "greeting_grid_item",
+                            "top_text": {
+                              "type": "text_cell_view",
+                              "text": "Цель",
+                              "typeface": "caption",
+                              "text_color": "default"
+                            },
+                            "bottom_text": {
+                              "type": "text_cell_view",
+                              "text": "Проведение проверок функциональной деятельности",
+                              "typeface": "text1",
+                              "text_color": "default",
+                              "max_lines": 3,
+                              "margins": {
+                                "top": "4x"
+                              }
+                            },
+                            "paddings": {
+                              "top": "6x",
+                              "left": "6x",
+                              "right": "6x",
+                              "bottom": "6x"
+                            },
+                            "actions": [
+                              {
+                                "text": "4"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "greeting_grid_item",
+                            "top_text": {
+                              "type": "text_cell_view",
+                              "text": "Цель",
+                              "typeface": "caption",
+                              "text_color": "default"
+                            },
+                            "bottom_text": {
+                              "type": "text_cell_view",
+                              "text": "Функциональная проверка по (функционал/темы/задачи). Обсуждение результатов.",
+                              "typeface": "text1",
+                              "text_color": "default",
+                              "max_lines": 3,
+                              "margins": {
+                                "top": "4x"
+                              }
+                            },
+                            "paddings": {
+                              "top": "6x",
+                              "left": "6x",
+                              "right": "6x",
+                              "bottom": "6x"
+                            },
+                            "actions": [
+                              {
+                                "text": "4"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "greeting_grid_item",
+                            "top_text": {
+                              "type": "text_cell_view",
+                              "text": "Цель",
+                              "typeface": "caption",
+                              "text_color": "default"
+                            },
+                            "bottom_text": {
+                              "type": "text_cell_view",
+                              "text": "Участие в переговорах",
+                              "typeface": "text1",
+                              "text_color": "default",
+                              "max_lines": 3,
+                              "margins": {
+                                "top": "4x"
+                              }
+                            },
+                            "paddings": {
+                              "top": "6x",
+                              "left": "6x",
+                              "right": "6x",
+                              "bottom": "6x"
+                            },
+                            "actions": [
+                              {
+                                "text": "4"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "greeting_grid_item",
+                            "top_text": {
+                              "type": "text_cell_view",
+                              "text": "Цель",
+                              "typeface": "caption",
+                              "text_color": "default"
+                            },
+                            "bottom_text": {
+                              "type": "text_cell_view",
+                              "text": "Участие в совещании",
+                              "typeface": "text1",
+                              "text_color": "default",
+                              "max_lines": 3,
+                              "margins": {
+                                "top": "4x"
+                              }
+                            },
+                            "paddings": {
+                              "top": "6x",
+                              "left": "6x",
+                              "right": "6x",
+                              "bottom": "6x"
+                            },
+                            "actions": [
+                              {
+                                "text": "4"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "greeting_grid_item",
+                            "top_text": {
+                              "type": "text_cell_view",
+                              "text": "Цель",
+                              "typeface": "caption",
+                              "text_color": "default"
+                            },
+                            "bottom_text": {
+                              "type": "text_cell_view",
+                              "text": "Участие в Форуме Управляющих ГОСБ",
+                              "typeface": "text1",
+                              "text_color": "default",
+                              "max_lines": 3,
+                              "margins": {
+                                "top": "4x"
+                              }
+                            },
+                            "paddings": {
+                              "top": "6x",
+                              "left": "6x",
+                              "right": "6x",
+                              "bottom": "6x"
+                            },
+                            "actions": [
+                              {
+                                "text": "4"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "greeting_grid_item",
+                            "top_text": {
+                              "type": "text_cell_view",
+                              "text": "Цель",
+                              "typeface": "caption",
+                              "text_color": "default"
+                            },
+                            "bottom_text": {
+                              "type": "text_cell_view",
+                              "text": "Участие в Российском инвестиционном форуме Сочи",
+                              "typeface": "text1",
+                              "text_color": "default",
+                              "max_lines": 3,
+                              "margins": {
+                                "top": "4x"
+                              }
+                            },
+                            "paddings": {
+                              "top": "6x",
+                              "left": "6x",
+                              "right": "6x",
+                              "bottom": "6x"
+                            },
+                            "actions": [
+                              {
+                                "text": "4"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "greeting_grid_item",
+                            "top_text": {
+                              "type": "text_cell_view",
+                              "text": "Цель",
+                              "typeface": "caption",
+                              "text_color": "default"
+                            },
+                            "bottom_text": {
+                              "type": "text_cell_view",
+                              "text": "Участие в Петербургском международном экономическом форуме",
+                              "typeface": "text1",
+                              "text_color": "default",
+                              "max_lines": 3,
+                              "margins": {
+                                "top": "4x"
+                              }
+                            },
+                            "paddings": {
+                              "top": "6x",
+                              "left": "6x",
+                              "right": "6x",
+                              "bottom": "6x"
+                            },
+                            "actions": [
+                              {
+                                "text": "4"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "greeting_grid_item",
+                            "top_text": {
+                              "type": "text_cell_view",
+                              "text": "Цель",
+                              "typeface": "caption",
+                              "text_color": "default"
+                            },
+                            "bottom_text": {
+                              "type": "text_cell_view",
+                              "text": "Бла бла бла",
+                              "typeface": "text1",
+                              "text_color": "default",
+                              "max_lines": 3,
+                              "margins": {
+                                "top": "4x"
+                              }
+                            },
+                            "paddings": {
+                              "top": "6x",
+                              "left": "6x",
+                              "right": "6x",
+                              "bottom": "6x"
+                            },
+                            "actions": [
+                              {
+                                "text": "4"
+                              }
+                            ]
+                          }
+                        ],
+                        "columns": 2,
+                        "item_width": "small"
+                      }
+                    }
