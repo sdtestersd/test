@@ -1,0 +1,27 @@
+{
+  "card": {
+    "type": "greeting_grid_item",
+    "top_text": {
+      "type": "text_cell_view",
+      "text": "Бла",
+      "typeface": "caption",
+      "text_color": "default"
+    },
+    "bottom_text": {
+      "type": "text_cell_view",
+      "text": "Тут пишу очень много текста, который не помещается на четыре строчки совсем",
+      "typeface": "body1",
+      "text_color": "default",
+      "max_lines": 0,
+      "margins": {
+        "top": "4x"
+      }
+    },
+    "paddings": {
+      "top": "6x",
+      "left": "6x",
+      "right": "6x",
+      "bottom": "6x"
+    }
+  }
+}
