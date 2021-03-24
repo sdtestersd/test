@@ -1,0 +1,35 @@
+{
+  "type": "list_card",
+  "cells": [
+    {
+      "left": {
+        "type": "simple_left_view",
+        "texts": {
+          "title": {
+            "text": "1. 7 пятниц по адресу: Орел, Октябрьская, 20",
+            "typeface": "footnote1",
+            "max_lines": 2,
+            "text_color": "secondary"
+          }
+        },
+        "icon_vertical_gravity": "center"
+      },
+      "type": "left_right_cell_view",
+      "right": {
+        "type": "disclosure_right_view"
+      },
+      "actions": [
+        {
+          "text": "Запись номер 1",
+          "type": "text"
+        }
+      ],
+      "paddings": {
+        "top": "6x",
+        "left": "8x",
+        "right": "4x",
+        "bottom": "6x"
+      }
+    }
+  ]
+}
