@@ -1,0 +1,116 @@
+{
+  "card": {
+    "type": "gallery_card",
+    "items": [
+      {
+        "type": "gallery_search_content_item",
+        "actions": [
+          {
+            "type": "text",
+            "text": "Fjord на Нижний Кисловский переулок, 6с2, 17"
+          }
+        ],
+        "width": "large",
+        "title_text": {
+          "text": "Парикмахерская",
+          "typeface": "footnote1",
+          "text_color": "secondary"
+        },
+        "link_text": {
+          "text": "Fjord — лучшая мужская парикмахерская",
+          "typeface": "body2",
+          "text_color": "default",
+          "max_lines": 2,
+          "margins": {
+            "top": "4x",
+            "bottom": "4x"
+          }
+        },
+        "description_text": {
+          "text": "★ 4,3 • Нижний Кисловский переулок, 6с2, 17 • 1,3 км • м. Боровицкая • Закрыто до завтра",
+          "typeface": "footnote1",
+          "text_color": "secondary",
+          "max_lines": 0,
+          "margins": {
+            "top": "4x"
+          }
+        },
+        "paddings": {
+          "top": "10x",
+          "left": "8x",
+          "right": "8x",
+          "bottom": "10x"
+        }
+      },
+      {
+        "type": "gallery_search_content_item",
+        "actions": [
+          {
+            "type": "text",
+            "text": "Fjord на Нижний Кисловский переулок, 6с2, 17"
+          }
+        ],
+        "width": "large",
+        "title_text": {
+          "text": "Ювелирный салон",
+          "typeface": "footnote1",
+          "text_color": "secondary"
+        },
+        "link_text": {
+          "text": "Fjord",
+          "typeface": "body2",
+          "text_color": "default",
+          "max_lines": 2,
+          "margins": {
+            "top": "4x",
+            "bottom": "4x"
+          }
+        },
+        "description_text": {
+          "text": "★ 3,9 •Нижний Кисловский переулок, 6с2, 17 • 1,3 км • м. Боровицкая • Закрыто до завтра",
+          "typeface": "footnote1",
+          "text_color": "secondary",
+          "max_lines": 0,
+          "margins": {
+            "top": "4x"
+          }
+        },
+        "paddings": {
+          "top": "10x",
+          "left": "8x",
+          "right": "8x",
+          "bottom": "10x"
+        }
+      },
+      {
+        "type": "gallery_more_button_item",
+        "bottom_text": {
+          "text": "Посмотреть в 2ГИС",
+          "typeface": "caption",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "4x"
+          }
+        },
+        "icon": {
+          "address": {
+            "type": "url",
+            "url": "http://content.sberdevices.ru/smartmarket-smide-prod/1267/1268/soG5yeRyphOaOpbl.png",
+            "hash": "6dc40193dbf9c0e9568e414335858fe1"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          }
+        },
+        "actions": [
+          {
+            "type": "deep_link",
+            "deep_link": "https://2gis.ru/search/кремля"
+          }
+        ]
+      }
+    ]
+  }
+}
