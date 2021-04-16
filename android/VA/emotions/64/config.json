@@ -28,7 +28,7 @@
       "name": "64_idle_sber.zip",
       "required_in_startup": true,
       "revision": 3,
-      "url": "https://cdn.sberbank.ru/VA/emotions/64/64_idle_sber.zip"
+      "url": "https://cdn.sberbank.ru/CDNORIGIN/VA/emotions/64/64_idle_sber.zip"
     }
   ]
 }
