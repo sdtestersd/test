@@ -8,7 +8,7 @@
       "name": "64_listen_sber.zip",
       "required_in_startup": true,
       "revision": 3,
-      "url": "https://cdn.sberbank.ru/CDNORIGIN/VA/emotions/64/64_listen_sber.zip"
+      "url": "https://va-res.online.sberbank.ru/VA/emotions/64/64_listen_sber.zip"
     },
     {
       "characters": [
@@ -17,7 +17,7 @@
       "id": "talk",
       "name": "64_talk_sber.zip",
       "required_in_startup": false,
-      "revision": 3,
+      "revision": 4,
       "url": "https://va-res.online.sberbank.ru/VA/emotions/64/64_talk_sber.zip"
     },
     {
@@ -28,7 +28,7 @@
       "name": "64_idle_sber.zip",
       "required_in_startup": true,
       "revision": 3,
-      "url": "https://va-res.online.sberbank.ru/VA/emotions/64/64_idle_sber.zip"
+      "url": "https://cdn.sberbank.ru/CDNORIGIN/VA/emotions/64/64_idle_sber.zip"
     }
   ]
 }
