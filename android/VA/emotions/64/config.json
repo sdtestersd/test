@@ -7,8 +7,8 @@
       ],
       "id": "shazam",
       "name": "64_shazam_sber.zip",
-      "required_in_startup": false,
-      "revision": 1,
+      "required_in_startup": true,
+      "revision": 2,
       "url": "https://cdn.sberbank.ru/CDNORIGIN/VA/emotions/64/64_shazam_sber.zip"
     },
     {
@@ -18,7 +18,7 @@
       "id": "smushchennaya_ulibka",
       "name": "64_smushchennaya_ulibka_sber.zip",
       "required_in_startup": false,
-      "revision": 3,
+      "revision": 4,
       "url": "https://cdn.sberbank.ru/CDNORIGIN/VA/emotions/64/64_smushchennaya_ulibka_sber.zip"
     },
     {
