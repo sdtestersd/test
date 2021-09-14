@@ -1,7 +1,44 @@
 {
   "objects": [
     {
-     
+      "characters": [
+        "sber"
+      ],
+      "id": "shazam",
+      "name": "64_shazam_sber.zip",
+      "required_in_startup": true,
+      "revision": 2,
+      "url": "https://va-res.online.sberbank.ru/VA/okniks_resources/64/64_shazam_sber.zip"
+    },
+    {
+      "characters": [
+        "sber"
+      ],
+      "id": "smushchennaya_ulibka",
+      "name": "64_smushchennaya_ulibka_sber.zip",
+      "required_in_startup": false,
+      "revision": 2,
+      "url": "https://cdn.sberbank.ru/CDNORIGIN/VA/okniks_resources/64/64_smushchennaya_ulibka_sber.zip"
+    },
+    {
+      "characters": [
+        "eva"
+      ],
+      "id": "predvkusheniye",
+      "name": "64_predvkusheniye_eva.zip",
+      "required_in_startup": true,
+      "revision": 2,
+      "url": "https://cdn.sberbank.ru/CDNORIGIN/VA/okniks_resources/64/64_predvkusheniye_eva.zip"
+    },
+    {
+      "characters": [
+        "eva"
+      ],
+      "id": "sochuvstvie",
+      "name": "64_sochuvstvie_eva.zip",
+      "required_in_startup": false,
+      "revision": 2,
+      "url": "https://va-res.online.sberbank.ru/VA/okniks_resources/64/64_sochuvstvie_eva.zip"
     }
   ]
 }
