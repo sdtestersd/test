@@ -1,0 +1,6 @@
+{
+    "command": {
+        "type": "request_contacts",
+        "timeout": 1
+    }
+}
