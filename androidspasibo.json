@@ -1,0 +1,103 @@
+{
+	"card": {
+		"cells": [{
+			"left": {
+				"icon": {
+					"address": {
+						"identificator": "spasibo",
+						"type": "local"
+					},
+					"size": {
+						"width": "medium",
+						"height": "medium"
+					},
+					"margins": {
+						"bottom": "5x",
+						"left": "8x",
+						"right": "6x",
+						"top": "5x"
+					},
+					"tint_color": "solid_brand"
+				},
+				"icon_vertical_gravity": "center",
+				"title": {
+					"text": "Перейти в СберБанк Онлайн",
+					"typeface": "body1",
+					"text_color": "default",
+					"margins": {
+						"bottom": "9x",
+						"left": "0x",
+						"right": "0x",
+						"top": "9x"
+					},
+					"max_lines": 1
+				},
+				"type": "simple_left_view"
+			},
+			"right": {
+				"margins": {
+					"bottom": "8x",
+					"left": "0x",
+					"right": "4x",
+					"top": "8x"
+				},
+				"type": "disclosure_right_view"
+			},
+			"actions": [{
+				"deep_link": "https://sberbank-online.onelink.me/q4HS?pid=superapp&c=superapp&is_retargeting=true&af_dp=android-app%3A%2F%2Fru.sberbankmobile%2Fandroid-app%2Fru.sberbankmobile%2Floyalty",
+				"type": "deep_link"
+			}],
+			"type": "left_right_cell_view"
+		}, {
+			"left": {
+				"icon": {
+					"address": {
+						"identificator": "color_spasibo",
+						"type": "local"
+					},
+					"size": {
+						"width": "medium",
+						"height": "medium"
+					},
+					"margins": {
+						"bottom": "5x",
+						"left": "8x",
+						"right": "6x",
+						"top": "5x"
+					},
+					"tint_color": "solid_brand"
+				},
+				"icon_vertical_gravity": "center",
+				"title": {
+					"text": "Перейти в СберБанк Онлайн",
+					"typeface": "body1",
+					"text_color": "default",
+					"margins": {
+						"bottom": "9x",
+						"left": "0x",
+						"right": "0x",
+						"top": "9x"
+					},
+					"max_lines": 1
+				},
+				"type": "simple_left_view"
+			},
+			"right": {
+				"margins": {
+					"bottom": "8x",
+					"left": "0x",
+					"right": "4x",
+					"top": "8x"
+				},
+				"type": "disclosure_right_view"
+			},
+			"actions": [{
+				"deep_link": "https://sberbank-online.onelink.me/q4HS?pid=superapp&c=superapp&is_retargeting=true&af_dp=android-app%3A%2F%2Fru.sberbankmobile%2Fandroid-app%2Fru.sberbankmobile%2Floyalty",
+				"type": "deep_link"
+			}],
+			"type": "left_right_cell_view"
+		}],
+		"can_be_disabled": false,
+		"type": "list_card"
+	}
+}
