@@ -24,7 +24,7 @@
                 "text": "2016, Драма/ЛГБТ Длинный текст1 Длинный текст2 Длинный текст3 Длинный текст4 Длинный текст5 Длинный текст6",
                 "typeface": "caption",
                 "text_color": "secondary",
-                "max_lines": 1,
+                "max_lines": 0,
                 "margins": {
                     "top": "2x"
                 }
@@ -58,7 +58,7 @@
                 "text": "18+ 1994 г, Длинный текст1 Длинный текст2 Длинный текст3 Длинный текст4 Длинный текст5 Длинный текст6",
                 "typeface": "caption",
                 "text_color": "secondary",
-                "max_lines": 1,
+                "max_lines": 0,
                 "margins": {
                     "top": "2x"
                 }
