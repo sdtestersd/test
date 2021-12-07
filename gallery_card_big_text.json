@@ -1,62 +1,74 @@
 {
-	"card": {
-		"type": "gallery_card",
-		"items": [{
-			"type": "media_gallery_item",
-			"image": {
-				"url": "url",
-				"hash": "hash",
-				"size": {
-					"width": "resizable",
-					"aspect_ratio": 0.44
-				}
-			},
-			"margins": {
-				"top": "5x",
-				"left": "5x",
-				"right": "5x",
-				"bottom": "5x"
-			},
-			"top_text": {
-				"text": "Тайтл",
-				"typeface": "body1",
-				"text_color": "default",
-				"max_lines": 0
-			},
-			"bottom_text": {
-				"text": "Длинный текст Длинный текст Длинный текст Длинный текст Длинный текст Длинный текст",
-				"typeface": "text1",
-				"text_color": "secondary",
-				"max_lines": 0
-			}
-		}, {
-			"type": "media_gallery_item",
-			"image": {
-				"url": "url",
-				"hash": "hash",
-				"size": {
-					"width": "resizable",
-					"aspect_ratio": 0.44
-				}
-			},
-			"margins": {
-				"top": "5x",
-				"left": "5x",
-				"right": "5x",
-				"bottom": "5x"
-			},
-			"top_text": {
-				"text": "Тайтл",
-				"typeface": "body1",
-				"text_color": "default",
-				"max_lines": 0
-			},
-			"bottom_text": {
-				"text": "Длинный текст Длинный текст Длинный текст Длинный текст Длинный текст Длинный текст",
-				"typeface": "text1",
-				"text_color": "secondary",
-				"max_lines": 0
-			}
-		}]
-	}
+    "card": {
+        "type": "gallery_card",
+        "items": [{
+            "type": "media_gallery_item",
+            "actions": [{
+                "type": "deep_link",
+                "deep_link": "http://smartbox.okko.tv/?titleid=movie:df4bbd21-0a82-4693-907c-8ad9bd034684"
+            }],
+            "image": {
+                "url": "https://festagent.com/system/tilda/tild3562-6362-4762-b036-653363663832__a01ccf32943f670ef632.jpg",
+                "size": {
+                    "width": "medium",
+                    "aspect_ratio": 1.42
+                }
+            },
+            "margins": {
+                "top": "4x",
+                "left": "6x",
+                "right": "6x",
+                "bottom": "5x"
+            },
+            "bottom_text": {
+                "text": "2016, Драма/ЛГБТ Длинный текст1 Длинный текст2 Длинный текст3 Длинный текст4 Длинный текст5 Длинный текст6",
+                "typeface": "caption",
+                "text_color": "secondary",
+                "max_lines": 1,
+                "margins": {
+                    "top": "2x"
+                }
+            },
+            "top_text": {
+                "text": "Лунный свет",
+                "typeface": "footnote1",
+                "text_color": "default",
+                "max_lines": 2
+            }
+        }, {
+            "type": "media_gallery_item",
+            "actions": [{
+                "type": "deep_link",
+                "deep_link": "http://smartbox.okko.tv/?titleid=movie:df4bbd21-0a82-4693-907c-8ad9bd034684"
+            }],
+            "image": {
+                "url": "https://upload.wikimedia.org/wikipedia/ru/thumb/9/93/Pulp_Fiction.jpg/211px-Pulp_Fiction.jpg",
+                "size": {
+                    "width": "medium",
+                    "aspect_ratio": 1.42
+                }
+            },
+            "margins": {
+                "top": "4x",
+                "left": "6x",
+                "right": "6x",
+                "bottom": "5x"
+            },
+            "bottom_text": {
+                "text": "18+ 1994 г, Длинный текст1 Длинный текст2 Длинный текст3 Длинный текст4 Длинный текст5 Длинный текст6",
+                "typeface": "caption",
+                "text_color": "secondary",
+                "max_lines": 1,
+                "margins": {
+                    "top": "2x"
+                }
+            },
+            "top_text": {
+                "text": "Криминальное чтиво. Режисерская версия.",
+                "typeface": "footnote1",
+                "text_color": "default",
+                "max_lines": 2
+            }
+        }]
+    }
 }
