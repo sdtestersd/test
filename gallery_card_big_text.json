@@ -33,7 +33,7 @@
                 "text": "Лунный свет",
                 "typeface": "footnote1",
                 "text_color": "default",
-                "max_lines": 2
+                "max_lines": 0
             }
         }, {
             "type": "media_gallery_item",
@@ -67,7 +67,7 @@
                 "text": "Криминальное чтиво. Режисерская версия.",
                 "typeface": "footnote1",
                 "text_color": "default",
-                "max_lines": 2
+                "max_lines": 0
             }
         }]
     }
