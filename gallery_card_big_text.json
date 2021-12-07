@@ -1,0 +1,62 @@
+{
+	"card": {
+		"type": "gallery_card",
+		"items": [{
+			"type": "media_gallery_item",
+			"image": {
+				"url": "url",
+				"hash": "hash",
+				"size": {
+					"width": "resizable",
+					"aspect_ratio": 0.44
+				}
+			},
+			"margins": {
+				"top": "5x",
+				"left": "5x",
+				"right": "5x",
+				"bottom": "5x"
+			},
+			"top_text": {
+				"text": "Тайтл",
+				"typeface": "body1",
+				"text_color": "default",
+				"max_lines": 0
+			},
+			"bottom_text": {
+				"text": "Длинный текст Длинный текст Длинный текст Длинный текст Длинный текст Длинный текст",
+				"typeface": "text1",
+				"text_color": "secondary",
+				"max_lines": 0
+			}
+		}, {
+			"type": "media_gallery_item",
+			"image": {
+				"url": "url",
+				"hash": "hash",
+				"size": {
+					"width": "resizable",
+					"aspect_ratio": 0.44
+				}
+			},
+			"margins": {
+				"top": "5x",
+				"left": "5x",
+				"right": "5x",
+				"bottom": "5x"
+			},
+			"top_text": {
+				"text": "Тайтл",
+				"typeface": "body1",
+				"text_color": "default",
+				"max_lines": 0
+			},
+			"bottom_text": {
+				"text": "Длинный текст Длинный текст Длинный текст Длинный текст Длинный текст Длинный текст",
+				"typeface": "text1",
+				"text_color": "secondary",
+				"max_lines": 0
+			}
+		}]
+	}
+}
