@@ -76,7 +76,7 @@
                         "text": "из 10 000 ₽",
                         "typeface": "footnote1",
                         "text_color": "secondary",
-                        "max_lines": 0
+                        "max_lines": 2
                     },
                     "margins":
                     {
