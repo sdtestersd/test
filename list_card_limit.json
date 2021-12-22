@@ -1,0 +1,113 @@
+{
+    "card":
+    {
+        "cells":
+        [
+            {
+                "left":
+                {
+                    "texts":
+                    {
+                        "title":
+                        {
+                            "text": "Лимит в месяц",
+                            "typeface": "headline3",
+                            "text_color": "default",
+                            "max_lines": 1
+                        },
+                        "subtitle":
+                        {
+                            "text": "До конца декабря",
+                            "typeface": "footnote1",
+                            "text_color": "secondary",
+                            "margins":
+                            {
+                                "bottom": "0x",
+                                "left": "0x",
+                                "right": "0x",
+                                "top": "2x"
+                            },
+                            "max_lines": 1
+                        }
+                    },
+                    "icon_vertical_gravity": "center",
+                    "type": "simple_left_view"
+                },
+                "right":
+                {
+                    "margins":
+                    {
+                        "bottom": "9x",
+                        "left": "0x",
+                        "right": "0x",
+                        "top": "0x"
+                    },
+                    "type": "disclosure_right_view"
+                },
+                "paddings":
+                {
+                    "bottom": "6x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "0x"
+                },
+                "type": "left_right_cell_view"
+            },
+            {
+                "left":
+                {
+                    "texts":
+                    {
+                        "title":
+                        {
+                            "text": "10 000 ₽",
+                            "typeface": "headline1",
+                            "text_color": "default",
+                            "max_lines": 1
+                        }
+                    },
+                    "icon_vertical_gravity": "center",
+                    "type": "simple_left_view"
+                },
+                "right":
+                {
+                    "detail":
+                    {
+                        "text": "из 10 000 ₽",
+                        "typeface": "footnote1",
+                        "text_color": "secondary",
+                        "max_lines": 1
+                    },
+                    "margins":
+                    {
+                        "bottom": "0x",
+                        "left": "0x",
+                        "right": "0x",
+                        "top": "8x"
+                    },
+                    "vertical_gravity": "center",
+                    "detail_position": "top",
+                    "type": "detail_right_view"
+                },
+                "actions":
+                [
+                    {
+                        "text": "Лимит на все операции",
+                        "type": "text"
+                    }
+                ],
+                "type": "left_right_cell_view"
+            }
+        ],
+        "paddings":
+        {
+            "bottom": "8x",
+            "left": "8x",
+            "right": "8x",
+            "top": "8x"
+        },
+        "background_color": "card_background",
+        "can_be_disabled": false,
+        "type": "list_card"
+    }
+}
