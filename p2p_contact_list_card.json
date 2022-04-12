@@ -1,0 +1,114 @@
+{
+    "card":
+    {
+        "can_be_disabled": true,
+        "type": "list_card",
+        "paddings":
+        {
+            "left": "8x",
+            "right": "8x"
+        },
+        "cells":
+        [
+            {
+                "content":
+                {
+                    "text": "Карточка контактов list_card left_right_cell_view",
+                    "typeface": "title1",
+                    "text_color": "default",
+                    "max_lines": 1
+                },
+                "paddings":
+                {
+                    "bottom": "6x",
+                    "left": "8x",
+                    "right": "8x",
+                    "top": "6x"
+                },
+                "type": "text_cell_view"
+            },
+            {
+                "left":
+                {
+                    "icon":
+                    {
+                        "address":
+                        {
+                            "type": "localcontact",
+                            "local_contact_hash": "a9ed11112ec83955c2ed3c6f97fc54a4477ca3ec3ccd33c017ae5318e63fe42d"
+                        }
+                    },
+                    "texts":
+                    {
+                        "title":
+                        {
+                            "text": "+7 (985) 412-69-53",
+                            "typeface": "body1",
+                            "text_color": "default",
+                            "max_lines": 1
+                        },
+                        "subtitle":
+                        {
+                            "text": "hash_сontaсt",
+                            "typeface": "footnote1",
+                            "text_color": "secondary",
+                            "max_lines": 0
+                        }
+                    },
+                    "icon_vertical_gravity": "center",
+                    "type": "simple_left_view"
+                },
+                "right":
+                {
+                    "detail":
+                    {
+                        "text": "sha256",
+                        "typeface": "body1",
+                        "text_color": "brand",
+                        "max_lines": 1
+                    },
+                    "info_and_icon":
+                    {
+                        "info":
+                        {
+                            "text": "Колян",
+                            "typeface": "footnote1",
+                            "text_color": "secondary",
+                            "max_lines": 1
+                        },
+                        "margins":
+                        {
+                            "bottom": "0x",
+                            "left": "8x",
+                            "right": "0x",
+                            "top": "0x"
+                        }
+                    },
+                    "margins":
+                    {
+                        "bottom": "2x",
+                        "left": "2x",
+                        "right": "0x",
+                        "top": "0x"
+                    },
+                    "vertical_gravity": "top",
+                    "detail_position": "top",
+                    "type": "detail_right_view"
+                },
+                "divider":
+                {
+                    "style": "default",
+                    "size": "d5"
+                },
+                "paddings":
+                {
+                    "bottom": "4x",
+                    "left": "4x",
+                    "right": "8x",
+                    "top": "4x"
+                },
+                "type": "left_right_cell_view"
+            }
+        ]
+    }
+}
