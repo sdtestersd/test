@@ -16,7 +16,7 @@
                     "text": "Карточка контактов list_card left_right_cell_view",
                     "typeface": "title1",
                     "text_color": "default",
-                    "max_lines": 1
+                    "max_lines": 0
                 },
                 "paddings":
                 {
@@ -45,7 +45,7 @@
                             "text": "+7 (985) 412-69-53",
                             "typeface": "body1",
                             "text_color": "default",
-                            "max_lines": 1
+                            "max_lines": 0
                         },
                         "subtitle":
                         {
