@@ -1,0 +1,208 @@
+{
+    "card":
+    {
+        "type": "list_card",
+        "cells":
+        [
+            {
+                "type": "left_right_cell_view",
+                "left":
+                {
+                    "type": "simple_left_view",
+                    "icon":
+                    {
+                        "address":
+                        {
+                            "type": "local",
+                            "identificator": "globe"
+                        },
+                        "size":
+                        {
+                            "width": "xlarge",
+                            "height": "xlarge"
+                        },
+                        "tint_color": "solid_brand",
+                        "margins":
+                        {
+                            "left": "0x",
+                            "top": "0x",
+                            "right": "6x",
+                            "bottom": "0x"
+                        },
+                        "actions":
+                        [
+                            {
+                                "type": "text",
+                                "text": "android-app://ru.sberbankmobile_alpha/savings"
+                            }
+                        ],
+                        "log_id": ""
+                    },
+                    "icon_vertical_gravity": "center",
+                    "texts":
+                    {
+                        "title":
+                        {
+                            "text": "android-app://ru.sberbankmobile_alpha/savings",
+                            "typeface": "caption",
+                            "text_color": "default",
+                            "max_lines": 0,
+                            "actions":
+                            [],
+                            "log_id": ""
+                        }
+                    }
+                },
+                "actions":
+                [
+                    {
+                        "type": "deep_link",
+                        "deep_link": "android-app://ru.sberbankmobile_alpha/savings"
+                    }
+                ],
+                "paddings":
+                {
+                    "left": "8x",
+                    "top": "8x",
+                    "right": "8x",
+                    "bottom": "8x"
+                },
+                "log_id": ""
+            },
+            {
+                "type": "left_right_cell_view",
+                "left":
+                {
+                    "type": "simple_left_view",
+                    "icon":
+                    {
+                        "address":
+                        {
+                            "type": "local",
+                            "identificator": "globe"
+                        },
+                        "size":
+                        {
+                            "width": "xlarge",
+                            "height": "xlarge"
+                        },
+                        "tint_color": "solid_brand",
+                        "margins":
+                        {
+                            "left": "0x",
+                            "top": "0x",
+                            "right": "6x",
+                            "bottom": "0x"
+                        },
+                        "actions":
+                        [
+                            {
+                                "type": "text",
+                                "text": "deeplink:savings"
+                            }
+                        ],
+                        "log_id": ""
+                    },
+                    "icon_vertical_gravity": "center",
+                    "texts":
+                    {
+                        "title":
+                        {
+                            "text": "deeplink:savings",
+                            "typeface": "caption",
+                            "text_color": "default",
+                            "max_lines": 0,
+                            "actions":
+                            [],
+                            "log_id": ""
+                        }
+                    }
+                },
+                "actions":
+                [
+                    {
+                        "type": "deep_link",
+                        "deep_link": "deeplink:savings"
+                    }
+                ],
+                "paddings":
+                {
+                    "left": "8x",
+                    "top": "8x",
+                    "right": "8x",
+                    "bottom": "8x"
+                },
+                "log_id": ""
+            },
+            {
+                "type": "left_right_cell_view",
+                "left":
+                {
+                    "type": "simple_left_view",
+                    "icon":
+                    {
+                        "address":
+                        {
+                            "type": "local",
+                            "identificator": "globe"
+                        },
+                        "size":
+                        {
+                            "width": "xlarge",
+                            "height": "xlarge"
+                        },
+                        "tint_color": "solid_brand",
+                        "margins":
+                        {
+                            "left": "0x",
+                            "top": "0x",
+                            "right": "6x",
+                            "bottom": "0x"
+                        },
+                        "actions":
+                        [
+                            {
+                                "type": "text",
+                                "text": "https://online.sberbank.ru/app/savings"
+                            }
+                        ],
+                        "log_id": ""
+                    },
+                    "icon_vertical_gravity": "center",
+                    "texts":
+                    {
+                        "title":
+                        {
+                            "text": "https://online.sberbank.ru/app/savings",
+                            "typeface": "caption",
+                            "text_color": "default",
+                            "max_lines": 0,
+                            "actions":
+                            [],
+                            "log_id": ""
+                        }
+                    }
+                },
+                "actions":
+                [
+                    {
+                        "type": "deep_link",
+                        "deep_link": "https://online.sberbank.ru/app/savings"
+                    }
+                ],
+                "paddings":
+                {
+                    "left": "8x",
+                    "top": "8x",
+                    "right": "8x",
+                    "bottom": "8x"
+                },
+                "log_id": ""
+            }
+        ],
+        "can_be_disabled": false,
+        "actions":
+        [],
+        "log_id": ""
+    }
+}
