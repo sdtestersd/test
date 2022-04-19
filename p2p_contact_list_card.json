@@ -36,6 +36,11 @@
                         {
                             "type": "localcontact",
                             "local_contact_hash": "9b8d48d7ec232788e0b2180d9585e0825dc74c82d5c398fd84940e72c3468049"
+                        },
+                        "size":
+                        {
+                            "width": "medium",
+                            "height": "medium"
                         }
                     },
                     "texts":
@@ -107,7 +112,14 @@
                     "right": "8x",
                     "top": "4x"
                 },
-                "type": "left_right_cell_view"
+                "type": "left_right_cell_view",
+                "actions":
+                [
+                    {
+                        "type": "text",
+                        "text": "Вы нажали на карточку +7 (905) 738-55-46"
+                    }
+                ]
             }
         ]
     }
