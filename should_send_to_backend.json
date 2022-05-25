@@ -1,0 +1,281 @@
+{
+    "debug_info":
+    {},
+    "additional_apps_payload":
+    [],
+    "assistant_items":
+    [],
+    "auto_listening": false,
+    "projectName": "Приветствие",
+    "intent": "greetings",
+    "original_intent": "greetings",
+    "app_info":
+    {
+        "projectId": "092b96cb-6633-4aea-83f4-d80097af9e2f",
+        "applicationId": "96b38361-8890-4b7a-ba5d-63d95925af87",
+        "appversionId": "25736d7e-0380-4155-912f-8433d8411d2f",
+        "systemName": "greetings",
+        "frontendEndpoint": null,
+        "frontendType": "DIALOG",
+        "apkInfo":
+        {},
+        "ageLimit": 0,
+        "frontendStateId": "092b96cb-6633-4aea-83f4-d80097af9e2f_96b38361-8890-4b7a-ba5d-63d95925af87_25736d7e-0380-4155-912f-8433d8411d2f",
+        "securityAccess":
+        {},
+        "appearance":
+        {
+            "header":
+            {
+                "title": "Приветствие"
+            }
+        },
+        "allowFastRunApp": false,
+        "availableOrientations":
+        []
+    },
+    "activate_app_info": true,
+    "items":
+    [
+        {
+            "bubble":
+            {
+                "text": "Здравствуйте! Готов поддержать беседу или чем-нибудь заняться. Например:"
+            }
+        },
+        {
+            "card":
+            {
+                "type": "grid_card",
+                "items":
+                [
+                    {
+                        "type": "greeting_grid_item",
+                        "top_text":
+                        {
+                            "type": "text_cell_view",
+                            "text": "Оплата сотового",
+                            "typeface": "caption",
+                            "text_color": "secondary",
+                            "max_lines": 2
+                        },
+                        "bottom_text":
+                        {
+                            "type": "text_cell_view",
+                            "text": "Пополни телефон",
+                            "typeface": "headline3",
+                            "text_color": "default",
+                            "max_lines": 4,
+                            "margins":
+                            {
+                                "top": "2x"
+                            }
+                        },
+                        "paddings":
+                        {
+                            "top": "8x",
+                            "left": "8x",
+                            "right": "8x",
+                            "bottom": "8x"
+                        },
+                        "actions":
+                        [
+                            {
+                                "type": "server_action",
+                                "message_name": "RUN_APP",
+                                "server_action":
+                                {
+                                    "action_id": "run_app",
+                                    "app_info":
+                                    {
+                                        "systemName": "mobile_payment"
+                                    },
+                                    "parameters":
+                                    {},
+                                    "description": "greetings_Пополни телефон"
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "Пополни телефон",
+                                "should_send_to_backend": false
+                            }
+                        ],
+                        "background_image":
+                        {
+                            "type": "url",
+                            "url": "https://va-res.online.sberbank.ru/VA/images/greetings_experiments/green.png",
+                            "hash": "f0cf5edbf9372de91579fdd2971f3782"
+                        }
+                    },
+                    {
+                        "type": "greeting_grid_item",
+                        "top_text":
+                        {
+                            "type": "text_cell_view",
+                            "text": "Оплата сотового",
+                            "typeface": "caption",
+                            "text_color": "secondary",
+                            "max_lines": 2
+                        },
+                        "bottom_text":
+                        {
+                            "type": "text_cell_view",
+                            "text": "Пополни телефон2",
+                            "typeface": "headline3",
+                            "text_color": "default",
+                            "max_lines": 4,
+                            "margins":
+                            {
+                                "top": "2x"
+                            }
+                        },
+                        "paddings":
+                        {
+                            "top": "8x",
+                            "left": "8x",
+                            "right": "8x",
+                            "bottom": "8x"
+                        },
+                        "actions":
+                        [
+                            {
+                                "type": "server_action",
+                                "message_name": "RUN_APP",
+                                "server_action":
+                                {
+                                    "action_id": "run_app",
+                                    "app_info":
+                                    {
+                                        "systemName": "mobile_payment"
+                                    },
+                                    "parameters":
+                                    {},
+                                    "description": "greetings_Пополни телефон"
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "Пополни телефон2",
+                                "should_send_to_backend": true
+                            }
+                        ],
+                        "background_image":
+                        {
+                            "type": "url",
+                            "url": "https://va-res.online.sberbank.ru/VA/images/greetings_experiments/green.png",
+                            "hash": "f0cf5edbf9372de91579fdd2971f3782"
+                        }
+                    },
+                    {
+                        "type": "greeting_grid_item",
+                        "top_text":
+                        {
+                            "type": "text_cell_view",
+                            "text": "Мои подписки",
+                            "typeface": "caption",
+                            "text_color": "secondary",
+                            "max_lines": 2
+                        },
+                        "bottom_text":
+                        {
+                            "type": "text_cell_view",
+                            "text": "Какие подписки я оплачиваю?",
+                            "typeface": "headline3",
+                            "text_color": "default",
+                            "max_lines": 4,
+                            "margins":
+                            {
+                                "top": "2x"
+                            }
+                        },
+                        "paddings":
+                        {
+                            "top": "8x",
+                            "left": "8x",
+                            "right": "8x",
+                            "bottom": "8x"
+                        },
+                        "actions":
+                        [
+                            {
+                                "type": "text",
+                                "text": "Какие подписки я оплачиваю?"
+                            }
+                        ],
+                        "background_image":
+                        {
+                            "type": "url",
+                            "url": "https://va-res.online.sberbank.ru/VA/images/greetings_experiments/aqua.png",
+                            "hash": "f5c50d0d5cc1da9c7015bb626ea7456f"
+                        }
+                    },
+                    {
+                        "type": "greeting_grid_item",
+                        "top_text":
+                        {
+                            "type": "text_cell_view",
+                            "text": "Возможности ассистента",
+                            "typeface": "caption",
+                            "text_color": "secondary",
+                            "max_lines": 2
+                        },
+                        "bottom_text":
+                        {
+                            "type": "text_cell_view",
+                            "text": "Что ты умеешь?",
+                            "typeface": "headline3",
+                            "text_color": "default",
+                            "max_lines": 4,
+                            "margins":
+                            {
+                                "top": "2x"
+                            }
+                        },
+                        "paddings":
+                        {
+                            "top": "8x",
+                            "left": "8x",
+                            "right": "8x",
+                            "bottom": "8x"
+                        },
+                        "actions":
+                        [
+                            {
+                                "type": "text",
+                                "text": "Что ты умеешь?"
+                            }
+                        ],
+                        "background_image":
+                        {
+                            "type": "url",
+                            "url": "https://va-res.online.sberbank.ru/VA/images/greetings_experiments/orange.png",
+                            "hash": "aeb7ad6d4a471c98c276e7ac7f8348a6"
+                        }
+                    }
+                ],
+                "columns": 2,
+                "item_width": "small",
+                "item_height": "fixed"
+            }
+        }
+    ],
+    "asr_hints":
+    {},
+    "suggestions":
+    {},
+    "smartBio":
+    {},
+    "voice": "She_HQ",
+    "character":
+    {
+        "id": "sber"
+    },
+    "userSettings":
+    {
+        "initials": "РМ"
+    },
+    "feature_launcher":
+    {},
+    "finished": true
+}
