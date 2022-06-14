@@ -11,7 +11,7 @@
         {
             "bubble":
             {
-                "text": "Подключение переадресации – абонент не ответил на вызов за 15 секунд ПРОМ[voiceassistantsdk://ussd?code=**61*+78003503599**15#](voiceassistantsdk://ussd?code=%2A%2A61%2A%2B78003503599%2A%2A15%23) ИФТ [voiceassistantsdk://ussd?code=**61*+78003501060**15#](voiceassistantsdk://ussd?code=%2A%2A61%2A%2B78003501060%2A%2A15%23)",
+                "text": "Подключение переадресации – абонент не ответил на вызов за 15 секунд ПРОМ[voiceassistantsdk://ussd?code=\*\*61\*+78003503599\*\*15\#](voiceassistantsdk://ussd?code=%2A%2A61%2A%2B78003503599%2A%2A15%23) ИФТ [voiceassistantsdk://ussd?code=\*\*61\*+78003501060\*\*15\#](voiceassistantsdk://ussd?code=%2A%2A61%2A%2B78003501060%2A%2A15%23)",
                 "markdown": true
             }
         },
@@ -25,91 +25,91 @@
         {
             "bubble":
             {
-                "text": "Подключение переадресации – телефон вне зоны доступа ПРОМ[voiceassistantsdk://ussd?code=**62*+78003503599#](voiceassistantsdk://ussd?code=%2A%2A62%2A%2B78003503599%23) ИФТ [voiceassistantsdk://ussd?code=**62*+78003501060#](voiceassistantsdk://ussd?code=%2A%2A62%2A%2B78003501060%23)",
+                "text": "Подключение переадресации – телефон вне зоны доступа ПРОМ[voiceassistantsdk://ussd?code=\*\*62\*+78003503599\#](voiceassistantsdk://ussd?code=%2A%2A62%2A%2B78003503599%23) ИФТ [voiceassistantsdk://ussd?code=\*\*62\*+78003501060\#](voiceassistantsdk://ussd?code=%2A%2A62%2A%2B78003501060%23)",
                 "markdown": true
             }
         },
         {
             "bubble":
             {
-                "text": "Подключение переадресации – номер занят или абонент сбросил вызов ПРОМ[voiceassistantsdk://ussd?code=**67*+78003503599#](voiceassistantsdk://ussd?code=%2A%2A67%2A%2B78003503599%23) ИФТ [voiceassistantsdk://ussd?code=**67*+78003501060#](voiceassistantsdk://ussd?code=%2A%2A67%2A%2B78003501060%23)",
+                "text": "Подключение переадресации – номер занят или абонент сбросил вызов ПРОМ[voiceassistantsdk://ussd?code=\*\*67\*+78003503599\#](voiceassistantsdk://ussd?code=%2A%2A67%2A%2B78003503599%23) ИФТ [voiceassistantsdk://ussd?code=\*\*67\*+78003501060\#](voiceassistantsdk://ussd?code=%2A%2A67%2A%2B78003501060%23)",
                 "markdown": true
             }
         },
         {
             "bubble":
             {
-                "text": "Отмена переадресации – если абонент не ответил на вызов[voiceassistantsdk://ussd?code=##61#](voiceassistantsdk://ussd?code=%23%2361%23)",
+                "text": "Отмена переадресации – если абонент не ответил на вызов[voiceassistantsdk://ussd?code=\#\#61\#](voiceassistantsdk://ussd?code=%23%2361%23)",
                 "markdown": true
             }
         },
         {
             "bubble":
             {
-                "text": "Отмена переадресации – если телефон вне зоны доступа[voiceassistantsdk://ussd?code=##62#](voiceassistantsdk://ussd?code=%23%2362%23)",
+                "text": "Отмена переадресации – если телефон вне зоны доступа[voiceassistantsdk://ussd?code=\#\#62\#](voiceassistantsdk://ussd?code=%23%2362%23)",
                 "markdown": true
             }
         },
         {
             "bubble":
             {
-                "text": "Отмена переадресации – если номер занят или абонент сбросил вызов[voiceassistantsdk://ussd?code=##67#](voiceassistantsdk://ussd?code=%23%2367%23)",
+                "text": "Отмена переадресации – если номер занят или абонент сбросил вызов[voiceassistantsdk://ussd?code=\#\#67\#](voiceassistantsdk://ussd?code=%23%2367%23)",
                 "markdown": true
             }
         },
         {
             "bubble":
             {
-                "text": "Отмена переадресации – для отмены всех переадресаций[voiceassistantsdk://ussd?code=##002#](voiceassistantsdk://ussd?code=%23%23002%23)",
+                "text": "Отмена переадресации – для отмены всех переадресаций[voiceassistantsdk://ussd?code=\#\#002\#](voiceassistantsdk://ussd?code=%23%23002%23)",
                 "markdown": true
             }
         },
         {
             "bubble":
             {
-                "text": "Проверка, включена ли переадресация – если абонент не ответил на вызов[voiceassistantsdk://ussd?code=*#61#](voiceassistantsdk://ussd?code=%2A%2361%23)",
+                "text": "Проверка, включена ли переадресация – если абонент не ответил на вызов[voiceassistantsdk://ussd?code=\*\#61\#](voiceassistantsdk://ussd?code=%2A%2361%23)",
                 "markdown": true
             }
         },
         {
             "bubble":
             {
-                "text": "Проверка, включена ли переадресация – если телефон вне зоны доступа[voiceassistantsdk://ussd?code=*#62#](voiceassistantsdk://ussd?code=%2A%2362%23)",
+                "text": "Проверка, включена ли переадресация – если телефон вне зоны доступа[voiceassistantsdk://ussd?code=\*\#62\#](voiceassistantsdk://ussd?code=%2A%2362%23)",
                 "markdown": true
             }
         },
         {
             "bubble":
             {
-                "text": "Проверка, включена ли переадресация – если номер занят или абонент сбросил вызов[voiceassistantsdk://ussd?code=*#67#](voiceassistantsdk://ussd?code=%2A%2367%23)",
+                "text": "Проверка, включена ли переадресация – если номер занят или абонент сбросил вызов[voiceassistantsdk://ussd?code=\*\#67\#](voiceassistantsdk://ussd?code=%2A%2367%23)",
                 "markdown": true
             }
         },
         {
             "bubble":
             {
-                "text": "Диплинк с [Проверкой счета Билайн](voiceassistantsdk://ussd?code=*102%23)",
+                "text": "Диплинк с [Проверкой счета Билайн](voiceassistantsdk://ussd?code=%2A102%23)",
                 "markdown": true
             }
         },
            {
             "bubble":
             {
-                "text": "Диплинк с [Проверкой счета МТС](voiceassistantsdk://ussd?code=*100%23%0A)",
+                "text": "Диплинк с [Проверкой счета МТС](voiceassistantsdk://ussd?code=%2A100%23)",
                 "markdown": true
             }
         },
            {
             "bubble":
             {
-                "text": "Диплинк с [Оплатить мобильный со счета Сбер](voiceassistantsdk://ussd?code=*900*100%23)",
+                "text": "Диплинк с [Оплатить мобильный со счета Сбер](voiceassistantsdk://ussd?code=%2A900%2A100%23)",
                 "markdown": true
             }
         },
            {
             "bubble":
             {
-                "text": "Диплинк с [Показать счет карты Сбер](voiceassistantsdk://ussd?code=*900*01%23)",
+                "text": "Диплинк с [Показать счет карты Сбер](voiceassistantsdk://ussd?code=%2A900%2A01%23)",
                 "markdown": true
             }
         }
