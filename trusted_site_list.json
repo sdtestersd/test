@@ -1,0 +1,47 @@
+{
+    "items":
+    [
+        {
+            "bubble":
+            {
+                "text": "Диплинк с [https://rospotrebnadzor.ru/deyatelnost/epidemiological-surveillance/](https://rospotrebnadzor.ru/deyatelnost/epidemiological-surveillance/) в конфиге https://rospotrebnadzor.ru",
+                "markdown": true
+            }
+        },
+        {
+            "bubble":
+            {
+                "text": "Диплинк с [https://es.pfrf.ru/znp/](https://es.pfrf.ru/znp/) в конфиге es.pfrf.ru",
+                "markdown": true
+            }
+        },
+        {
+            "bubble":
+            {
+                "text": "Диплинк с [https://моидокументы.рф/search/mfc](https://моидокументы.рф/search/mfc) в конфиге https://моидокументы.рф",
+                "markdown": true
+            }
+        },
+        {
+            "bubble":
+            {
+                "text": "Диплинк с [https://онлайнинспекция.рф/questions/?question_type=faq](https://онлайнинспекция.рф/questions/?question_type=faq) в конфиге https://онлайнинспекция.рф/questions",
+                "markdown": true
+            }
+        },
+        {
+            "bubble":
+            {
+                "text": "Диплинк с [https://онлайнинспекция.рф/employer](https://онлайнинспекция.рф/employer) в конфиге https://онлайнинспекция.рф/questions",
+                "markdown": true
+            }
+        },
+        {
+            "bubble":
+            {
+                "text": "Диплинк с [https://www.culture.ru/afisha/moskva](https://www.culture.ru/afisha/moskva) в конфиге нет",
+                "markdown": true
+            }
+        }
+    ]
+}
