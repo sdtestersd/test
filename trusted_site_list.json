@@ -11,7 +11,28 @@
         {
             "bubble":
             {
-                "text": "Диплинк с [https://es.pfrf.ru/znp/](https://es.pfrf.ru/znp/) в конфиге es.pfrf.ru",
+                "text": "Диплинк с [https://es.pfrf.ru/znp/](https://es.pfrf.ru/znp/) в конфиге http://es.pfrf.ru",
+                "markdown": true
+            }
+        },
+        {
+            "bubble":
+            {
+                "text": "Диплинк с [http://letters.kremlin.ru/receptions/list) в конфиге https://letters.kremlin.ru",
+                "markdown": true
+            }
+        },
+        {
+            "bubble":
+            {
+                "text": "Диплинк с [http://services.government.ru/letters/) в конфиге http://services.government.ru",
+                "markdown": true
+            }
+        },
+        {
+            "bubble":
+            {
+                "text": "Диплинк с [http://www.mos.gosnadzor.ru/links/) в конфиге отсутствует",
                 "markdown": true
             }
         },
