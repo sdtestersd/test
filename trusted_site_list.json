@@ -18,21 +18,21 @@
         {
             "bubble":
             {
-                "text": "Диплинк с [http://letters.kremlin.ru/receptions/list) в конфиге https://letters.kremlin.ru",
+                "text": "Диплинк с [http://letters.kremlin.ru/receptions/list](http://letters.kremlin.ru/receptions/list) в конфиге https://letters.kremlin.ru",
                 "markdown": true
             }
         },
         {
             "bubble":
             {
-                "text": "Диплинк с [http://services.government.ru/letters/) в конфиге http://services.government.ru",
+                "text": "Диплинк с [http://services.government.ru/letters/](http://services.government.ru/letters/) в конфиге http://services.government.ru",
                 "markdown": true
             }
         },
         {
             "bubble":
             {
-                "text": "Диплинк с [http://www.mos.gosnadzor.ru/links/) в конфиге отсутствует",
+                "text": "Диплинк с [http://www.mos.gosnadzor.ru/links/](http://www.mos.gosnadzor.ru/links/) в конфиге отсутствует",
                 "markdown": true
             }
         },
