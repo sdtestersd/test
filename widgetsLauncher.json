@@ -1,0 +1,252 @@
+{
+  "widgets": [
+    {
+      "type": "widget_title_card",
+      "cell": {
+        "type": "left_right_cell_view",
+        "left": {
+          "type": "simple_left_view",
+          "texts": {
+            "title": {
+              "text": "Здравствуйте!\nВам будет интересно",
+              "typeface": "headline2",
+              "text_color": "default",
+              "text_attributes": [
+                {
+                  "start": 24,
+                  "length": 9,
+                  "color": "#28ad41"
+                }
+              ],
+              "max_lines": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "widget_two_columns",
+      "left": {
+        "cards": [
+          {
+            "type": "discovery_card",
+            "cells": {
+              "top_cell": {
+                "type": "left_right_cell_view",
+                "left": {
+                  "type": "simple_left_view",
+                  "texts": {
+                    "title": {
+                      "text": "Стихи",
+                      "typeface": "caption",
+                      "text_color": "secondary",
+                      "margins": {
+                        "left": "2x",
+                        "top": "2x"
+                      },
+                      "max_lines": 2
+                    },
+                    "subtitle": {
+                      "text": "Прочитай стихотворение",
+                      "typeface": "headline3",
+                      "text_color": "default",
+                      "margins": {
+                        "left": "2x",
+                        "top": "2x"
+                      },
+                      "max_lines": 5
+                    }
+                  }
+                }
+              }
+            },
+            "aspect_ratio": "3:4",
+            "width_columns": 2,
+            "background_color": "#00000000",
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/assistant/launcher?text=%D0%9F%D1%80%D0%BE%D1%87%D0%B8%D1%82%D0%B0%D0%B9+%D1%81%D1%82%D0%B8%D1%85%D0%BE%D1%82%D0%B2%D0%BE%D1%80%D0%B5%D0%BD%D0%B8%D0%B5"
+              }
+            ],
+            "paddings": {
+              "left": "6x",
+              "right": "6x",
+              "top": "6x",
+              "bottom": "6x"
+            },
+            "background_image": {
+              "url": "https://va-res.online.sberbank.ru/VA/images/greetings_experiments/blue.png"
+            }
+          },
+          {
+            "type": "discovery_card",
+            "cells": {
+              "top_cell": {
+                "type": "left_right_cell_view",
+                "left": {
+                  "type": "simple_left_view",
+                  "texts": {
+                    "title": {
+                      "text": "Мои доходы",
+                      "typeface": "caption",
+                      "text_color": "secondary",
+                      "margins": {
+                        "left": "2x",
+                        "top": "2x"
+                      },
+                      "max_lines": 2
+                    },
+                    "subtitle": {
+                      "text": "Покажи мои доходы за месяц",
+                      "typeface": "headline3",
+                      "text_color": "default",
+                      "margins": {
+                        "left": "2x",
+                        "top": "2x"
+                      },
+                      "max_lines": 5
+                    }
+                  }
+                }
+              }
+            },
+            "aspect_ratio": "3:4",
+            "width_columns": 2,
+            "background_color": "#00000000",
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/assistant/launcher?text=%D0%9F%D0%BE%D0%BA%D0%B0%D0%B6%D0%B8+%D0%BC%D0%BE%D0%B8+%D0%B4%D0%BE%D1%85%D0%BE%D0%B4%D1%8B+%D0%B7%D0%B0+%D0%BC%D0%B5%D1%81%D1%8F%D1%86"
+              }
+            ],
+            "paddings": {
+              "left": "6x",
+              "right": "6x",
+              "top": "6x",
+              "bottom": "6x"
+            },
+            "background_image": {
+              "url": "https://va-res.online.sberbank.ru/VA/images/greetings_experiments/orange.png"
+            }
+          }
+        ]
+      },
+      "right": {
+        "cards": [
+          {
+            "type": "discovery_card",
+            "cells": {
+              "top_cell": {
+                "type": "left_right_cell_view",
+                "left": {
+                  "type": "simple_left_view",
+                  "texts": {
+                    "title": {
+                      "text": "Узнать баланс карты",
+                      "typeface": "caption",
+                      "text_color": "secondary",
+                      "margins": {
+                        "left": "2x",
+                        "top": "2x"
+                      },
+                      "max_lines": 2
+                    },
+                    "subtitle": {
+                      "text": "Какой баланс карты?",
+                      "typeface": "headline3",
+                      "text_color": "default",
+                      "margins": {
+                        "left": "2x",
+                        "top": "2x"
+                      },
+                      "max_lines": 5
+                    }
+                  }
+                }
+              }
+            },
+            "aspect_ratio": "3:4",
+            "width_columns": 2,
+            "background_color": "#00000000",
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/assistant/launcher?text=%D0%9A%D0%B0%D0%BA%D0%BE%D0%B9+%D0%B1%D0%B0%D0%BB%D0%B0%D0%BD%D1%81+%D0%BA%D0%B0%D1%80%D1%82%D1%8B%3F"
+              }
+            ],
+            "paddings": {
+              "left": "6x",
+              "right": "6x",
+              "top": "6x",
+              "bottom": "6x"
+            },
+            "background_image": {
+              "url": "https://va-res.online.sberbank.ru/VA/images/greetings_experiments/green.png"
+            }
+          },
+          {
+            "type": "discovery_card",
+            "cells": {
+              "top_cell": {
+                "type": "left_right_cell_view",
+                "left": {
+                  "type": "simple_left_view",
+                  "texts": {
+                    "title": {
+                      "text": "Госуслуги",
+                      "typeface": "caption",
+                      "text_color": "secondary",
+                      "margins": {
+                        "left": "2x",
+                        "top": "2x"
+                      },
+                      "max_lines": 2
+                    },
+                    "subtitle": {
+                      "text": "Расскажи про детские пособия",
+                      "typeface": "headline3",
+                      "text_color": "default",
+                      "margins": {
+                        "left": "2x",
+                        "top": "2x"
+                      },
+                      "max_lines": 5
+                    }
+                  }
+                }
+              }
+            },
+            "aspect_ratio": "3:4",
+            "width_columns": 2,
+            "background_color": "#00000000",
+            "actions": [
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "parameters": {
+                    "deeplink_guid": "kid_payments_info"
+                  },
+                  "app_info": {
+                    "systemName": "gosuslugi"
+                  }
+                }
+              }
+            ],
+            "paddings": {
+              "left": "6x",
+              "right": "6x",
+              "top": "6x",
+              "bottom": "6x"
+            },
+            "background_image": {
+              "url": "https://va-res.online.sberbank.ru/VA/images/greetings_experiments/aqua.png"
+            }
+          }
+        ]
+      }
+    }
+  ]
+} 
