@@ -1,0 +1,103 @@
+{
+        "activate_app_info": true,
+        "additional_apps_payload":
+        [],
+        "app_info":
+        {
+            "affiliationType": "EXTERNAL",
+            "ageLimit": 0,
+            "allowFastRunApp": false,
+            "apkInfo":
+            {},
+            "appearance":
+            {
+                "header":
+                {
+                    "icon":
+                    {
+                        "hash": "fc89a71e0597d9705807425d9dc549fa",
+                        "type": "url",
+                        "url": "https://cdn.sberdevices.ru/static/services/target/ded0af81-eb5e-4608-8c3b-4d7343d25471/d79bd8ff-cd03-47cd-baf7-1b5fdb749066.png"
+                    },
+                    "title": "Битва кораблей"
+                }
+            },
+            "applicationId": "85df6769-55ea-401b-8c97-41f981d8ed5f",
+            "appversionId": "d28fbb48-c5ea-40be-9a89-c4b5dd0bb898",
+            "availableOrientations":
+            [],
+            "frontendEndpoint": "https://alangames.ru/seabattle/app/",
+            "frontendStateId": "ded0af81-eb5e-4608-8c3b-4d7343d25471_85df6769-55ea-401b-8c97-41f981d8ed5f_d28fbb48-c5ea-40be-9a89-c4b5dd0bb898",
+            "frontendType": "WEB_APP",
+            "projectId": "ded0af81-eb5e-4608-8c3b-4d7343d25471",
+            "securityAccess":
+            {},
+            "systemName": ""
+        },
+        "asr_hints":
+        {},
+        "assistant_items":
+        [],
+        "auto_listening": true,
+        "character":
+        {
+            "id": "sber"
+        },
+        "debug_info":
+        {},
+        "emotion":
+        {
+            "emotionId": "zadumalsa"
+        },
+        "feature_launcher":
+        {
+            "assigned_testing_groups":
+            [],
+            "nlp_platform":
+            {
+                "greenfield_segment_list":
+                [
+                    "sbol_gte_12.0.0",
+                    "sbol_version_gte_12.0.0",
+                    "ALL_PEOPLES",
+                    "COMPANION",
+                    "SberDevices",
+                    "operator_testlist"
+                ]
+            },
+            "public":
+            {
+                "greenfield_segment_list":
+                [
+                    "sbol_gte_12.0.0",
+                    "sbol_version_gte_12.0.0",
+                    "ALL_PEOPLES",
+                    "COMPANION",
+                    "SberDevices",
+                    "operator_testlist"
+                ]
+            }
+        },
+        "finished": false,
+        "intent": "run_app",
+        "items":
+        [
+            {
+                "command":
+                {
+                    "action": "reset",
+                    "data":
+                    {},
+                    "type": "smart_app_data"
+                }
+            }
+        ],
+        "projectName": "Битва кораблей",
+        "smartBio":
+        {},
+        "userSettings":
+        {
+            "initials": "АГ"
+        },
+        "voice": "She_HQ"
+    }
