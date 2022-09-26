@@ -187,7 +187,7 @@
 		<pair id="VoiceAssistantP2PTopN">true</pair>
 		<pair id="GifEnabled">true</pair>
 		<pair id="UFSInfo">true</pair>
-		<pair id="AssistantTabbar1200">false</pair>
+		<pair id="AssistantTabbar1200">true</pair>
 		<pair id="okniksURLFromConfig">true</pair>
 		<pair id="loadOkniksAnimationsOnMainScreen">true</pair>
 		<pair id="AssistantMusicRecognition">true</pair>
