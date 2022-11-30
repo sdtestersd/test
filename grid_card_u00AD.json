@@ -1,0 +1,186 @@
+{
+  "card": {
+    "type": "grid_card",
+    "items": [
+      {
+        "type": "greeting_grid_item",
+        "top_text": {
+          "type": "text_cell_view",
+          "text": "Перевод клиенту Сбера",
+          "typeface": "caption",
+          "text_color": "secondary",
+          "max_lines": 2
+        },
+        "bottom_text": {
+          "type": "text_cell_view",
+          "text": "Переведи деньги",
+          "typeface": "headline3",
+          "text_color": "default",
+          "max_lines": 4,
+          "margins": {
+            "top": "2x"
+          }
+        },
+        "paddings": {
+          "top": "8x",
+          "left": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "actions": [
+          {
+            "type": "server_action",
+            "message_name": "RUN_APP",
+            "server_action": {
+              "action_id": "run_app",
+              "app_info": {
+                "systemName": "p2p"
+              },
+              "parameters": {},
+              "description": "greetings_Переведи деньги"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Переведи деньги",
+            "should_send_to_backend": false
+          }
+        ],
+        "background_image": {
+          "type": "url",
+          "url": "https://cdn.sberdevices.ru/VA/images/greetings_experiments/green_popular_bottom.png",
+          "hash": "deab28bb1a405808572ee31786af77db"
+        }
+      },
+      {
+        "type": "greeting_grid_item",
+        "top_text": {
+          "type": "text_cell_view",
+          "text": "Мои расходы",
+          "typeface": "caption",
+          "text_color": "secondary",
+          "max_lines": 2
+        },
+        "bottom_text": {
+          "type": "text_cell_view",
+          "text": "Куда ушли деньги?",
+          "typeface": "headline3",
+          "text_color": "default",
+          "max_lines": 4,
+          "margins": {
+            "top": "2x"
+          }
+        },
+        "paddings": {
+          "top": "8x",
+          "left": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "actions": [
+          {
+            "type": "server_action",
+            "message_name": "RUN_APP",
+            "server_action": {
+              "action_id": "run_app",
+              "app_info": {
+                "systemName": "fin_advisor"
+              },
+              "parameters": {
+                "scenario": "pfm_my_expenses"
+              },
+              "description": "greetings_Куда ушли деньги?"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Куда ушли деньги?",
+            "should_send_to_backend": false
+          }
+        ],
+        "background_image": {
+          "type": "url",
+          "url": "https://cdn.sberdevices.ru/VA/images/greetings_experiments/blue_popular_bottom.png",
+          "hash": "15e82f583a5a2ff5571c2cd8eac8dc85"
+        }
+      },
+      {
+        "type": "greeting_grid_item",
+        "top_text": {
+          "type": "text_cell_view",
+          "text": "Биржевые индексы",
+          "typeface": "caption",
+          "text_color": "secondary",
+          "max_lines": 2
+        },
+        "bottom_text": {
+          "type": "text_cell_view",
+          "text": "Что на фи\u{00AD}на\u{00AD}нсо\u{00AD}во\u{00AD}мры\u{00AD}нке?",
+          "typeface": "headline3",
+          "text_color": "default",
+          "max_lines": 4,
+          "margins": {
+            "top": "2x"
+          }
+        },
+        "paddings": {
+          "top": "8x",
+          "left": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "actions": [
+          {
+            "type": "text",
+            "text": "Что на финансовомрынке?"
+          }
+        ],
+        "background_image": {
+          "type": "url",
+          "url": "https://cdn.sberdevices.ru/VA/images/greetings_experiments/aqua_popular_bottom.png",
+          "hash": "f954d997dbd57d867bb174bdaabdba48"
+        }
+      },
+      {
+        "type": "greeting_grid_item",
+        "top_text": {
+          "type": "text_cell_view",
+          "text": "Онлайн игры",
+          "typeface": "caption",
+          "text_color": "secondary",
+          "max_lines": 2
+        },
+        "bottom_text": {
+          "type": "text_cell_view",
+          "text": "Сыграть в Зу\u{00AD}мба\u{00AD}Океан\u{00AD}Зу\u{00AD}мба\u{00AD}Океан\u{00AD}",
+          "typeface": "headline3",
+          "text_color": "default",
+          "max_lines": 4,
+          "margins": {
+            "top": "2x"
+          }
+        },
+        "paddings": {
+          "top": "8x",
+          "left": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "actions": [
+          {
+            "type": "text",
+            "text": "Сыграть в Зумба Океан"
+          }
+        ],
+        "background_image": {
+          "type": "url",
+          "url": "https://va-res.online.sberbank.ru/VA/images/greetings_experiments/orange.png",
+          "hash": "aeb7ad6d4a471c98c276e7ac7f8348a6"
+        }
+      }
+    ],
+    "columns": 2,
+    "item_width": "small",
+    "item_height": "fixed"
+  }
+}
