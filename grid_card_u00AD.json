@@ -115,7 +115,7 @@
         },
         "bottom_text": {
           "type": "text_cell_view",
-          "text": "Что на фи%5Cu%7B00AD%7Dна%5Cu%7B00AD%7Dнсо%5Cu%7B00AD%7Dво%5Cu%7B00AD%7Dмры%5Cu%7B00AD%7Dнке?",
+          "text": "Что на фи\u00ADна\u00ADнсо\u00ADво\u00ADмры\u00ADнке?",
           "typeface": "headline3",
           "text_color": "default",
           "max_lines": 4,
@@ -152,7 +152,7 @@
         },
         "bottom_text": {
           "type": "text_cell_view",
-          "text": "Сыграть в Зу%5Cu%7B00AD%7Dмба%5Cu%7B00AD%7DОкеан%5Cu%7B00AD%7DЗу%5Cu%7B00AD%7Dмба%5Cu%7B00AD%7DОкеан%5Cu%7B00AD%7D",
+          "text": "Сыграть в Зу\u00ADмба\u00ADОкеан\u00ADЗу\u00ADмба\u00ADОкеан\u00AD",
           "typeface": "headline3",
           "text_color": "default",
           "max_lines": 4,
