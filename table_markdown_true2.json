@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "bubble": {
+        "text": "| Tables        | Are           | Cool  |
+        | ------------- |:-------------:| -----:|
+        | col 2 is      | centered      |   $12 |",
+        "markdown": true
+      }
+    }
+  ]
+}
