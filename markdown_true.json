@@ -2,7 +2,7 @@
   "items": [
     {
       "bubble": {
-        "text": "*Курсив*\n**Жирный**\n\n~~Зачеркнутый~~\n\n\n[Сайт Сбербанка](https://www.sberbank.ru/)",
+        "text": "*Курсив*\n**Жирный**\n\n~~Зачеркнутый~~\n\n\n[Сайт](https://ya.ru)",
         "markdown": true
       }
     }
