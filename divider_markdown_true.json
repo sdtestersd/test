@@ -1,0 +1,10 @@
+{
+  "items": [
+    {
+      "bubble": {
+        "text": "Hyphens\n***\nAsterisks",
+        "markdown": true
+      }
+    }
+  ]
+}
