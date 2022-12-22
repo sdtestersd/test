@@ -1,0 +1,11 @@
+{
+  "items": [
+    {
+      "bubble": {
+        "text": "> Dorothy\n>> Dorothy2
+        ",
+        "markdown": true
+      }
+    }
+  ]
+}
