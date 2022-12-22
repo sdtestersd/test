@@ -1,0 +1,10 @@
+{
+  "items": [
+    {
+      "bubble": {
+        "text": "``Use `code` in your Markdown file.``\n\n`code`\n```javascript\nvar s = \"JavaScript syntax highlighting\";\nalert(s);\n```",
+        "markdown": true
+      }
+    }
+  ]
+}
