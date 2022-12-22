@@ -1,0 +1,10 @@
+{
+  "items": [
+    {
+      "bubble": {
+        "text": "# Heading level 1\n## Heading level 2\n### Heading level 3\n#### Heading level 4\n##### Heading level 5\n###### Heading level 6",
+        "markdown": true
+      }
+    }
+  ]
+}
