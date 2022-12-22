@@ -2,7 +2,8 @@
   "items": [
     {
       "bubble": {
-        "text": "# Heading level 1",
+        "text": "# Heading level 1
+        ## Heading level 2",
         "markdown": true
       }
     }
