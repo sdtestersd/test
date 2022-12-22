@@ -2,8 +2,7 @@
   "items": [
     {
       "bubble": {
-        "text": "1. First item\n2. Second item\n  1. First item\n* First item\n Second item\n  * First item
-        ",
+        "text": "1. First item\n2. Second item\n  * First item\n* First item\n Second item\n  * First item",
         "markdown": true
       }
     }
