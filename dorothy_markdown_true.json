@@ -2,8 +2,7 @@
   "items": [
     {
       "bubble": {
-        "text": "> Dorothy\n>> Dorothy2
-        ",
+        "text": "> Dorothy\n>> Dorothy2",
         "markdown": true
       }
     }
