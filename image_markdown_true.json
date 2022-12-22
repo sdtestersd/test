@@ -1,0 +1,10 @@
+{
+  "items": [
+    {
+      "bubble": {
+        "text": "Tux:\n![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Emperor_penguin.jpg/164px-Emperor_penguin.jpg)",
+        "markdown": true
+      }
+    }
+  ]
+}
