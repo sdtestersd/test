@@ -2,22 +2,33 @@
   "items": [
     {
       "bubble": {
-        "text": "Обычный\n*Курсив*\n***Жирный Курсив***\n**Жирный**\n\n\~~Зачеркнутый~~\n\n\n[Сайт](https://ya.ru)
-        1.First item
-        2.Second item
-          1.First item
-        -First item
-        -Second item
-          -First item
-        >Dorothy
+        "text": "Обычный\n*Курсив*\n***Жирный Курсив**\n**Жирный**\n\n\~~Зачеркнутый~~\n\n\n[Сайт](https://ya.ru)
+        1. First item
+        2. Second item
+          1. First item
+        \n
+        - First item
+        - Second item
+          - First item
+        \n
+        > Dorothy
+        \n
         ![Tux](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Emperor_penguin.jpg/164px-Emperor_penguin.jpg)
+        \n
         ``Use `code` in your Markdown file.``
+        \n
         `code`
-        #Heading level 1
+        \n
+        # Heading level 1
+        \n
         ## Heading level 2
+        \n
         ### Heading level 3
+        \n
         #### Heading level 4
+        \n
         ##### Heading level 5
+        \n
         ###### Heading level 6",
         "markdown": true
       }
