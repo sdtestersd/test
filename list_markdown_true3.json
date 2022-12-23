@@ -1,0 +1,10 @@
+{
+  "items": [
+    {
+      "bubble": {
+        "text": "1. First item\n2. Second item\n  * First item\n***\n* First item\n Second item\n  * First item",
+        "markdown": true
+      }
+    }
+  ]
+}
