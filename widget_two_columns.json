@@ -1,4 +1,5 @@
 {
+  "card": {
     "type": "widget_two_columns",
     "left": {
       "cards": [
@@ -262,3 +263,4 @@
     },
     "can_be_disabled": true
   }
+}
