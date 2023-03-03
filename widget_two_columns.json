@@ -1,0 +1,264 @@
+{
+    "type": "widget_two_columns",
+    "left": {
+      "cards": [
+        {
+          "paddings": {
+            "top": "0x",
+            "bottom": "16x",
+            "left": "4x",
+            "right": "4x"
+          },
+          "cells": {
+            "top_cell": {
+              "type": "left_right_cell_view",
+              "left": {
+                "type": "simple_left_view",
+                "icon": {
+                  "address": {
+                    "type": "url",
+                    "url": "https://cdn.sberdevices.ru/temp/sberfriend/Meetings/zadacha.png"
+                  },
+                  "tint_color": "solid_brand",
+                  "rounded_corners": "circle",
+                  "size": {
+                    "width": "xlarge",
+                    "height": "xlarge"
+                  },
+                  "margins": {
+                    "left": "8x",
+                    "top": "5x",
+                    "right": "6x",
+                    "bottom": "5x"
+                  }
+                }
+              }
+            },
+            "bottom_cell": {
+              "type": "left_right_cell_view",
+              "left": {
+                "type": "simple_left_view",
+                "title": {
+                  "text": "Создать задачу",
+                  "max_lines": 0,
+                  "typeface": "caption",
+                  "text_color": "default",
+                  "margins": {
+                    "left": "4x",
+                    "top": "0x",
+                    "right": "6x",
+                    "bottom": "16x"
+                  }
+                }
+              },
+              "right": {
+                "type": "disclosure_right_view"
+              }
+            }
+          },
+          "actions": [
+            {
+              "type": "text",
+              "text": "Создать задачу"
+            }
+          ],
+          "width_columns": 2,
+          "aspect_ratio": "1:1"
+        },
+        {
+          "paddings": {
+            "top": "4x",
+            "bottom": "4x",
+            "left": "4x",
+            "right": "4x"
+          },
+          "cells": {
+            "top_cell": {
+              "type": "left_right_cell_view",
+              "left": {
+                "type": "simple_left_view",
+                "icon": {
+                  "address": {
+                    "type": "url",
+                    "url": "https://cdn.sberdevices.ru/temp/sberfriend/Meetings/segodnya_prazdnik.png"
+                  },
+                  "tint_color": "solid_brand",
+                  "rounded_corners": "circle",
+                  "size": {
+                    "width": "xlarge",
+                    "height": "xlarge"
+                  },
+                  "margins": {
+                    "left": "8x",
+                    "top": "5x",
+                    "right": "6x",
+                    "bottom": "5x"
+                  }
+                }
+              }
+            },
+            "bottom_cell": {
+              "type": "left_right_cell_view",
+              "left": {
+                "type": "simple_left_view",
+                "title": {
+                  "text": "Отправить открытку",
+                  "max_lines": 0,
+                  "typeface": "caption",
+                  "text_color": "default",
+                  "margins": {
+                    "left": "4x",
+                    "top": "5x",
+                    "right": "6x",
+                    "bottom": "8x"
+                  }
+                }
+              },
+              "right": {
+                "type": "disclosure_right_view"
+              }
+            }
+          },
+          "actions": [
+            {
+              "type": "text",
+              "text": "Поздравить"
+            }
+          ],
+          "width_columns": 2,
+          "aspect_ratio": "1:1"
+        }
+      ]
+    },
+    "right": {
+      "cards": [
+        {
+          "paddings": {
+            "top": "4x",
+            "bottom": "4x",
+            "left": "4x",
+            "right": "4x"
+          },
+          "cells": {
+            "top_cell": {
+              "type": "left_right_cell_view",
+              "left": {
+                "type": "simple_left_view",
+                "icon": {
+                  "address": {
+                    "type": "url",
+                    "url": "https://cdn.sberdevices.ru/temp/sberfriend/Meetings/nps.png"
+                  },
+                  "tint_color": "solid_brand",
+                  "rounded_corners": "circle",
+                  "size": {
+                    "width": "xlarge",
+                    "height": "xlarge"
+                  },
+                  "margins": {
+                    "left": "8x",
+                    "top": "5x",
+                    "right": "6x",
+                    "bottom": "5x"
+                  }
+                }
+              }
+            },
+            "bottom_cell": {
+              "type": "left_right_cell_view",
+              "left": {
+                "type": "simple_left_view",
+                "title": {
+                  "text": "NPS - время оценить насколько вы готовы рекомендовать меня",
+                  "max_lines": 0,
+                  "typeface": "caption",
+                  "text_color": "default",
+                  "margins": {
+                    "left": "4x",
+                    "top": "5x",
+                    "right": "6x",
+                    "bottom": "8x"
+                  }
+                }
+              },
+              "right": {
+                "type": "disclosure_right_view"
+              }
+            }
+          },
+          "actions": [
+            {
+              "type": "text",
+              "text": "Оценить навыки"
+            }
+          ],
+          "width_columns": 2,
+          "aspect_ratio": "1:1"
+        },
+        {
+          "paddings": {
+            "top": "4x",
+            "bottom": "4x",
+            "left": "4x",
+            "right": "4x"
+          },
+          "cells": {
+            "top_cell": {
+              "type": "left_right_cell_view",
+              "left": {
+                "type": "simple_left_view",
+                "icon": {
+                  "address": {
+                    "type": "url",
+                    "url": "https://cdn.sberdevices.ru/temp/sberfriend/Meetings/csi.png"
+                  },
+                  "tint_color": "solid_brand",
+                  "rounded_corners": "circle",
+                  "size": {
+                    "width": "xlarge",
+                    "height": "xlarge"
+                  },
+                  "margins": {
+                    "left": "8x",
+                    "top": "5x",
+                    "right": "6x",
+                    "bottom": "5x"
+                  }
+                }
+              }
+            },
+            "bottom_cell": {
+              "type": "left_right_cell_view",
+              "left": {
+                "type": "simple_left_view",
+                "title": {
+                  "text": "CSI - время оценить насколько вы мной довольны",
+                  "max_lines": 0,
+                  "typeface": "caption",
+                  "text_color": "default",
+                  "margins": {
+                    "left": "4x",
+                    "top": "5x",
+                    "right": "6x",
+                    "bottom": "8x"
+                  }
+                }
+              },
+              "right": {
+                "type": "disclosure_right_view"
+              }
+            }
+          },
+          "actions": [
+            {
+              "type": "text",
+              "text": "Запусти оценку ассистента"
+            }
+          ],
+          "width_columns": 2,
+          "aspect_ratio": "1:1"
+        }
+      ]
+    },
+    "can_be_disabled": true
+  }
