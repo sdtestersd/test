@@ -7,8 +7,8 @@
           {
             "type": "image_cell_view",
             "content": {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Reunião_com_o_ator_norte-americano_Keanu_Reeves_%28cropped%29.jpg",
-              "hash": "674f9bfa08cf40c180cb3dbe087dc762",
+              "url": "https://cdn.sberdevices.ru/cdn/wikipedia/Gref.png",
+              "hash": "392f529af7ccddb5ef2a99ff4e0d66aa",
               "placeholder": "placeholder",
               "height": 192,
               "actions": [
