@@ -1,0 +1,176 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Застрахованные",
+              "typeface": "title1",
+              "text_color": "default"
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "6x",
+              "right": "8x"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "IVANOV MARAT, IVANOV IGOR, IVANOV OLEG, IVANOVA ELENA, IVANOVA OLGA",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 0
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "2x",
+              "right": "8x",
+              "bottom": "4x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Срок страхования",
+              "typeface": "title1",
+              "text_color": "default"
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "6x",
+              "right": "8x"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "12 месяцев",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 0
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "2x",
+              "right": "8x",
+              "bottom": "4x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Страхование действует",
+              "typeface": "title1",
+              "text_color": "default"
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "6x",
+              "right": "8x"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "До 90 дней в рамках одной поездки",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 0
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "2x",
+              "right": "8x",
+              "bottom": "4x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Страховая сумма на всех",
+              "typeface": "title1",
+              "text_color": "default"
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "6x",
+              "right": "8x"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "До 100 000 € за рубежом\nДо 30 000 € по России",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 0
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "2x",
+              "right": "8x",
+              "bottom": "4x"
+            }
+          },
+          {
+            "type": "button_cell_view",
+            "content": {
+              "text": "Узнать больше",
+              "typeface": "button1",
+              "style": "default",
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "Узнать больше",
+                  "should_send_to_backend": false
+                },
+                {
+                  "type": "server_action",
+                  "message_name": "RUN_APP",
+                  "server_action": {
+                    "action_id": "run_app",
+                    "app_info": {
+                      "systemName": "SmartApp_UB"
+                    },
+                    "parameters": {
+                      "scenario": "W0072.Travel_insurance_info",
+                      "node": "W0072.06.01",
+                      "button_text": "Узнать больше",
+                      "node_from": "W0072.06"
+                    }
+                  }
+                }
+              ],
+              "margins": {
+                "top": "4x",
+                "bottom": "4x"
+              }
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "6x",
+              "right": "8x",
+              "bottom": "8x"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
