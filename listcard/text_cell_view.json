@@ -1,0 +1,310 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Застрахованные",
+              "typeface": "title1",
+              "text_color": "default",
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "required, string, Текст сообщения от имени пользователя."
+                }
+              ]
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "6x",
+              "right": "8x"
+              "bottom": "0x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d6"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "IVANOV MARAT, IVANOV IGOR, IVANOV OLEG, IVANOVA ELENA, IVANOVA OLGA",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "left": "16x",
+                "top": "16x",
+                "right": "16x",
+                "bottom": "16x"
+              },
+              "alignment": "right",
+              "max_lines": 0,
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "required, string, Текст сообщения от имени пользователя.",
+                  "should_send_to_backend": false
+                }
+              ],
+              "log_id": "string, Id для отправки в метрику"
+            },
+            "paddings": {
+              "left": "0x",
+              "top": "0x",
+              "right": "0x"
+              "bottom": "0x"
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d6"
+            },
+            "gravity": "center"
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Застрахованные",
+              "typeface": "title2",
+              "text_color": "tertiary",
+              "actions": [
+                {
+                  "type": "deep_link",
+                  "deep_link": "https://ya.ru"
+                }
+              ]
+            },
+            "paddings": {
+              "left": "0x",
+              "top": "0x",
+              "right": "0x"
+              "bottom": "0x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "IVANOV MARAT, IVANOV IGOR, IVANOV OLEG, IVANOVA ELENA, IVANOVA OLGA",
+              "typeface": "footnote2",
+              "text_color": "inverse",
+              "margins": {
+                "left": "16x",
+                "top": "16x",
+                "right": "16x",
+                "bottom": "16x"
+              },
+              "alignment": "center",
+              "max_lines": 0,
+              "actions": [
+                {
+                  "type": "server_action",
+                  "server_action": {
+                    "1": "111"
+                  }
+                }
+              ],
+              "log_id": "string, Id для отправки в метрику"
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x"
+              "bottom": "8x"
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d5"
+            },
+            "gravity": "right"
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Застрахованные",
+              "typeface": "display1",
+              "text_color": "brand",
+              "actions": [
+                {
+                  "type": "copy_text_to_buffer",
+                  "text": "https://ya.ru"
+                }
+              ]
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "6x",
+              "right": "8x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d4"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "IVANOV MARAT, IVANOV IGOR, IVANOV OLEG, IVANOVA ELENA, IVANOVA OLGA",
+              "typeface": "paragraphText1",
+              "text_color": "warning",
+              "margins": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "max_lines": 2,
+              "actions": [
+                {
+                  "type": "open_keyboard"
+                }
+              ],
+              "log_id": "string, Id для отправки в метрику"
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "2x",
+              "right": "8x",
+              "bottom": "4x"
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d4"
+            },
+            "gravity": "center"
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Застрахованные",
+              "typeface": "display2",
+              "text_color": "critical",
+              "actions": [
+                {
+                  "type": "share_text",
+                  "text": "required, string, Текст, который нужно отправить"
+                }
+              ]
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "6x",
+              "right": "8x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "IVANOV MARAT, IVANOV IGOR, IVANOV OLEG, IVANOVA ELENA, IVANOVA OLGA",
+              "typeface": "paragraphText2",
+              "text_color": "link",
+              "margins": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "max_lines": 2,
+              "actions": [
+                {
+                  "type": "smartapp_text",
+                  "smartapp_text": "required, string, Текст команды для передачи канвасу."
+                }
+              ],
+              "log_id": "string, Id для отправки в метрику"
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "2x",
+              "right": "8x",
+              "bottom": "4x"
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d3"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Застрахованные",
+              "typeface": "display2",
+              "text_color": "critical"
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "6x",
+              "right": "8x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d2"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "IVANOV MARAT, IVANOV IGOR, IVANOV OLEG, IVANOVA ELENA, IVANOVA OLGA",
+              "typeface": "paragraphText2",
+              "text_color": "link"
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "2x",
+              "right": "8x",
+              "bottom": "4x"
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d2"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Застрахованные",
+              "typeface": "display2",
+              "text_color": "critical"
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "6x",
+              "right": "8x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "IVANOV MARAT, IVANOV IGOR, IVANOV OLEG, IVANOVA ELENA, IVANOVA OLGA",
+              "typeface": "paragraphText2",
+              "text_color": "link"
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "2x",
+              "right": "8x",
+              "bottom": "4x"
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d1"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
