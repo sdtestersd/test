@@ -20,7 +20,7 @@
             "paddings": {
               "left": "8x",
               "top": "6x",
-              "right": "8x"
+              "right": "8x",
               "bottom": "0x"
             },
             "divider": {
@@ -54,7 +54,7 @@
             "paddings": {
               "left": "0x",
               "top": "0x",
-              "right": "0x"
+              "right": "0x",
               "bottom": "0x"
             },
             "divider": {
@@ -79,7 +79,7 @@
             "paddings": {
               "left": "0x",
               "top": "0x",
-              "right": "0x"
+              "right": "0x",
               "bottom": "0x"
             },
             "divider": {
@@ -114,7 +114,7 @@
             "paddings": {
               "left": "8x",
               "top": "8x",
-              "right": "8x"
+              "right": "8x",
               "bottom": "8x"
             },
             "divider": {
