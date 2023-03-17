@@ -55,7 +55,7 @@
           {
             "type": "text_cell_view",
             "content": {
-              "text": "alignment left alignment left alignment left alignment left ",
+              "text": "alignment left alignment left alignment left alignment left alignment left",
               "typeface": "title1",
               "text_color": "default",
               "max_lines": 0
@@ -82,7 +82,7 @@
           {
             "type": "text_cell_view",
             "content": {
-              "text": "alignment right alignment right alignment right alignment right",
+              "text": "alignment right alignment right alignment right alignment right alignment right",
               "typeface": "title1",
               "text_color": "default",
               "alignment": "right",
