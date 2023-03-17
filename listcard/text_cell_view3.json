@@ -1,0 +1,371 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "divider d1",
+              "typeface": "title1",
+              "text_color": "default"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "divider d1",
+              "typeface": "title1",
+              "text_color": "default"
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d1"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "divider d6",
+              "typeface": "title1",
+              "text_color": "default"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d6"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "divider d6",
+              "typeface": "title1",
+              "text_color": "default"
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d6"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "divider d1 margins 16x alignment center",
+              "typeface": "title1",
+              "text_color": "default",
+              "margins": {
+                "left": "16x",
+                "top": "16x",
+                "right": "16x",
+                "bottom": "16x"
+              },
+              "max_lines": 0,
+              "alignment": "center"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "divider d1 margins 16x alignment right",
+              "typeface": "title1",
+              "text_color": "default",
+              "margins": {
+                "left": "16x",
+                "top": "16x",
+                "right": "16x",
+                "bottom": "16x"
+              },
+              "max_lines": 0,
+              "alignment": "right"
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d1"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "divider d6 margins 16x gravity center",
+              "typeface": "title1",
+              "text_color": "default",
+              "margins": {
+                "left": "16x",
+                "top": "16x",
+                "right": "16x",
+                "bottom": "16x"
+              },
+              "max_lines": 0
+            },
+            "divider": {
+              "style": "default",
+              "size": "d6"
+            },
+            "gravity": "center"
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "divider d6 margins 16x gravity right",
+              "typeface": "title1",
+              "text_color": "default",
+              "margins": {
+                "left": "16x",
+                "top": "16x",
+                "right": "16x",
+                "bottom": "16x"
+              },
+              "max_lines": 0
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d6"
+            },
+            "gravity": "right"
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "divider d1 margins 16x",
+              "typeface": "title1",
+              "text_color": "default",
+              "margins": {
+                "left": "16x",
+                "top": "16x",
+                "right": "16x",
+                "bottom": "16x"
+              },
+              "max_lines": 0
+            },
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "divider d1 margins 16x",
+              "typeface": "title1",
+              "text_color": "default",
+              "margins": {
+                "left": "16x",
+                "top": "16x",
+                "right": "16x",
+                "bottom": "16x"
+              },
+              "max_lines": 0
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d1"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "divider d6 margins 16x",
+              "typeface": "title1",
+              "text_color": "default",
+              "margins": {
+                "left": "16x",
+                "top": "16x",
+                "right": "16x",
+                "bottom": "16x"
+              },
+              "max_lines": 0
+            },
+            "divider": {
+              "style": "default",
+              "size": "d6"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "divider d6 margins 16x",
+              "typeface": "title1",
+              "text_color": "default",
+              "margins": {
+                "left": "16x",
+                "top": "16x",
+                "right": "16x",
+                "bottom": "16x"
+              },
+              "max_lines": 0
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d6"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "divider d1 paddings 16x alignment center",
+              "typeface": "title1",
+              "text_color": "default",
+              "max_lines": 0,
+              "alignment": "center"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            },
+            "paddings": {
+              "left": "16x",
+              "top": "16x",
+              "right": "16x",
+              "bottom": "16x"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "divider d1 paddings 16x alignment right",
+              "typeface": "title1",
+              "text_color": "default",
+              "max_lines": 0,
+              "alignment": "right"
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d1"
+            },
+            "paddings": {
+              "left": "16x",
+              "top": "16x",
+              "right": "16x",
+              "bottom": "16x"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "divider d6 paddings 16x gravity center",
+              "typeface": "title1",
+              "text_color": "default",
+              "max_lines": 0
+            },
+            "divider": {
+              "style": "default",
+              "size": "d6"
+            },
+            "gravity": "center",
+            "paddings": {
+              "left": "16x",
+              "top": "16x",
+              "right": "16x",
+              "bottom": "16x"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "divider d6 paddings 16x gravity right",
+              "typeface": "title1",
+              "text_color": "default",
+              "max_lines": 0
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d6"
+            },
+            "gravity": "right",
+            "paddings": {
+              "left": "16x",
+              "top": "16x",
+              "right": "16x",
+              "bottom": "16x"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "divider d1 paddings 16x",
+              "typeface": "title1",
+              "text_color": "default",
+              "max_lines": 0
+            },
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            },
+            "paddings": {
+              "left": "16x",
+              "top": "16x",
+              "right": "16x",
+              "bottom": "16x"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "divider d1 paddings 16x",
+              "typeface": "title1",
+              "text_color": "default",
+              "max_lines": 0
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d1"
+            },
+            "paddings": {
+              "left": "16x",
+              "top": "16x",
+              "right": "16x",
+              "bottom": "16x"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "divider d6 paddings 16x",
+              "typeface": "title1",
+              "text_color": "default",
+              "max_lines": 0
+            },
+            "divider": {
+              "style": "default",
+              "size": "d6"
+            },
+            "paddings": {
+              "left": "16x",
+              "top": "16x",
+              "right": "16x",
+              "bottom": "16x"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "divider d6 paddings 16x",
+              "typeface": "title1",
+              "text_color": "default",
+              "max_lines": 0
+            },
+            "divider": {
+              "style": "read_only",
+              "size": "d6"
+            },
+            "paddings": {
+              "left": "16x",
+              "top": "16x",
+              "right": "16x",
+              "bottom": "16x"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
