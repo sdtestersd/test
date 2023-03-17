@@ -98,7 +98,8 @@
             "content": {
               "text": "gravity center gravity center gravity center gravity center gravity center",
               "typeface": "title1",
-              "text_color": "default"
+              "text_color": "default",
+              "max_lines": 0
             },
             "divider": {
               "style": "default",
@@ -111,7 +112,8 @@
             "content": {
               "text": "gravity right gravity right gravity right gravity right gravity right gravity right",
               "typeface": "title1",
-              "text_color": "default"
+              "text_color": "default",
+              "max_lines": 0
             },
             "divider": {
               "style": "default",
