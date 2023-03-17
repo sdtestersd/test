@@ -96,7 +96,7 @@
           {
             "type": "text_cell_view",
             "content": {
-              "text": "gravityC",
+              "text": "gravity center gravity center gravity center gravity center gravity center",
               "typeface": "title1",
               "text_color": "default"
             },
@@ -109,7 +109,7 @@
           {
             "type": "text_cell_view",
             "content": {
-              "text": "gravityR",
+              "text": "gravity right gravity right gravity right gravity right gravity right gravity right",
               "typeface": "title1",
               "text_color": "default"
             },
