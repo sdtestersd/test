@@ -55,9 +55,10 @@
           {
             "type": "text_cell_view",
             "content": {
-              "text": "alignmentL",
+              "text": "alignment left alignment left alignment left alignment left ",
               "typeface": "title1",
-              "text_color": "default"
+              "text_color": "default",
+              "max_lines": 0
             },
             "divider": {
               "style": "default",
@@ -67,10 +68,11 @@
           {
             "type": "text_cell_view",
             "content": {
-              "text": "alignmentC",
+              "text": "alignment center alignment center alignment center alignment center",
               "typeface": "title1",
               "text_color": "default",
-              "alignment": "center"
+              "alignment": "center",
+              "max_lines": 0
             },
             "divider": {
               "style": "default",
@@ -80,10 +82,11 @@
           {
             "type": "text_cell_view",
             "content": {
-              "text": "alignmentR",
+              "text": "alignment right alignment right alignment right alignment right",
               "typeface": "title1",
               "text_color": "default",
-              "alignment": "right"
+              "alignment": "right",
+              "max_lines": 0
             },
             "divider": {
               "style": "default",
