@@ -1,0 +1,123 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "TestTestTestTestTestTestTestTestTestTestTest",
+              "typeface": "title1",
+              "text_color": "default"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Margins16Margins16Margins16Margins16Margins16",
+              "typeface": "title1",
+              "text_color": "default",
+              "margins": {
+                "left": "16x",
+                "top": "16x",
+                "right": "16x",
+                "bottom": "16x"
+              }
+            },
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Paddings16Paddings16Paddings16Paddings16Paddings16",
+              "typeface": "title1",
+              "text_color": "default"
+            },
+            "paddings": {
+              "left": "16x",
+              "top": "16x",
+              "right": "16x",
+              "bottom": "16x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "alignmentL",
+              "typeface": "title1",
+              "text_color": "default"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "alignmentC",
+              "typeface": "title1",
+              "text_color": "default",
+              "alignment": "center"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "alignmentR",
+              "typeface": "title1",
+              "text_color": "default",
+              "alignment": "right"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "gravityC",
+              "typeface": "title1",
+              "text_color": "default"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            },
+            "gravity": "center"
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "gravityR",
+              "typeface": "title1",
+              "text_color": "default"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            },
+            "gravity": "right"
+          }
+        ]
+      }
+    }
+  ]
+}
