@@ -55,6 +55,30 @@
           {
             "type": "text_cell_view",
             "content": {
+              "text": "Paddings16Margins16",
+              "typeface": "title1",
+              "text_color": "default",
+              "margins": {
+                "left": "16x",
+                "top": "16x",
+                "right": "16x",
+                "bottom": "16x"
+              }
+            },
+            "paddings": {
+              "left": "16x",
+              "top": "16x",
+              "right": "16x",
+              "bottom": "16x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d3"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
               "text": "alignment left alignment left alignment left alignment left alignment left",
               "typeface": "title1",
               "text_color": "default",
@@ -110,7 +134,7 @@
           {
             "type": "text_cell_view",
             "content": {
-              "text": "gravity right gravity right gravity right gravity right gravity right gravity",
+              "text": "gravity right gravity right gravity right gravity right gravity right gravity right",
               "typeface": "title1",
               "text_color": "default",
               "max_lines": 0
