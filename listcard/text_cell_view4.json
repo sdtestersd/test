@@ -37,7 +37,8 @@
               "content": {
                 "text": "Жирный, \nкастрированный, \nпрожорливый",
                 "typeface": "footnote1",
-                "text_color": "secondary"
+                "text_color": "secondary",
+                "max_lines": 0
               }
             },
             {
