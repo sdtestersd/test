@@ -1,0 +1,66 @@
+{
+  "items": [
+    {
+      "card": {
+          "type": "list_card",
+          "paddings": {
+            "bottom": "12x"
+          },
+          "cells": [
+            {
+              "type": "image_cell_view",
+              "content": {
+                "url": "https://content.sberdevices.ru/smartmarket-smide-prod/707/708/0T6hFyacaT1DifLL.jpg",
+                "hash": ""
+              }
+            },
+            {
+              "type": "text_cell_view",
+              "paddings": {
+                "top": "6x",
+                "left": "8x",
+                "right": "8x"
+              },
+              "content": {
+                "text": "Кот",
+                "typeface": "title1",
+                "text_color": "default"
+              }
+            },
+            {
+              "type": "text_cell_view",
+              "paddings": {
+                "top": "4x",
+                "left": "8x",
+                "right": "8x"
+              },
+              "content": {
+                "text": "Жирный, \nкастрированный, \nпрожорливый",
+                "typeface": "footnote1",
+                "text_color": "secondary"
+              }
+            },
+            {
+              "type": "text_cell_view",
+              "paddings": {
+                "top": "12x",
+                "left": "8x",
+                "right": "8x"
+              },
+              "content": {
+                "actions": [
+                  {
+                    "text": "Купить",
+                    "type": "text"
+                  }
+                ],
+                "text": "Купить",
+                "typeface": "button1",
+                "text_color": "brand"
+              }
+            }
+          ]
+        }
+    }
+  ]
+}
