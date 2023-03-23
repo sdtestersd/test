@@ -1,0 +1,76 @@
+{
+  "debug_info": {},
+  "additional_apps_payload": [],
+  "assistant_items": [],
+  "pronounceText": "<speak></speak>",
+  "pronounceTextType": "application/ssml",
+  "auto_listening": false,
+  "projectName": "Что сейчас играет",
+  "intent": "run_app",
+  "original_intent": "run_app",
+  "app_info": {
+    "projectId": "66667dd0-7913-4a61-8292-db449fcce4dd",
+    "applicationId": "6bb0ba59-9e4b-415b-8a57-5a4935ec4e63",
+    "appversionId": "ec171ade-3dfb-40e1-b66d-6b0ab6763788",
+    "systemName": "player_whats_playing",
+    "frontendEndpoint": null,
+    "frontendType": "DIALOG",
+    "apkInfo": {},
+    "ageLimit": 0,
+    "affiliationType": "INTERNAL",
+    "frontendStateId": "66667dd0-7913-4a61-8292-db449fcce4dd_6bb0ba59-9e4b-415b-8a57-5a4935ec4e63_ec171ade-3dfb-40e1-b66d-6b0ab6763788",
+    "securityAccess": {},
+    "appearance": {
+      "header": {
+        "title": "Что сейчас играет",
+        "icon": {
+          "type": "url",
+          "url": "https://cdn.sberdevices.ru/catalog/images/Shazam_Icon_001.png",
+          "hash": "26d3b1314e9af6c87c1f09514944020b"
+        }
+      }
+    },
+    "allowFastRunApp": false,
+    "availableOrientations": [],
+    "inAppAdvertising": false
+  },
+  "activate_app_info": true,
+  "items": [
+    {
+      "command": {
+        "type": "start_music_recognition"
+      }
+    }
+  ],
+  "asr_hints": {},
+  "smartBio": {},
+  "voice": "She_HQ",
+  "character": {
+    "id": "sber"
+  },
+  "userSettings": {
+    "initials": "АГ"
+  },
+  "feature_launcher": {
+    "nlp_platform": {
+      "greenfield_segment_list": [
+        "sbol_version_gte_12.0.0",
+        "ALL_PEOPLES",
+        "COMPANION",
+        "SberDevices",
+        "operator_testlist"
+      ]
+    },
+    "assigned_testing_groups": [],
+    "public": {
+      "greenfield_segment_list": [
+        "sbol_version_gte_12.0.0",
+        "ALL_PEOPLES",
+        "COMPANION",
+        "SberDevices",
+        "operator_testlist"
+      ]
+    }
+  },
+  "finished": true
+}
