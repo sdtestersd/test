@@ -1,33 +1,145 @@
 {
-  "debug_info": {},
+  "debug_info": {
+    "intent_recognizer": [
+      {
+        "debug_info_key": "intent_recognizer",
+        "intent": "run_app",
+        "pattern": {},
+        "asr_not_normalized_message": "что сейчас играет",
+        "used_isearch": true,
+        "node_predictions": {
+          "run_app": {
+            "run_app": 1
+          },
+          "grammar": {},
+          "direct_match": {},
+          "flat_roberta": {
+            "player_whats_playing": 0.9991,
+            "player_rewind": 0.00010,
+            "axon": 0.00010
+          },
+          "rank": {
+            "player_whats_playing": 0.9991,
+            "player_rewind": 0.00010,
+            "axon": 0.00010
+          },
+          "resolvers_runner": {
+            "player_whats_playing": 0.9991,
+            "player_rewind": 0.00010,
+            "axon": 0.00010
+          },
+          "resolvers_runner_smart_home_resolver": {
+            "player_whats_playing": 0.9991,
+            "player_rewind": 0.00010,
+            "axon": 0.00010
+          },
+          "resolvers_runner_sbol_search_resolver": {
+            "player_whats_playing": 0.9991,
+            "player_rewind": 0.00010,
+            "axon": 0.00010
+          },
+          "finalization_node": {
+            "player_whats_playing": 0.9991
+          },
+          "finalization_node_mapping_resolver": {
+            "player_whats_playing": 0.9991,
+            "player_rewind": 0.00010,
+            "axon": 0.00010
+          },
+          "finalization_node_filter_resolver": {
+            "player_whats_playing": 0.9991,
+            "player_rewind": 0.00010,
+            "axon": 0.00010
+          },
+          "finalization_node_top_resolver": {
+            "player_whats_playing": 0.9991
+          }
+        },
+        "blender": {
+          "activated": false
+        },
+        "ner_prediction": [
+          {
+            "raw_text": "что",
+            "lemma": "что",
+            "normalized_token": null,
+            "ner_labels": {
+              "main": "O"
+            },
+            "ner_label_probas": {
+              "main": "1.0"
+            }
+          },
+          {
+            "raw_text": "сейчас",
+            "lemma": "сейчас",
+            "normalized_token": null,
+            "ner_labels": {
+              "main": "O"
+            },
+            "ner_label_probas": {
+              "main": "1.0"
+            }
+          },
+          {
+            "raw_text": "играет",
+            "lemma": "играть",
+            "normalized_token": null,
+            "ner_labels": {
+              "main": "O"
+            },
+            "ner_label_probas": {
+              "main": "1.0"
+            }
+          },
+          {
+            "raw_text": ".",
+            "lemma": ".",
+            "normalized_token": null,
+            "ner_labels": {
+              "main": "O"
+            },
+            "ner_label_probas": {
+              "main": "1.0"
+            }
+          }
+        ],
+        "item_selector": {
+          "selected_item": {},
+          "item_selector_domain": null,
+          "is_item_selector_run": false
+        },
+        "content_version": "D-40.076.00-02"
+      }
+    ],
+    "3848be98-da13-4d6e-9a94-a665751cc4ac": [
+      {
+        "intent": null,
+        "debug_info_key": "3848be98-da13-4d6e-9a94-a665751cc4ac"
+      }
+    ]
+  },
   "additional_apps_payload": [],
   "assistant_items": [],
-  "pronounceText": "<speak></speak>",
-  "pronounceTextType": "application/ssml",
   "auto_listening": false,
   "projectName": "Что сейчас играет",
   "intent": "run_app",
   "original_intent": "run_app",
   "app_info": {
-    "projectId": "66667dd0-7913-4a61-8292-db449fcce4dd",
-    "applicationId": "6bb0ba59-9e4b-415b-8a57-5a4935ec4e63",
-    "appversionId": "ec171ade-3dfb-40e1-b66d-6b0ab6763788",
+    "projectId": "3848be98-da13-4d6e-9a94-a665751cc4ac",
+    "applicationId": "4a5d0eba-feff-44b0-b5c6-b5855419644f",
+    "appversionId": "fddda84c-1f84-4c2b-887a-b16e1770bf6f",
     "systemName": "player_whats_playing",
     "frontendEndpoint": null,
     "frontendType": "DIALOG",
     "apkInfo": {},
     "ageLimit": 0,
     "affiliationType": "INTERNAL",
-    "frontendStateId": "66667dd0-7913-4a61-8292-db449fcce4dd_6bb0ba59-9e4b-415b-8a57-5a4935ec4e63_ec171ade-3dfb-40e1-b66d-6b0ab6763788",
+    "frontendStateId": "3848be98-da13-4d6e-9a94-a665751cc4ac_4a5d0eba-feff-44b0-b5c6-b5855419644f_fddda84c-1f84-4c2b-887a-b16e1770bf6f",
     "securityAccess": {},
     "appearance": {
       "header": {
-        "title": "Что сейчас играет",
-        "icon": {
-          "type": "url",
-          "url": "https://cdn.sberdevices.ru/catalog/images/Shazam_Icon_001.png",
-          "hash": "26d3b1314e9af6c87c1f09514944020b"
-        }
+        "title": "Что сейчас играет"
       }
     },
     "allowFastRunApp": false,
@@ -43,7 +155,7 @@
     },
     {
       "bubble": {
-        "text": "preserve_panel_state",
+        "text": "Alpha all",
         "type": "copy_text_to_buffer",
         "expand_policy": "preserve_panel_state"
       }
@@ -56,26 +168,37 @@
     "id": "sber"
   },
   "userSettings": {
-    "initials": "АГ"
+    "initials": "КО"
   },
   "feature_launcher": {
+    "music": {
+      "assigned_testing_groups": [
+        "experiment_1_group_A",
+        "musicRadioByTrackNegative"
+      ],
+      "musicRadioByTrack": false,
+      "shazam": true
+    },
     "nlp_platform": {
+      "device_selector": true,
       "greenfield_segment_list": [
         "sbol_version_gte_12.0.0",
         "ALL_PEOPLES",
         "COMPANION",
-        "SberDevices",
-        "operator_testlist"
-      ]
+        "SberDevices"
+      ],
+      "sid": true
     },
-    "assigned_testing_groups": [],
+    "assigned_testing_groups": [
+      "experiment_1_group_A",
+      "musicRadioByTrackNegative"
+    ],
     "public": {
       "greenfield_segment_list": [
         "sbol_version_gte_12.0.0",
         "ALL_PEOPLES",
         "COMPANION",
-        "SberDevices",
-        "operator_testlist"
+        "SberDevices"
       ]
     }
   },
