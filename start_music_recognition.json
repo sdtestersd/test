@@ -40,6 +40,12 @@
       "command": {
         "type": "start_music_recognition"
       }
+    },
+    {
+      "bubble": {
+        "text": "Мне тоже интересно, готов слушать",
+        "type": "copy_text_to_buffer"
+      }
     }
   ],
   "asr_hints": {},
