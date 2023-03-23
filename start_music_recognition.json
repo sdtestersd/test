@@ -43,7 +43,7 @@
     },
     {
       "bubble": {
-        "text": "Мне тоже интересно, готов слушать",
+        "text": "preserve_panel_state",
         "type": "copy_text_to_buffer",
         "expand_policy": "preserve_panel_state"
       }
