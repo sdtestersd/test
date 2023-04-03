@@ -1,0 +1,43 @@
+{
+  "card": {
+    "type": "list_card",
+    "cells": [
+      {
+        "type": "text_cell_view",
+        "content": {
+          "text": "аАбБвВгГдДеЕёЁжЖзЗиИйЙкКлЛмМнНоОпПрРсСтТуУфФхХцЦчЧшШщЩъЪыЫьЬэЭюЮяЯ",
+          "typeface": "footnote1"
+        },
+        "paddings": {
+          "left": "16x",
+          "top": "16x",
+          "right": "16x",
+          "bottom": "16x"
+        },
+        "divider":{
+          "style": "default"
+        }
+      },
+      {
+        "type": "text_cell_view",
+        "content": {
+          "text": "аАбБвВгГдДеЕёЁжЖзЗиИйЙкКлЛмМнНоОпПрРсСтТуУфФхХцЦчЧшШщЩъЪыЫьЬэЭюЮяЯ",
+          "typeface": "body1",
+          "text_color": "secondary",
+          "text_attributes":[{
+            "start":5,
+            "length":3,
+            "color":"#c22b1d"
+          }],
+          "margins":{
+            "left": "16x",
+            "top": "16x",
+            "right": "16x",
+            "bottom": "16x"
+          },
+          "max_lines": 0
+        }
+      }
+    ]
+  }
+}
