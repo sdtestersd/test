@@ -1,0 +1,57 @@
+{
+  "card": {
+    "type": "list_card",
+    "paddings": {
+      "bottom": "16x",
+      "top": "8x",
+      "left": "8x",
+      "right": "8x"
+    },
+    "background_color": "transparent_primary",
+    "cells": [
+      {
+        "type": "text_cell_view",
+        "content": {
+          "text": "12345",
+          "typeface": "display1",
+          "text_color": "tertiary"
+        },
+        "paddings": {
+          "bottom": "16x"
+        },
+        "divider":{
+          "style": "default",
+          "size": "d6"
+        }
+      },
+      {
+        "type": "text_cell_view",
+        "content": {
+          "text": "12345",
+          "typeface": "headline1",
+          "text_color": "inverse",
+          "alignment": "center"
+        },
+        "paddings": {
+          "bottom": "16x"
+        },
+        "divider":{
+          "style": "read_only",
+          "size": "d3"
+        }
+      },
+      {
+        "type": "text_cell_view",
+        "content": {
+          "text": "12345",
+          "typeface": "underline",
+          "text_color": "brand",
+          "alignment": "right"
+        },
+        "paddings": {
+          "bottom": "16x"
+        }
+      }
+    ]
+  }
+}
