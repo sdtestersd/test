@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "paddings": {
+          "bottom": "12x"
+        },
+        "cells": [
+          {
+            "type": "image_cell_view",
+            "content": {
+              "url": "https://cdn.sberdevices.ru/VA/images/Keanu_Reeves.jpg",
+              "hash": "7b14b751b8ea164f661f2a033a335b83"
+            }
+          },
+          {
+            "type": "image_cell_view",
+            "content": {
+              "url": "https://va-res.online.sberbank.ru/VA/icons/bank_skills/first_am666.png"
+            }
+          },
+          {
+            "type": "image_cell_view",
+            "content": {
+              "url": "https://begezavr.ru/st/krokodil.jpg"
+            }
+          },
+          {
+            "type": "image_cell_view",
+            "content": {
+              "url": "https://test.stat.online.sberbank.ru/VA/images/first_session/SberCat_VA2.jpg"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
