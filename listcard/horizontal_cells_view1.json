@@ -1,4 +1,5 @@
 {
+  "items": [{
       "card": {
         "type": "list_card",
         "paddings": {
@@ -109,4 +110,4 @@
           }
         ]
       }
-    }
+    }]}
