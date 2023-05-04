@@ -1,0 +1,219 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "title": {
+                "text": "сертификат: SberCA Ext Web",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0,
+                "margins": {
+                  "left": "8x",
+                  "right": "8x"
+                }
+              }
+            },
+            "right": {
+              "type": "flexible_image_left_right_cell_view",
+              "content": {
+                "url": "https://cms-res.online.sberbank.ru/PROTECTION/insuranceview/image_insurance_square_280x280_kasko.jpg",
+                "hash": "825ab6da8d407a0da1bf2c28f3484bd1",
+                "size": {
+                  "type": "fixed",
+                  "width": 120,
+                  "height": 120
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "title": {
+                "text": "сертификат: Palo Alto",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0,
+                "margins": {
+                  "left": "8x",
+                  "right": "8x"
+                }
+              }
+            },
+            "right": {
+              "type": "flexible_image_left_right_cell_view",
+              "content": {
+                "type": "url",
+                "url": "https://zvuk.com/static/avatar/playlist/ba8/ba9/7304041.66286c6.png",
+                "hash": "9071a1ff4eefcf74283919a12124b653",
+                "size": {
+                  "type": "fixed",
+                  "width": 120,
+                  "height": 120
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "title": {
+                "text": "сертификат: GlobalSign RSA OV SSL CA 2018",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0,
+                "margins": {
+                  "left": "8x",
+                  "right": "8x"
+                }
+              }
+            },
+            "right": {
+              "type": "flexible_image_left_right_cell_view",
+              "content": {
+                "type": "url",
+                "url": "https://cdn.sberdevices.ru/temp/sberfriend/Meetings/komandirovka_podpis.png",
+                "hash": "baa7e6542cd583d371f11372f48b24c7",
+                "size": {
+                  "type": "fixed",
+                  "width": 120,
+                  "height": 120
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "title": {
+                "text": "сертификат: DigiCert TLS Hybrid ECC SHA384 2020 CA1",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0,
+                "margins": {
+                  "left": "8x",
+                  "right": "8x"
+                }
+              }
+            },
+            "right": {
+              "type": "flexible_image_left_right_cell_view",
+              "content": {
+                "type": "url",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Keanu_Reeves-2019.jpg",
+                "hash": "745d5b4e11b2f7699666808ea0299a7d",
+                "size": {
+                  "type": "fixed",
+                  "width": 120,
+                  "height": 120
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "title": {
+                "text": "сертификат: Недействительный",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0,
+                "margins": {
+                  "left": "8x",
+                  "right": "8x"
+                }
+              }
+            },
+            "right": {
+              "type": "flexible_image_left_right_cell_view",
+              "content": {
+                "type": "url",
+                "url": "https://test.stat.online.sberbank.ru/VA/images/first_session/SberCat_VA2.jpg",
+                "hash": "d8c095acdf146eedf0c25d0b11220cb9",
+                "size": {
+                  "type": "fixed",
+                  "width": 120,
+                  "height": 120
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "title": {
+                "text": "сертификат: Изображение подписано чужим действительным сертификатом",
+                "typeface": "title1",
+                "text_color": "default",
+                "max_lines": 0,
+                "margins": {
+                  "left": "8x",
+                  "right": "8x"
+                }
+              }
+            },
+            "right": {
+              "type": "flexible_image_left_right_cell_view",
+              "content": {
+                "type": "url",
+                "url": "https://psi.salute.online.sberbank.ru:8443/target/uat/96114b7e-9594-45b6-992a-c8bbd6b66229/6066c1a9-5d05-4169-b0b4-01626dbfe574.jpg",
+                "hash": "9a389dd39284b31d649514fba9a59140",
+                "size": {
+                  "type": "fixed",
+                  "width": 120,
+                  "height": 120
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
