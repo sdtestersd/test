@@ -1,0 +1,107 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "bubble": {
+        "expand_policy": "force_expand",
+        "text": "Андрей не любил брать у родителей деньги. Но родители сами учили, что иногда надо делать то, что не любишь"
+      }
+    },
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+          "success": true,
+          "body": {
+            "result": "SUCCESS",
+            "pid": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
+            "flow": "DemoCoreMoney",
+            "state": "state0",
+            "output": {
+              "screens": [
+                {
+                  "title": "CoreFieldSet: text",
+                  "header": [
+                    {
+                      "type": "CoreNavBar",
+                      "title": "CoreFieldSet: text",
+                      "events": [
+                        {
+                          "cmd": "EXIT"
+                        }
+                      ]
+                    }
+                  ],
+                  "widgets": [
+                    {
+                      "type": "CoreFieldSet",
+                      "description": "",
+                      "fields": [
+                        {
+                          "id": "field:id:1",
+                          "type": "text",
+                          "readonly": false,
+                          "title": "string",
+                          "style": "calendar",
+                          "description": "Описание текстового поля",
+                          "value": ""
+                        }
+                      ],
+                      "strategies": [
+                        {
+                          "fieldLookupId": "field:id:1",
+                          "type": "divider",
+                          "properties": {
+                            "dividerType": "spacer4"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "CoreFieldSet",
+                      "description": "",
+                      "fields": [
+                        {
+                          "id": "fieldSet:string",
+                          "type": "text",
+                          "readonly": false,
+                          "title": "string",
+                          "style": "calendar"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "suggestions": {
+    "buttons": [
+      {
+        "action": {
+          "text": "Ещё",
+          "type": "text"
+        },
+        "title": "Ещё Ещё Ещё"
+      },
+      {
+        "action": {
+          "text": "Норм",
+          "type": "text"
+        },
+        "title": "Норм Норм Норм"
+      },
+      {
+        "action": {
+          "text": "Не зашло",
+          "type": "text"
+        },
+        "title": "Не зашло Не зашло"
+      }
+    ]
+  }
+}
