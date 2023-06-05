@@ -10,13 +10,13 @@
               "type": "detail_right_view",
               "detail": {
                 "text": "text detail",
-                "typeface": "display1",
+                "typeface": "body1",
                 "text_color": "default"
               },
               "info_and_icon": {
                 "info": {
                   "text": "text info",
-                  "typeface": "display1",
+                  "typeface": "body1",
                   "text_color": "default"
                 },
                 "icon": {
@@ -31,7 +31,7 @@
                     "height": 120
                   },
                   "badge": {
-                    "text": "text badge"
+                    "text": "badge"
                   }
                 }
               }
