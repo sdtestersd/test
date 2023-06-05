@@ -11,7 +11,7 @@
               "content": {
                 "text_view": {
                   "text": "text text_view",
-                  "typeface": "display1",
+                  "typeface": "body1",
                   "text_color": "default"
                 }
               }
