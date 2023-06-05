@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "right_side_cell_view",
+            "content": {
+              "type": "tag_cell_view",
+              "content": {
+                "text_view": {
+                  "text": "text text_view",
+                  "typeface": "display1",
+                  "text_color": "default"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
