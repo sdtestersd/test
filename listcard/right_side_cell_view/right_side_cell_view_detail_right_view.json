@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "right_side_cell_view",
+            "content": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "text detail",
+                "typeface": "display1",
+                "text_color": "default"
+              },
+              "info_and_icon": {
+                "info": {
+                  "text": "text info",
+                  "typeface": "display1",
+                  "text_color": "default"
+                },
+                "icon": {
+                  "address": {
+                    "type": "url",
+                    "url": "https://cdn.sberdevices.ru/temp/sberfriend/Meetings/komandirovka_podpis.png",
+                    "hash": "baa7e6542cd583d371f11372f48b24c7"
+                  },
+                  "size": {
+                    "type": "fixed",
+                    "width": 120,
+                    "height": 120
+                  },
+                  "badge": {
+                    "text": "text badge"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
