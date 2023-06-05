@@ -1,0 +1,17 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "right_side_cell_view",
+            "content": {
+              "type": "disclosure_right_view"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
