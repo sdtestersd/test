@@ -1,0 +1,117 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "right_side_cell_view",
+            "content": {
+              "type": "right_cell_array_view",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "detail": {
+                    "text": "text detail1",
+                    "typeface": "display1",
+                    "text_color": "default",
+                    "actions": [
+                      {
+                        "type": "text",
+                        "text": "actions text1"
+                      }
+                    ]
+                  },
+                  "info_and_icon": {
+                    "info": {
+                      "text": "text info1",
+                      "typeface": "display1",
+                      "text_color": "default",
+                      "actions": [
+                        {
+                          "type": "text",
+                          "text": "actions info1"
+                        }
+                      ]
+                    },
+                    "icon": {
+                      "address": {
+                        "type": "url",
+                        "url": "https://cdn.sberdevices.ru/temp/sberfriend/Meetings/komandirovka_podpis.png",
+                        "hash": "baa7e6542cd583d371f11372f48b24c7"
+                      },
+                      "size": {
+                        "type": "fixed",
+                        "width": 120,
+                        "height": 120
+                      },
+                      "actions": [
+                        {
+                          "type": "text",
+                          "text": "actions icon1"
+                        }
+                      ],
+                      "accessibility": "accessibility icon1",
+                      "badge": {
+                        "text": "text badge1"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "detail_right_view",
+                  "detail": {
+                    "text": "text detail2",
+                    "typeface": "display1",
+                    "text_color": "default",
+                    "actions": [
+                      {
+                        "type": "text",
+                        "text": "actions text2"
+                      }
+                    ]
+                  },
+                  "info_and_icon": {
+                    "info": {
+                      "text": "text info2",
+                      "typeface": "display1",
+                      "text_color": "default",
+                      "actions": [
+                        {
+                          "type": "text",
+                          "text": "actions info2"
+                        }
+                      ]
+                    },
+                    "icon": {
+                      "address": {
+                        "type": "url",
+                        "url": "https://cdn.sberdevices.ru/temp/sberfriend/Meetings/komandirovka_podpis.png",
+                        "hash": "baa7e6542cd583d371f11372f48b24c7"
+                      },
+                      "size": {
+                        "type": "fixed",
+                        "width": 120,
+                        "height": 120
+                      },
+                      "actions": [
+                        {
+                          "type": "text",
+                          "text": "actions icon2"
+                        }
+                      ],
+                      "accessibility": "accessibility icon2",
+                      "badge": {
+                        "text": "text badge2"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
