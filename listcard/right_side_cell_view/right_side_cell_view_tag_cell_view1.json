@@ -16,7 +16,7 @@
                   "actions": [
                     {
                       "type": "text",
-                      "text": "actions round_button_cell_view"
+                      "text": "actions text_view"
                     }
                   ]
                 }
