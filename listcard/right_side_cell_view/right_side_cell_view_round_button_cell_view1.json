@@ -1,0 +1,31 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "right_side_cell_view",
+            "content": {
+              "type": "round_button_cell_view",
+              "content": {
+                "icon_address": {
+                  "type": "url",
+                  "url": "https://cdn.sberdevices.ru/temp/sberfriend/Meetings/komandirovka_podpis.png",
+                  "hash": "baa7e6542cd583d371f11372f48b24c7"
+                },
+                "actions": [
+                  {
+                    "type": "text",
+                    "text": "actions round_button_cell_view"
+                  }
+                ],
+                "accessibility": "accessibility icon"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
