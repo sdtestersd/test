@@ -14,7 +14,7 @@
                   "type": "detail_right_view",
                   "detail": {
                     "text": "text detail1",
-                    "typeface": "display1",
+                    "typeface": "body1",
                     "text_color": "default",
                     "actions": [
                       {
@@ -26,7 +26,7 @@
                   "info_and_icon": {
                     "info": {
                       "text": "text info1",
-                      "typeface": "display1",
+                      "typeface": "body1",
                       "text_color": "default",
                       "actions": [
                         {
@@ -63,7 +63,7 @@
                   "type": "detail_right_view",
                   "detail": {
                     "text": "text detail2",
-                    "typeface": "display1",
+                    "typeface": "body1",
                     "text_color": "default",
                     "actions": [
                       {
@@ -75,7 +75,7 @@
                   "info_and_icon": {
                     "info": {
                       "text": "text info2",
-                      "typeface": "display1",
+                      "typeface": "body1",
                       "text_color": "default",
                       "actions": [
                         {
