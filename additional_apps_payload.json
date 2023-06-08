@@ -1,0 +1,92 @@
+{
+  "debug_info": {},
+  "activate_app_info": true,
+  "auto_listening": true,
+  "projectName": "Сто к одному",
+  "intent": "run_app",
+  "app_info": {
+    "projectId": "6bdd58e0-11b7-46c8-9d84-2fd48b0d5ec0",
+    "applicationId": "a39ea338-5e88-4eae-bf8a-45c22faac847",
+    "appversionId": "4086d1cb-4dd7-43e8-851a-54f9357a2e9f",
+    "systemName": "Sto_k_odnomu",
+    "frontendEndpoint": "https://mrobot.mega-net.ru/sb/canvas/100k1/index.html",
+    "frontendType": "WEB_APP",
+    "apkInfo": {},
+    "ageLimit": 6,
+    "affiliationType": "EXTERNAL",
+    "frontendStateId": "6bdd58e0-11b7-46c8-9d84-2fd48b0d5ec0_a39ea338-5e88-4eae-bf8a-45c22faac847_4086d1cb-4dd7-43e8-851a-54f9357a2e9f",
+    "securityAccess": {},
+    "appearance": {
+      "header": {
+        "title": "Сто к одному",
+        "icon": {
+          "type": "url",
+          "url": "https://cdn.sberdevices.ru/static/services/target/5253967d-73df-4ff9-8348-914f0e91e3fa/6c9b71a3-24c1-4e2c-b7df-972fc601f232.png",
+          "hash": "09140788a6166b5127c2a91b3c086a13"
+        }
+      }
+    },
+    "allowFastRunApp": false,
+    "availableOrientations": []
+  },
+  "items": [
+    {
+      "bubble": {
+        "text": "У нас вкусный попкорн, чипсы, кола и многое другое. Хотите заказать?"
+      }
+    },
+    {
+      "command": {
+        "type": "smart_app_data",
+        "smart_app_data": {
+          "debug": 0,
+          "request": false,
+          "question": {
+            "q": "Сто к одному"
+          },
+          "users": [],
+          "text": "Добро пожаловать в игру «Сто к одному».\nЦель игры в том, чтобы угадать шесть наиболее распространённых ответов случайных людей на предложенный им вопрос, на который невозможно дать однозначный ответ.\nХотите поиграть?"
+        }
+      }
+    }
+  ],
+  "assistant_items": [],
+  "additional_apps_payload": [
+    {
+      "app_info": {
+        "affiliationType": "INTERNAL",
+        "ageLimit": 18,
+        "allowFastRunApp": false,
+        "apkInfo": {},
+        "appearance": {
+          "header": {
+            "icon": {
+              "hash": "127c9a8e582d76b78abb8e337041c0ea",
+              "type": "url",
+              "url": "https://cdn.sberdevices.ru/static/services/target/0d204247-c1ca-4567-bb68-64a2582b6201/2dc7ef37-01d7-4b03-8d53-d551a1f9e046.jpeg"
+            },
+            "title": "моя чупакабра"
+          }
+        },
+        "applicationId": "ca008e8f-b685-4998-8848-8a889c34bb9e",
+        "appversionId": "2a50b402-1a64-455b-8b03-f210f0dee89d",
+        "availableOrientations": [],
+        "frontendEndpoint": null,
+        "frontendStateId": "31edb6a8-3aad-4f1f-9243-095a38bfbcdd_ca008e8f-b685-4998-8848-8a889c34bb9e_2a50b402-1a64-455b-8b03-f210f0dee89d",
+        "frontendType": "DIALOG",
+        "projectId": "31edb6a8-3aad-4f1f-9243-095a38bfbcdd",
+        "securityAccess": {},
+        "systemName": "chupakabra_app",
+        "trayDisplay": true
+      },
+      "items": [
+        {
+          "bubble": {
+            "markdown": false,
+            "text": "Привет! я - медвед."
+          }
+        }
+      ]
+    }
+  ]
+}
