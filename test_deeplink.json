@@ -1,0 +1,68 @@
+{
+"items":
+[
+{
+"bubble":
+{
+"text": "Диплинк с [https://rospotrebnadzor.ru/deyatelnost/epidemiological-surveillance/](https://rospotrebnadzor.ru/deyatelnost/epidemiological-surveillance/) в конфиге rospotrebnadzor.ru",
+"markdown": true
+}
+},
+{
+"bubble":
+{
+"text": "Диплинк с [https://es.pfrf.ru/znp/](https://es.pfrf.ru/znp/) в конфиге http://es.pfrf.ru",
+"markdown": true
+}
+},
+{
+"bubble":
+{
+"text": "Диплинк с [http://letters.kremlin.ru/receptions/list](http://letters.kremlin.ru/receptions/list) в конфиге https://letters.kremlin.ru",
+"markdown": true
+}
+},
+{
+"bubble":
+{
+"text": "Диплинк с [http://services.government.ru/letters/](http://services.government.ru/letters/) в конфиге http://services.government.ru",
+"markdown": true
+}
+},
+{
+"bubble":
+{
+"text": "Диплинк с [http://www.mos.gosnadzor.ru/links/](http://www.mos.gosnadzor.ru/links/) в конфигео тсутствует",
+"markdown": true
+}
+},
+{
+"bubble":
+{
+"text": "Диплинк с https://моидокументы.рф/search/mfc[https://xn--d1achjhdicc8bh4h.xn--p1ai/search/mfc](https://xn--d1achjhdicc8bh4h.xn--p1ai/search/mfc) в конфиге https://xn--d1achjhdicc8bh4h.xn--p1ai",
+"markdown": true
+}
+},
+{
+"bubble":
+{
+"text": "Диплинк с https://онлайнинспекция.рф/questions/?question_type=faq[https://xn--80akibcicpdbetz7e2g.xn--p1ai/questions/?question_type=faq](https://xn--80akibcicpdbetz7e2g.xn--p1ai/questions/?question_type=faq) в конфиге https://xn--80akibcicpdbetz7e2g.xn--p1ai/questions",
+"markdown": true
+}
+},
+{
+"bubble":
+{
+"text": "Диплинк с https://онлайнинспекция.рф/employer[https://xn--80akibcicpdbetz7e2g.xn--p1ai/employer](https://xn--80akibcicpdbetz7e2g.xn--p1ai/employer) в конфиге https://xn--80akibcicpdbetz7e2g.xn--p1ai/questions",
+"markdown": true
+}
+},
+{
+"bubble":
+{
+"text": "Диплинк с [https://www.culture.ru/afisha/moskva](https://www.culture.ru/afisha/moskva) в конфиге нет",
+"markdown": true
+}
+}
+]
+}
