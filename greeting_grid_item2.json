@@ -2,6 +2,7 @@
   "items": [
     {
       "card": {
+      "columns" : 2,
         "type": "grid_card",
         "items": [
           {
