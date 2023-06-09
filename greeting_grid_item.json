@@ -31,6 +31,34 @@
               "right": "6x",
               "bottom": "6x"
             }
+          },
+          {
+            "type": "greeting_grid_item",
+            "background_image": {
+              "type": "url",
+              "url": "https://cdn.sberdevices.ru/VA/images/children/moon_widget.jpg",
+              "hash": "0548933c1f269bf31475afe81b5961e2",
+              "height": 300
+            },
+            "top_text": {
+              "type": "text_cell_view",
+              "text": "Вопросы о кино",
+              "typeface": "caption",
+              "text_color": "default"
+            },
+            "bottom_text": {
+              "type": "text_cell_view",
+              "text": "Может быть всё же кто-то знает где находится Хогвартс? Его точные координаты? Либо я могу дать вам подсказку :)",
+              "typeface": "headline3",
+              "text_color": "default",
+              "max_lines": 10
+            },
+            "paddings": {
+              "top": "6x",
+              "left": "6x",
+              "right": "6x",
+              "bottom": "6x"
+            }
           }
         ],
         "item_height": "resizable"
