@@ -26,7 +26,7 @@
                 }
               },
               "title": {
-                "text": "Искать 'Mосгоргаз'",
+                "text": "оплатить мосэнергосбыт",
                 "typeface": "body1",
                 "text_color": "default",
                 "max_lines": 1,
@@ -47,7 +47,7 @@
             "actions": [
               {
                 "type": "deep_link",
-                "deep_link": "android-app://ru.sberbankmobile_alpha/smartsearch/launcher?query=%D0%9C%D0%BE%D1%81%D0%B3%D0%BE%D1%80%D0%B3%D0%B0%D0%B7"
+                "deep_link": "android-app://ru.sberbankmobile_alpha/smartsearch/launcher?query=оплатить%20мосэнергосбыт"
               }
             ]
           }
