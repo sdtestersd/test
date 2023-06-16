@@ -34,7 +34,7 @@
                       }
                     ]
                   },
-                  "value": {
+                  "info": {
                     "text": "value text",
                     "typeface": "text1",
                     "text_color": "default",
