@@ -21,8 +21,8 @@
                       "url": "https://va-res.online.sberbank.ru/VA/icons/bank_skills/first_am.png"
                     },
                     "size": {
-                      "width": "xsmall",
-                      "height": "xsmall"
+                      "width": "medium",
+                      "height": "medium"
                     },
                     "badge": {
                       "text": "badge"
