@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "weather_cell_view",
+            "content": [
+              {
+                "weekday": "weekday",
+                "date": "date",
+                "day": "day",
+                "night": "night",
+                "icon": {
+                  "address": {
+                    "type": "url",
+                    "url": "https://va-res.online.sberbank.ru/VA/icons/bank_skills/first_am.png"
+                  },
+                  "size": {
+                    "width": "xsmall",
+                    "height": "xsmall"
+                  },
+                  "badge": {
+                    "text": "badge"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
