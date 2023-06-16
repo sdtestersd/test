@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "details_cell_view",
+            "details": [
+              {
+                "type": "detail_right_view",
+                "detail": {
+                  "text": "detail text",
+                  "typeface": "text1",
+                  "text_color": "default"
+                },
+                "info_and_icon": {
+                  "icon": {
+                    "address": {
+                      "type": "url",
+                      "url": "https://va-res.online.sberbank.ru/VA/icons/bank_skills/first_am.png"
+                    },
+                    "size": {
+                      "width": "xsmall",
+                      "height": "xsmall"
+                    },
+                    "badge": {
+                      "text": "badge"
+                    }
+                  },
+                  "value": {
+                    "text": "value text",
+                    "typeface": "text1",
+                    "text_color": "default"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
