@@ -7,7 +7,6 @@
           {
             "type": "button_cell_view",
             "content": {
-              "text": "button",
               "plasma_button": {
                 "style": "secondary",
                 "text": "plasma_button",
