@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "image_cell_view",
+            "content": {
+              "url": "https://cdn.sberdevices.ru/cdn/wikipedia/Gref.png",
+              "hash": "392f529af7ccddb5ef2a99ff4e0d66aa",
+              "placeholder": "placeholder",
+              "height": 192
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
