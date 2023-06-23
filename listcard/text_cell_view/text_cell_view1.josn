@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "text_cell_view",
+              "typeface": "footnote1",
+              "text_color": "default",
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "actions text_cell_view"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
