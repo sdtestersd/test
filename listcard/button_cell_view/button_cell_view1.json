@@ -1,0 +1,33 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "button_cell_view",
+            "content": {
+              "text": "button",
+              "plasma_button": {
+                "style": "secondary",
+                "text": "plasma_button",
+                "icon": {
+                  "type": "url",
+                  "url": "https://cdn.sberdevices.ru/cdn/wikipedia/Gref.png",
+                  "hash": "392f529af7ccddb5ef2a99ff4e0d66aa"
+                },
+                "actions": [
+                  {
+                    "type": "text",
+                    "text": "actions plasma_button"
+                  }
+                ]
+              },
+              "typeface":"button1"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
