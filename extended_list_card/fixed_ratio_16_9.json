@@ -1,0 +1,106 @@
+   {
+          "card": {
+            "type": "extended_list_card",
+            "paddings": {
+              "bottom": "12x"
+            },
+            "cell_image": {
+               "url": "https://cdn.sberdevices.ru/VA/images/Keanu_Reeves.jpg",
+               "hash": "7b14b751b8ea164f661f2a033a335b82",
+               "placeholder": "placeholder",
+               "height": 192,
+               "actions": [
+                 {
+                   "type": "deep_link",
+                   "deep_link": "https://ru.wikipedia.org/wiki/Ривз,_Киану"
+                 }
+               ],
+               "fixed_ratio": "16:9"
+            },
+            "cells": [
+              {
+                "type": "text_cell_view",
+                "content": {
+                  "text": "Киану Ривз",
+                  "typeface": "title1",
+                  "text_color": "default"
+                },
+                "paddings": {
+                  "left": "8x",
+                  "top": "6x",
+                  "right": "8x"
+                }
+              },
+              {
+                "type": "text_cell_view",
+                "content": {
+                  "text": "55 лет",
+                  "typeface": "footnote1",
+                  "text_color": "secondary"
+                },
+                "paddings": {
+                  "left": "8x",
+                  "top": "4x",
+                  "right": "8x"
+                }
+              },
+              {
+                "type": "text_cell_view",
+                "content": {
+                  "text": "Канадский актёр, кинопродюсер, и музыкант. Наиболее известен своими ролями в киносериях «Матрица» и «Джон Уик»...",
+                  "typeface": "body2",
+                  "text_color": "default",
+                  "max_lines": 0
+                },
+                "paddings": {
+                  "left": "8x",
+                  "top": "6x",
+                  "right": "8x"
+                }
+              },
+              {
+                "type": "text_cell_view",
+                "content": {
+                  "text": "ru.wikipedia.org",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "actions": [
+                    {
+                      "type": "deep_link",
+                      "deep_link": "https://ru.wikipedia.org/wiki/Ривз,_Киану"
+                    }
+                  ]
+                },
+                "paddings": {
+                  "left": "8x",
+                  "top": "4x",
+                  "right": "8x"
+                }
+              },
+              {
+                "type": "text_cell_view",
+                "content": {
+                  "text": "Подробнее",
+                  "typeface": "button1",
+                  "text_color": "brand",
+                  "log_id":"Keanu_logs",
+                  "actions": [
+                    {
+                      "type": "text",
+                      "text": "Расскажи про него подробней"
+                    },
+                    {
+                      "type": "deep_link",
+                      "deep_link": "https://ru.wikipedia.org/wiki/Ривз,_Киану"
+                    }
+                  ]
+                },
+                "paddings": {
+                  "left": "8x",
+                  "top": "12x",
+                  "right": "8x"
+                }
+              },
+            ]
+          }
+        }
