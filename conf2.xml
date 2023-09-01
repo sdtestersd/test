@@ -1,7 +1,3 @@
-This XML file does not appear to have any style information associated with it. The document tree is shown below.
-<!--
-COMMIT:98c271c6ecf42ea5212609cc56eb760b25a743fd # REPO:CI01933282_AndroidPSI_new # JOB_NAME:PREPROM # BUILD_NUMBER:14142 # TIMESTAMP:2023-09-01 16:27:53
--->
 <config>
 <param id="BiometryBinding">
 <pair id="onboardingBindingImg">
