@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "bubble": {
+        "expand_policy": "auto_expand",
+        "markdown": true,
+        "text": "Проверьте данные, скажите «Подтверждаю»"
+      }
+    },
+    {
+      "card": {
+        "bank_account_info": {
+          "action": {
+            "text": "Изменить карту"
+          },
+          "balance": "2 796,67 ₽",
+          "icon_local": "card_mc_gold",
+          "name": "MasterCard Gold mir ei mat ee hello world",
+          "number": "••••8300",
+          "title": "Счет списания"
+        },
+        "confirmation_button": {
+          "action": {
+            "text": "Подтверждаю"
+          },
+          "text": "Перевести 100 ₽"
+        },
+        "contact_info": {
+          "action": {
+            "text": "Изменить получателя"
+          },
+          "bank_account": "••••5997",
+          "name": "Елена Игоревна М.",
+          "phone": "+7 (910) 401-44-65",
+          "title": "Получатель"
+        },
+        "subtitle": "Неешпапа Neeshpapa 🤩😋😀",
+        "title": "Перевод клиенту СберБанка",
+        "transfer_amount_info": {
+          "action": {
+            "text": "Изменить сумму"
+          },
+          "icon_url": "https://sberbank.ru/transfer.jpg",
+          "title": "Сумма перевода",
+          "transfer_fee": "Комиссия 0 ₽",
+          "value": "100 ₽"
+        },
+        "type": "p2p_transfer_confirmation"
+      }
+    }
+  ]
+}
