@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "command": {
+        "type": "payment_invoice",
+        "payment_invoice": {
+          "invoice_id": "1"
+        }
+      }
+    }
+  ]
+}
