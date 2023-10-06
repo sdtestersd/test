@@ -1,0 +1,15 @@
+{
+  "items": [
+    {
+      "bubble": {
+        "text": "Дать доступ контактам с таймаутом"
+      }
+    },
+    {
+      "command": {
+        "type": "request_contacts",
+        "timeout": 5
+      }
+    }
+  ]
+}
