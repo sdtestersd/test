@@ -1,0 +1,241 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "paddings": {
+          "top": "8x",
+          "bottom": "4x"
+        },
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Ваши полисы",
+              "typeface": "title1",
+              "text_color": "default",
+              "max_lines": 0
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "bottom": "4x"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "4x",
+              "bottom": "4x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "tint_color": "solid_brand",
+                "address": {
+                  "type": "url",
+                  "url": "https://cdn.sberdevices.ru/catalog/images/prsmartapp/ds_ic_36_shield_check.png",
+                  "hash": "f4bcbaf8c53cb63ab6d9f82fd00bf862"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "title": {
+                  "text": "Ипотечное страхование недвижимости",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0
+                },
+                "subtitle": {
+                  "text": "До 28 октября 2023",
+                  "typeface": "footnote1",
+                  "text_color": "warning",
+                  "margins": {
+                    "top": "1x"
+                  }
+                },
+                "caption": {
+                  "text": "Для ипотеки от 07 августа 2020",
+                  "typeface": "footnote1",
+                  "text_color": "secondary"
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              },
+              "vertical_gravity": "top"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Ипотечное страхование недвижимости до 28 октября 2023",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "SmartApp_UB"
+                  },
+                  "parameters": {
+                    "scenario": "W0120.Real_estate_mortgage_insurance_info",
+                    "node": "W0120.01",
+                    "contractId": "ЗМ05244123456789",
+                    "button_text": "Ипотечное страхование недвижимости до 28 октября 2023",
+                    "node_from": "W0092.02",
+                    "insuranceNumber": "ЗМ05244123456789"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "paddings": {
+          "top": "8x",
+          "bottom": "4x"
+        },
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Можно оформить",
+              "typeface": "title1",
+              "text_color": "default",
+              "max_lines": 0
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "bottom": "4x"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://cms-res.online.sberbank.ru/PROTECTION/insuranceview/image_insurance_1024x1024_life_mortage_ins.png"
+                },
+                "size": {
+                  "width": "xlarge",
+                  "height": "xlarge"
+                },
+                "margins": {
+                  "top": "5x",
+                  "right": "6x",
+                  "bottom": "5x",
+                  "left": "8x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "texts": {
+                "title": {
+                  "text": "Страхование жизни от Сбера",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0
+                },
+                "subtitle": {
+                  "text": "Защитит при проблемах со здоровьем",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "top": "1x"
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view",
+              "margins": {
+                "top": "8x",
+                "right": "4x",
+                "bottom": "8x"
+              }
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "sberbankonline://insurance/sales/calculation?productCode=life_zz&promoCode=НАШДРУГ&internal_source=smartAppInsuranceW0092"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "suggestions": {
+    "buttons": [
+      {
+        "title": "У меня есть другой полис",
+        "actions": [
+          {
+            "type": "text",
+            "text": "У меня есть другой полис",
+            "should_send_to_backend": false
+          },
+          {
+            "type": "server_action",
+            "message_name": "RUN_APP",
+            "server_action": {
+              "action_id": "run_app",
+              "app_info": {
+                "systemName": "SmartApp_UB"
+              },
+              "parameters": {
+                "scenario": "W0092.Mortgage_insurance",
+                "node": "base",
+                "button_text": "У меня есть другой полис",
+                "node_from": "W0092.02"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "finished": false,
+  "auto_listening": false,
+  "intent": "W0092.Mortgage_insurance",
+  "pronounceTextType": "application/ssml",
+  "pronounceText": "На экране вывел информацию по вашим полисам. О чём рассказать подробнее?",
+  "debug_info": {
+    "intent": null,
+    "debug_info_key": "4221e5b3-c972-494b-ae39-abaccd67effc"
+  },
+  "historyData": {
+    "events": [
+      {
+        "scenarioName": "W0092.02",
+        "scenarioVersion": "1",
+        "result": null,
+        "eventType": "scenario call",
+        "eventContent": null,
+        "no": 1
+      }
+    ]
+  }
+}
