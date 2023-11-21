@@ -1,0 +1,38 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "button_cell_view",
+            "content": {
+              "text": "Узнать общую сумму",
+              "typeface": "button2",
+              "style": "transparent",
+              "type": "accept",
+              "actions": [
+                {
+                  "type": "deep_link",
+                  "deep_link": "android-app://ru.sberbankmobile_alpha/alf/expenses"
+                }
+              ],
+              "margins": {
+                "left": "10x",
+                "top": "5x",
+                "right": "10x",
+                "bottom": "5x"
+              }
+            },
+            "paddings": {
+              "left": "4x",
+              "top": "8x",
+              "right": "4x",
+              "bottom": "8x"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
