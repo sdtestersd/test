@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "bubble": {
+        "text": "Варианты действия:\n- Вариант 1\n- Вариант 2\n- Вариант 3",
+        "markdown": true
+      }
+    }
+  ],
+  "suggestions": {
+    "buttons": [
+      {
+        "title": "heading1",
+        "action": {
+          "type": "text",
+          "text": "https://raw.githubusercontent.com/sdtestersd/test/master/markdown/markdown_true_heading.json?sdkRender=true"
+        }
+      },
+      {
+        "title": "heading2",
+        "action": {
+          "type": "text",
+          "text": "https://raw.githubusercontent.com/sdtestersd/test/master/markdown/markdown_true_heading2.json?sdkRender=true"
+        }
+      },
+      {
+        "title": "list1",
+        "action": {
+          "type": "text",
+          "text": "https://raw.githubusercontent.com/sdtestersd/test/master/markdown/markdown_true_list1.json?sdkRender=true"
+        }
+      },
+      {
+        "title": "list2",
+        "action": {
+          "type": "text",
+          "text": "https://raw.githubusercontent.com/sdtestersd/test/master/markdown/markdown_true_list2.json?sdkRender=true"
+        }
+      },
+      {
+        "title": "bold",
+        "action": {
+          "type": "text",
+          "text": "https://raw.githubusercontent.com/sdtestersd/test/master/markdown/markdown_true_bold.json?sdkRender=true"
+        }
+      }
+    ]
+  }
+}
