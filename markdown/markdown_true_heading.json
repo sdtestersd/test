@@ -2,7 +2,7 @@
   "items": [
     {
       "bubble": {
-        "text": "За # месяц ## вы ### потратили #### 56050 ##### руб ###### 00 копеек",
+        "text": "n# месяц\n## вы\n### потратили\n#### 56050",
         "markdown": true
       }
     }
@@ -10,10 +10,38 @@
   "suggestions": {
     "buttons": [
       {
-        "title": "Расскажи шутку",
+        "title": "heading1",
         "action": {
           "type": "text",
-          "text": "Расскажи шутку"
+          "text": "https://raw.githubusercontent.com/sdtestersd/test/master/markdown/markdown_true_heading.json?sdkRender=true"
+        }
+      },
+      {
+        "title": "heading2",
+        "action": {
+          "type": "text",
+          "text": "https://raw.githubusercontent.com/sdtestersd/test/master/markdown/markdown_true_heading2.json?sdkRender=true"
+        }
+      },
+      {
+        "title": "list1",
+        "action": {
+          "type": "text",
+          "text": "https://raw.githubusercontent.com/sdtestersd/test/master/markdown/markdown_true_list1.json?sdkRender=true"
+        }
+      },
+      {
+        "title": "list2",
+        "action": {
+          "type": "text",
+          "text": "https://raw.githubusercontent.com/sdtestersd/test/master/markdown/markdown_true_list2.json?sdkRender=true"
+        }
+      },
+      {
+        "title": "bold",
+        "action": {
+          "type": "text",
+          "text": "https://raw.githubusercontent.com/sdtestersd/test/master/markdown/markdown_true_bold.json?sdkRender=true"
         }
       }
     ]
