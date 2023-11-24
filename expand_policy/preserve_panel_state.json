@@ -1,0 +1,57 @@
+{
+  "expand_policy": "preserve_panel_state",
+  "items": [
+    {
+      "bubble": {
+        "text": "auto_expand - Если текст помещается в США, то он отобразится в ней, без разворачивания Шторки Ассистента. force_expand - РАША развернется принудительно. preserve_panel_state -  Если сейчас США, то текст отобразится в США, не зависимо от размера текста. Если приходит карточка, то она не отобразится в США",
+        "markdown": true
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "text_cell_view",
+              "typeface": "footnote1",
+              "text_color": "default",
+              "actions": [
+                {
+                  "type": "text",
+                  "text": "actions text_cell_view"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "suggestions": {
+    "buttons": [
+      {
+        "title": "preserve_panel_state",
+        "action": {
+          "type": "text",
+          "text": "https://raw.githubusercontent.com/sdtestersd/test/master/expand_policy/preserve_panel_state.json?sdkRender=true"
+        }
+      },
+      {
+        "title": "auto_expand",
+        "action": {
+          "type": "text",
+          "text": "https://raw.githubusercontent.com/sdtestersd/test/master/expand_policy/auto_expand.json?sdkRender=true"
+        }
+      },
+      {
+        "title": "force_expand",
+        "action": {
+          "type": "text",
+          "text": "https://raw.githubusercontent.com/sdtestersd/test/master/expand_policy/force_expand.json?sdkRender=true"
+        }
+      }
+    ]
+  }
+}
