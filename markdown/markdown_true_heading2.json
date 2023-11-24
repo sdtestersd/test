@@ -1,0 +1,51 @@
+{
+  "expand_policy": "preserve_panel_state",
+  "items": [
+    {
+      "bubble": {
+        "text": "#####Чтобы сэкономить деньги лучше всего подойдет наш продукт\n###### Генеральная лицензия на осуществление рекламной деятельности №123457689398 ПАО СберБанк России",
+        "markdown": true,
+        "expand_policy": "preserve_panel_state"
+      }
+    }
+  ],
+  "suggestions": {
+    "buttons": [
+      {
+        "title": "heading1",
+        "action": {
+          "type": "text",
+          "text": "https://raw.githubusercontent.com/sdtestersd/test/master/markdown/markdown_true_heading.json?sdkRender=true"
+        }
+      },
+      {
+        "title": "heading2",
+        "action": {
+          "type": "text",
+          "text": "https://raw.githubusercontent.com/sdtestersd/test/master/markdown/markdown_true_heading2.json?sdkRender=true"
+        }
+      },
+      {
+        "title": "list1",
+        "action": {
+          "type": "text",
+          "text": "https://raw.githubusercontent.com/sdtestersd/test/master/markdown/markdown_true_list1.json?sdkRender=true"
+        }
+      },
+      {
+        "title": "list2",
+        "action": {
+          "type": "text",
+          "text": "https://raw.githubusercontent.com/sdtestersd/test/master/markdown/markdown_true_list2.json?sdkRender=true"
+        }
+      },
+      {
+        "title": "bold",
+        "action": {
+          "type": "text",
+          "text": "https://raw.githubusercontent.com/sdtestersd/test/master/markdown/markdown_true_bold.json?sdkRender=true"
+        }
+      }
+    ]
+  }
+}
