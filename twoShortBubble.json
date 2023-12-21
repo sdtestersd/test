@@ -1,0 +1,180 @@
+{
+  "items": [
+    {
+      "bubble": {
+        "text": "Хм, похоже, у тебя нет никаких обязательств! Даже скучно… "
+      }
+    },
+    {
+      "bubble": {
+        "text": "Могу рассказать, сколько у тебя сейчас денег, или показать расходы. Только спроси!"
+      }
+    }
+  ],
+  "suggestions": {
+    "buttons": [
+      {
+        "title": "Запланировать траты",
+        "actions": [
+          {
+            "type": "server_action",
+            "message_name": "RUN_APP",
+            "server_action": {
+              "action_id": "run_app",
+              "app_info": {
+                "systemName": "fin_advisor"
+              },
+              "parameters": {
+                "intent": "create_custom_payment",
+                "scenario": "create_custom_payment"
+              }
+            }
+          },
+          {
+            "text": "Запланировать траты",
+            "type": "text",
+            "should_send_to_backend": false
+          }
+        ]
+      },
+      {
+        "title": "Финансы",
+        "actions": [
+          {
+            "type": "server_action",
+            "message_name": "RUN_APP",
+            "server_action": {
+              "action_id": "run_app",
+              "app_info": {
+                "systemName": "fin_advisor"
+              },
+              "parameters": {
+                "intent": "pfm_my_finance"
+              }
+            }
+          },
+          {
+            "text": "Мои финансовые дела",
+            "type": "text",
+            "should_send_to_backend": false
+          }
+        ]
+      },
+      {
+        "title": "Расходы",
+        "actions": [
+          {
+            "type": "server_action",
+            "message_name": "RUN_APP",
+            "server_action": {
+              "action_id": "run_app",
+              "app_info": {
+                "systemName": "fin_advisor"
+              },
+              "parameters": {
+                "intent": "pfm_my_expenses"
+              }
+            }
+          },
+          {
+            "text": "Мои расходы",
+            "type": "text",
+            "should_send_to_backend": false
+          }
+        ]
+      },
+      {
+        "title": "Доходы",
+        "actions": [
+          {
+            "type": "server_action",
+            "message_name": "RUN_APP",
+            "server_action": {
+              "action_id": "run_app",
+              "app_info": {
+                "systemName": "fin_advisor"
+              },
+              "parameters": {
+                "intent": "pfm_my_income"
+              }
+            }
+          },
+          {
+            "text": "Мои доходы",
+            "type": "text",
+            "should_send_to_backend": false
+          }
+        ]
+      },
+      {
+        "title": "Операции",
+        "actions": [
+          {
+            "type": "server_action",
+            "message_name": "RUN_APP",
+            "server_action": {
+              "action_id": "run_app",
+              "app_info": {
+                "systemName": "fin_advisor"
+              },
+              "parameters": {
+                "intent": "pfm_operations_history"
+              }
+            }
+          },
+          {
+            "text": "Операции",
+            "type": "text",
+            "should_send_to_backend": false
+          }
+        ]
+      },
+      {
+        "title": "Всего средств",
+        "actions": [
+          {
+            "type": "server_action",
+            "message_name": "RUN_APP",
+            "server_action": {
+              "action_id": "run_app",
+              "app_info": {
+                "systemName": "fin_advisor"
+              },
+              "parameters": {
+                "intent": "pfm_total_finance"
+              }
+            }
+          },
+          {
+            "text": "Сколько у меня денег",
+            "type": "text",
+            "should_send_to_backend": false
+          }
+        ]
+      },
+      {
+        "title": "Подписки",
+        "actions": [
+          {
+            "type": "server_action",
+            "message_name": "RUN_APP",
+            "server_action": {
+              "action_id": "run_app",
+              "app_info": {
+                "systemName": "fin_advisor"
+              },
+              "parameters": {
+                "intent": "pfm_my_subscriptions"
+              }
+            }
+          },
+          {
+            "text": "Мои подписки",
+            "type": "text",
+            "should_send_to_backend": false
+          }
+        ]
+      }
+    ]
+  }
+}
