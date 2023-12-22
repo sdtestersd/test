@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "bubble": {
+        "expand_policy": "auto_expand",
+        "markdown": true,
+        "text": "Почти готово. Проверьте данные и скажите «Подтверждаю» или «Отменить»."
+      }
+    },
+    {
+      "card": {
+        "event_to_actions": {
+          "back": {
+            "actions": [
+              {
+                "should_send_to_backend": false,
+                "text": "В начало",
+                "type": "text"
+              },
+              {
+                "message_name": "SERVER_ACTION",
+                "server_action": {
+                  "action_id": "back",
+                  "parameters": {}
+                },
+                "type": "server_action"
+              }
+            ]
+          },
+          "next": {
+            "actions": [
+              {
+                "should_send_to_backend": false,
+                "text": "Подтверждаю",
+                "type": "text"
+              },
+              {
+                "message_name": "SERVER_ACTION",
+                "server_action": {
+                  "action_id": "next",
+                  "parameters": {}
+                },
+                "type": "server_action"
+              }
+            ]
+          }
+        },
+        "payload": {
+          "body": {
+            "flow": "confirmClientIb",
+            "history": [
+              {
+                "flow": "confirmClientIb",
+                "flowId": 4,
+                "id": "f7b71773-cc3f-11ec-8d59-65a213fcf260",
+                "state": "confirmButtonState",
+                "status": "ACTIVE",
+                "title": ""
+              },
+              {
+                "flow": "confirmClientIb",
+                "flowId": 4,
+                "id": "f7b40a31-cc3f-11ec-8d59-6f45d44df50b",
+                "state": "rollback",
+                "status": "ACTIVE",
+                "title": "Переход",
+                "value": ""
+              },
+              {
+                "flow": "sbolDepositOpenFlowMobile",
+                "flowId": 1,
+                "id": "f74605db-cc3f-11ec-ba9b-fd5859a5272a",
+                "state": "confirm",
+                "status": "ACTIVE",
+                "title": "CONFIRM"
+              }
+            ],
+            "output": {
+              "references": {
+                "ed43f8318f84a3435a86a1462f7ad8a736": {
+                  "items": [
+                    {
+                      "properties": {},
+                      "title": "fraud",
+                      "value": "/bh-confirmation/v3/api/fraud?uuid=e51a4fb2-edb8-40ff-85c2-90faf8042161&documentId=ed43f8318f84a3435a86a1462f7ad8a736"
+                    },
+                    {
+                      "properties": {},
+                      "title": "document",
+                      "value": "/bh-confirmation/v3/api/documents?uuid=e51a4fb2-edb8-40ff-85c2-90faf8042161&documentId=ed43f8318f84a3435a86a1462f7ad8a736"
+                    }
+                  ],
+                  "properties": {}
+                }
+              },
+              "screens": [
+                {
+                  "description": "",
+                  "footer": [
+                    {
+                      "description": "Подтверждая, вы соглашаетесь с документами",
+                      "events": [
+                        {
+                          "cmd": "EVENT",
+                          "name": "next",
+                          "title": "Продолжить",
+                          "type": "next"
+                        }
+                      ],
+                      "fields": [
+                        {
+                          "id": "agreement",
+                          "readonly": false,
+                          "referenceId": "",
+                          "title": "Я соглашаюсь с условиями и подписываю <a>Договор о счёте</a>",
+                          "type": "checkbox",
+                          "validators": [
+                            {
+                              "message": "Пожалуйста, подтвердите условия по операции",
+                              "type": "required",
+                              "value": "true"
+                            }
+                          ],
+                          "value": "false"
+                        },
+                        {
+                          "id": "ed43f8318f84a3435a86a1462f7ad8a736",
+                          "readonly": true,
+                          "referenceId": "ed43f8318f84a3435a86a1462f7ad8a736",
+                          "title": "Договор о счёте",
+                          "type": "text",
+                          "value": ""
+                        }
+                      ],
+                      "properties": {
+                        "channelName": "MOB_BANK",
+                        "operationName": "Открытие вкладасчта",
+                        "pinned": true,
+                        "secondStateTitle": "Документы по операции",
+                        "titleWithLink": "Я соглашаюсь с условиями и подписываю <a>Договор о счёте</a>"
+                      },
+                      "title": "Ознакомление с <a>документами</a>",
+                      "type": "ConfirmationSummaryPdfDocuments"
+                    },
+                    {
+                      "events": [
+                        {
+                          "name": "next",
+                          "title": "Подтвердить",
+                          "type": "next"
+                        }
+                      ],
+                      "fields": [],
+                      "type": "CoreButtons"
+                    }
+                  ],
+                  "header": [
+                    {
+                      "events": [
+                        {
+                          "cmd": "ROLLBACK",
+                          "name": "back"
+                        }
+                      ],
+                      "title": "Подтверждение",
+                      "type": "CoreNavBar"
+                    }
+                  ],
+                  "properties": {
+                    "eventForAnalytic": "ConfirmTerms",
+                    "paramsForAnalytic": [
+                      "currency:RUB",
+                      "depositID:310_116"
+                    ]
+                  },
+                  "title": "Подтверждение",
+                  "widgets": [
+                    {
+                      "fields": [
+                        {
+                          "description": "",
+                          "id": "name",
+                          "masked": false,
+                          "readonly": true,
+                          "referenceId": "",
+                          "style": "noIcon",
+                          "title": "Название",
+                          "type": "text",
+                          "value": "Накопительный счёт"
+                        },
+                        {
+                          "description": "",
+                          "id": "currency",
+                          "masked": false,
+                          "readonly": true,
+                          "referenceId": "",
+                          "style": "noIcon",
+                          "title": "Валюта",
+                          "type": "text",
+                          "value": "Рубль"
+                        },
+                        {
+                          "description": "Для минимального остатка от 3 000 до 1 000 000 ₽. На сумму меньше 3 000 и свыше 1 000 000 ₽ ставка 0,01%",
+                          "id": "rate",
+                          "masked": false,
+                          "readonly": true,
+                          "referenceId": "",
+                          "style": "noIcon",
+                          "title": "Ставка",
+                          "type": "text",
+                          "value": "12%"
+                        },
+                        {
+                          "description": "",
+                          "id": "income_withdraw",
+                          "masked": false,
+                          "readonly": true,
+                          "referenceId": "",
+                          "style": "noIcon",
+                          "title": "Пополнение и снятие",
+                          "type": "text",
+                          "value": "В любое время без ограничений"
+                        },
+                        {
+                          "description": "",
+                          "id": "prolongation",
+                          "masked": false,
+                          "readonly": true,
+                          "referenceId": "",
+                          "style": "noIcon",
+                          "title": "Проценты выплачиваются",
+                          "type": "text",
+                          "value": "На счёт"
+                        }
+                      ],
+                      "properties": {
+                        "divider": true
+                      },
+                      "type": "CoreFieldset"
+                    },
+                    {
+                      "fields": [
+                        {
+                          "description": "",
+                          "id": "content0",
+                          "masked": false,
+                          "readonly": true,
+                          "referenceId": "",
+                          "style": "noIcon",
+                          "title": "Периодичность выплаты процентов",
+                          "type": "text",
+                          "value": "Каждый месяц"
+                        }
+                      ],
+                      "properties": {
+                        "divider": true
+                      },
+                      "type": "CoreFieldset"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pid": "f5614013-cc3f-11ec-ba9b-bf3da1c05761",
+            "result": "SUCCESS",
+            "state": "confirmButtonState"
+          },
+          "success": true
+        },
+        "type": "workflow"
+      }
+    }
+  ]
+}
