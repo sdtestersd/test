@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "bubble": {
+        "expand_policy": "auto_expand",
+        "markdown": true,
+        "text": "Хорошо! Скажи сумму, имя контакта или телефон, кому переводить или выбери из недавних получателей"
+      }
+    },
+    {
+      "card": {
+        "contacts": [
+          {
+            "action": {
+              "send_contact_phone": 11,
+              "template": "Elena Elenaaaaa\n[[placeholder]]"
+            },
+            "id": 11
+          },
+          {
+            "action": {
+              "send_contact_phone": 12,
+              "template": "Станислав Арендадатель Сиреневый П-р 5/6  Подьезд 10 111\n[[placeholder]]"
+            },
+            "id": 12
+          },
+          {
+            "action": {
+              "send_contact_phone": 13,
+              "template": "Sergey Сергей\n[[placeholder]]"
+            },
+            "id": 13
+          }
+        ],
+        "title": "Недавние получатели",
+        "type": "p2p_contact_selection"
+      }
+    }
+  ]
+}
