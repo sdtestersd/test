@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "actions": [
+              {
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "replenishment_brokerage_accounts"
+                  },
+                  "parameters": {
+                    "choice": "show_input_sum_ba",
+                    "input_sum_again": "1"
+                  }
+                },
+                "type": "server_action"
+              }
+            ],
+            "left": {
+              "icon": {
+                "address": {
+                  "hash": "5497e7e8f8d3120d8bbe6808828f3bfc",
+                  "type": "url",
+                  "url": "https://cdn.sberdevices.ru/VA/images/moneybag.png"
+                },
+                "margins": {
+                  "bottom": "0x",
+                  "left": "0x",
+                  "right": "6x",
+                  "top": "0x"
+                },
+                "rounded_corners": "circle",
+                "size": {
+                  "height": "medium",
+                  "width": "medium"
+                }
+              },
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "caption": {
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "0x"
+                  },
+                  "max_lines": 0,
+                  "text": "Комиссия 0 ₽",
+                  "text_color": "secondary",
+                  "typeface": "footnote1"
+                },
+                "title": {
+                  "margins": {
+                    "bottom": "1x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "0x"
+                  },
+                  "max_lines": 0,
+                  "text": "1 000,00 ₽ ",
+                  "text_color": "default",
+                  "typeface": "body1"
+                }
+              },
+              "type": "simple_left_view"
+            },
+            "paddings": {
+              "bottom": "8x",
+              "left": "8x",
+              "right": "4x",
+              "top": "0x"
+            },
+            "right": {
+              "items": [],
+              "margins": {
+                "bottom": "6x",
+                "left": "0x",
+                "right": "0x",
+                "top": "0x"
+              },
+              "type": "disclosure_right_view"
+            },
+            "type": "left_right_cell_view"
+          }
+        ]
+      }
+    }
+  ]
+}
