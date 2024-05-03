@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "content": {
+              "plasma_button": {
+                "actions": [
+                  {
+                    "should_send_to_backend": false,
+                    "text": "Пополнить",
+                    "type": "text"
+                  },
+                  {
+                    "message_name": "RUN_APP",
+                    "server_action": {
+                      "action_id": "run_app",
+                      "app_info": {
+                        "systemName": "replenishment_brokerage_accounts"
+                      },
+                      "parameters": {
+                        "choice": "post_replenishment_operation"
+                      }
+                    },
+                    "type": "server_action"
+                  }
+                ],
+                "style": "primary",
+                "text": "Пополнить"
+              }
+            },
+            "paddings": {
+              "bottom": "8x",
+              "left": "8x",
+              "right": "8x",
+              "top": "6x"
+            },
+            "type": "button_cell_view"
+          }
+        ]
+      }
+    }
+  ]
+}
