@@ -1,0 +1,62 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "actions": [
+              {
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "replenishment_brokerage_accounts"
+                  },
+                  "parameters": {
+                    "choice": "show_ba_list"
+                  }
+                },
+                "type": "server_action"
+              }
+            ],
+            "left": {
+              "texts": {
+                "title": {
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "16x",
+                    "right": "0x",
+                    "top": "0x"
+                  },
+                  "max_lines": 0,
+                  "text": "Счёт пополнения",
+                  "text_color": "secondary",
+                  "typeface": "footnote1"
+                }
+              },
+              "type": "simple_left_view"
+            },
+            "paddings": {
+              "bottom": "0x",
+              "left": "16x",
+              "right": "0x",
+              "top": "0x"
+            },
+            "right": {
+              "items": [],
+              "margins": {
+                "bottom": "0x",
+                "left": "0x",
+                "right": "4x",
+                "top": "0x"
+              },
+              "type": "disclosure_right_view"
+            },
+            "type": "left_right_cell_view"
+          }
+        ]
+      }
+    }
+  ]
+}
