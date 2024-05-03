@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "left": {
+              "texts": {
+                "title": {
+                  "margins": {
+                    "bottom": "0x",
+                    "left": "0x",
+                    "right": "0x",
+                    "top": "0x"
+                  },
+                  "max_lines": 0,
+                  "text": "Пополнение брокерского счёта",
+                  "text_color": "default",
+                  "typeface": "headline3"
+                }
+              },
+              "type": "simple_left_view"
+            },
+            "paddings": {
+              "bottom": "8x",
+              "left": "8x",
+              "right": "8x",
+              "top": "8x"
+            },
+            "right": {
+              "items": [],
+              "type": "right_cell_array_view"
+            },
+            "type": "left_right_cell_view"
+          }
+        ]
+      }
+    }
+  ]
+}
