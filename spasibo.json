@@ -1,4 +1,5 @@
 {
+  "items": [{
 	"card": {
 		"cells": [{
 			"left": {
@@ -101,3 +102,4 @@
 		"type": "list_card"
 	}
 }
+  ]}
