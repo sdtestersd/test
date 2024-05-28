@@ -1,562 +1,468 @@
 {
-  "messageId": 1716890021,
-  "sessionId": "cea3108e-6a28-38a2-9233-ae0f58cda178",
-  "messageName": "ANSWER_TO_USER",
-  "payload": {
-    "items": [
-      {
-        "card": {
-          "type": "list_card",
-          "cells": [
-            {
-              "type": "left_right_cell_view",
-              "left": {
-                "type": "simple_left_view",
-                "texts": {
-                  "title": {
-                    "text": "Брокерские счета",
-                    "typeface": "headline3",
-                    "text_color": "default",
-                    "max_lines": 0,
-                    "margins": {
-                      "left": "0x",
-                      "top": "0x",
-                      "right": "0x",
-                      "bottom": "0x"
-                    }
-                  }
-                }
-              },
-              "right": {
-                "type": "right_cell_array_view",
-                "items": []
-              },
-              "paddings": {
-                "left": "8x",
-                "top": "8x",
-                "right": "8x",
-                "bottom": "6x"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "left": {
-                "type": "simple_left_view",
-                "texts": {
-                  "title": {
-                    "text": "ИИС 403C611",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 0,
-                    "margins": {
-                      "left": "0x",
-                      "top": "0x",
-                      "right": "0x",
-                      "bottom": "1x"
-                    }
-                  },
-                  "subtitle": {
-                    "text": "Тариф Инвестиционный",
-                    "typeface": "footnote1",
-                    "text_color": "secondary",
-                    "max_lines": 0,
-                    "margins": {
-                      "left": "0x",
-                      "top": "0x",
-                      "right": "0x",
-                      "bottom": "0x"
-                    }
-                  }
-                },
-                "icon": {
-                  "address": {
-                    "type": "url",
-                    "url": "https://cdn.sberdevices.ru/VA/images/icons/ic_36_case_diagramv_green.png",
-                    "hash": "089e9c69222b82793b9c99d8e82e7aca"
-                  },
-                  "rounded_corners": "circle",
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Брокерские счета",
+                  "typeface": "headline3",
+                  "text_color": "default",
+                  "max_lines": 0,
                   "margins": {
                     "left": "0x",
                     "top": "0x",
-                    "right": "6x",
+                    "right": "0x",
                     "bottom": "0x"
                   }
-                },
-                "icon_vertical_gravity": "center"
-              },
-              "right": {
-                "type": "right_cell_array_view",
-                "items": [
-                  {
-                    "type": "detail_right_view",
-                    "vertical_gravity": "top",
-                    "margins": {
-                      "left": "0x",
-                      "top": "0x",
-                      "right": "0x",
-                      "bottom": "1x"
-                    },
-                    "detail": {
-                      "text": "0 ₽ ",
-                      "typeface": "body1",
-                      "text_color": "default",
-                      "max_lines": 0,
-                      "alignment": "right"
-                    },
-                    "detail_position": "top"
-                  },
-                  {
-                    "type": "disclosure_right_view",
-                    "margins": {
-                      "left": "0x",
-                      "top": "0x",
-                      "right": "0x",
-                      "bottom": "3x"
-                    }
-                  }
-                ]
-              },
-              "paddings": {
-                "left": "8x",
-                "top": "6x",
-                "right": "8x",
-                "bottom": "6x"
-              },
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              },
-              "actions": [
-                {
-                  "type": "text",
+                }
+              }
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "items": []
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "6x"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
                   "text": "ИИС 403C611",
-                  "should_send_to_backend": false
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "1x"
+                  }
+                },
+                "subtitle": {
+                  "text": "Тариф Инвестиционный",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "0x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://cdn.sberdevices.ru/VA/images/icons/ic_36_case_diagramv_green.png",
+                  "hash": "089e9c69222b82793b9c99d8e82e7aca"
+                },
+                "rounded_corners": "circle",
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "left": "0x",
+                  "top": "0x",
+                  "right": "6x",
+                  "bottom": "0x"
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "vertical_gravity": "top",
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "1x"
+                  },
+                  "detail": {
+                    "text": "0 ₽ ",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "alignment": "right"
+                  },
+                  "detail_position": "top"
                 },
                 {
-                  "type": "server_action",
-                  "message_name": "RUN_APP",
-                  "server_action": {
-                    "action_id": "run_app",
-                    "app_info": {
-                      "systemName": "info_about_brokerage_account"
-                    },
-                    "parameters": {
-                      "choice": "show_my_tariff_chosen",
-                      "contract_chosen": "403C611"
-                    }
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "3x"
                   }
                 }
               ]
             },
-            {
-              "type": "left_right_cell_view",
-              "left": {
-                "type": "simple_left_view",
-                "texts": {
-                  "title": {
-                    "text": "Счёт 403C6",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 0,
-                    "margins": {
-                      "left": "0x",
-                      "top": "0x",
-                      "right": "0x",
-                      "bottom": "1x"
-                    }
+            "paddings": {
+              "left": "8x",
+              "top": "6x",
+              "right": "8x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "ИИС 403C611",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "info_about_brokerage_account"
                   },
-                  "subtitle": {
-                    "text": "Тариф Самостоятельный",
-                    "typeface": "footnote1",
-                    "text_color": "secondary",
-                    "max_lines": 0,
-                    "margins": {
-                      "left": "0x",
-                      "top": "0x",
-                      "right": "0x",
-                      "bottom": "0x"
-                    }
+                  "parameters": {
+                    "choice": "show_my_tariff_chosen",
+                    "contract_chosen": "403C611"
                   }
-                },
-                "icon": {
-                  "address": {
-                    "type": "url",
-                    "url": "https://cdn.sberdevices.ru/VA/images/icons/ic_36_case_diagramv_green.png",
-                    "hash": "089e9c69222b82793b9c99d8e82e7aca"
-                  },
-                  "rounded_corners": "circle",
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "left": "0x",
-                    "top": "0x",
-                    "right": "6x",
-                    "bottom": "0x"
-                  }
-                },
-                "icon_vertical_gravity": "center"
-              },
-              "right": {
-                "type": "right_cell_array_view",
-                "items": [
-                  {
-                    "type": "detail_right_view",
-                    "vertical_gravity": "top",
-                    "margins": {
-                      "left": "0x",
-                      "top": "0x",
-                      "right": "0x",
-                      "bottom": "1x"
-                    },
-                    "detail": {
-                      "text": "-",
-                      "typeface": "body1",
-                      "text_color": "default",
-                      "max_lines": 0,
-                      "alignment": "right"
-                    },
-                    "detail_position": "top"
-                  },
-                  {
-                    "type": "disclosure_right_view",
-                    "margins": {
-                      "left": "0x",
-                      "top": "0x",
-                      "right": "0x",
-                      "bottom": "3x"
-                    }
-                  }
-                ]
-              },
-              "paddings": {
-                "left": "8x",
-                "top": "6x",
-                "right": "8x",
-                "bottom": "6x"
-              },
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              },
-              "actions": [
-                {
-                  "type": "text",
+                }
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
                   "text": "Счёт 403C6",
-                  "should_send_to_backend": false
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "1x"
+                  }
                 },
-                {
-                  "type": "server_action",
-                  "message_name": "RUN_APP",
-                  "server_action": {
-                    "action_id": "run_app",
-                    "app_info": {
-                      "systemName": "info_about_brokerage_account"
-                    },
-                    "parameters": {
-                      "choice": "show_my_tariff_chosen",
-                      "contract_chosen": "403C6"
-                    }
+                "subtitle": {
+                  "text": "Тариф Самостоятельный",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "0x"
                   }
                 }
-              ]
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://cdn.sberdevices.ru/VA/images/icons/ic_36_case_diagramv_green.png",
+                  "hash": "089e9c69222b82793b9c99d8e82e7aca"
+                },
+                "rounded_corners": "circle",
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "left": "0x",
+                  "top": "0x",
+                  "right": "6x",
+                  "bottom": "0x"
+                }
+              },
+              "icon_vertical_gravity": "center"
             },
-            {
-              "type": "left_right_cell_view",
-              "left": {
-                "type": "simple_left_view",
-                "texts": {
-                  "title": {
-                    "text": "ИИС 403C6X3",
+            "right": {
+              "type": "right_cell_array_view",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "vertical_gravity": "top",
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "1x"
+                  },
+                  "detail": {
+                    "text": "-",
                     "typeface": "body1",
                     "text_color": "default",
                     "max_lines": 0,
-                    "margins": {
-                      "left": "0x",
-                      "top": "0x",
-                      "right": "0x",
-                      "bottom": "1x"
-                    }
+                    "alignment": "right"
                   },
-                  "subtitle": {
-                    "text": "Тариф Инвестиционный",
-                    "typeface": "footnote1",
-                    "text_color": "secondary",
-                    "max_lines": 0,
-                    "margins": {
-                      "left": "0x",
-                      "top": "0x",
-                      "right": "0x",
-                      "bottom": "0x"
-                    }
-                  }
+                  "detail_position": "top"
                 },
-                "icon": {
-                  "address": {
-                    "type": "url",
-                    "url": "https://cdn.sberdevices.ru/VA/images/icons/ic_36_case_diagramv_green.png",
-                    "hash": "089e9c69222b82793b9c99d8e82e7aca"
-                  },
-                  "rounded_corners": "circle",
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
+                {
+                  "type": "disclosure_right_view",
                   "margins": {
                     "left": "0x",
                     "top": "0x",
-                    "right": "6x",
-                    "bottom": "0x"
-                  }
-                },
-                "icon_vertical_gravity": "center"
-              },
-              "right": {
-                "type": "right_cell_array_view",
-                "items": [
-                  {
-                    "type": "detail_right_view",
-                    "vertical_gravity": "top",
-                    "margins": {
-                      "left": "0x",
-                      "top": "0x",
-                      "right": "0x",
-                      "bottom": "1x"
-                    },
-                    "detail": {
-                      "text": "-",
-                      "typeface": "body1",
-                      "text_color": "default",
-                      "max_lines": 0,
-                      "alignment": "right"
-                    },
-                    "detail_position": "top"
-                  },
-                  {
-                    "type": "disclosure_right_view",
-                    "margins": {
-                      "left": "0x",
-                      "top": "0x",
-                      "right": "0x",
-                      "bottom": "3x"
-                    }
-                  }
-                ]
-              },
-              "paddings": {
-                "left": "8x",
-                "top": "6x",
-                "right": "8x",
-                "bottom": "6x"
-              },
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              },
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "ИИС 403C6X3",
-                  "should_send_to_backend": false
-                },
-                {
-                  "type": "server_action",
-                  "message_name": "RUN_APP",
-                  "server_action": {
-                    "action_id": "run_app",
-                    "app_info": {
-                      "systemName": "info_about_brokerage_account"
-                    },
-                    "parameters": {
-                      "choice": "show_my_tariff_chosen",
-                      "contract_chosen": "403C6X3"
-                    }
+                    "right": "0x",
+                    "bottom": "3x"
                   }
                 }
               ]
             },
-            {
-              "type": "left_right_cell_view",
-              "left": {
-                "type": "simple_left_view",
-                "texts": {
-                  "title": {
-                    "text": "ИИС 403C6X8",
-                    "typeface": "body1",
-                    "text_color": "secondary",
-                    "max_lines": 0,
-                    "margins": {
-                      "left": "0x",
-                      "top": "0x",
-                      "right": "0x",
-                      "bottom": "1x"
-                    }
+            "paddings": {
+              "left": "8x",
+              "top": "6x",
+              "right": "8x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "Счёт 403C6",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "info_about_brokerage_account"
                   },
-                  "subtitle": {
-                    "text": "Тариф Инвестиционный",
-                    "typeface": "footnote1",
-                    "text_color": "secondary",
-                    "max_lines": 0,
-                    "margins": {
-                      "left": "0x",
-                      "top": "0x",
-                      "right": "0x",
-                      "bottom": "0x"
-                    }
+                  "parameters": {
+                    "choice": "show_my_tariff_chosen",
+                    "contract_chosen": "403C6"
                   }
-                },
-                "icon": {
-                  "address": {
-                    "type": "url",
-                    "url": "https://cdn.sberdevices.ru/VA/images/icons/ic_36_case_diagram_disabled_green.png",
-                    "hash": "881b5fb4491c98c31cf328bec3aacfb2"
-                  },
-                  "rounded_corners": "circle",
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
+                }
+              }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "ИИС 403C6X3",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
                   "margins": {
                     "left": "0x",
                     "top": "0x",
-                    "right": "6x",
+                    "right": "0x",
+                    "bottom": "1x"
+                  }
+                },
+                "subtitle": {
+                  "text": "Тариф Инвестиционный",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
                     "bottom": "0x"
                   }
-                },
-                "icon_vertical_gravity": "center"
+                }
               },
-              "right": {
-                "type": "right_cell_array_view",
-                "items": [
-                  {
-                    "type": "detail_right_view",
-                    "vertical_gravity": "top",
-                    "margins": {
-                      "left": "0x",
-                      "top": "0x",
-                      "right": "0x",
-                      "bottom": "1x"
-                    },
-                    "detail": {
-                      "text": "-2 350,00 ₽ ",
-                      "typeface": "body1",
-                      "text_color": "secondary",
-                      "max_lines": 0,
-                      "alignment": "right"
-                    },
-                    "detail_position": "top"
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://cdn.sberdevices.ru/VA/images/icons/ic_36_case_diagramv_green.png",
+                  "hash": "089e9c69222b82793b9c99d8e82e7aca"
+                },
+                "rounded_corners": "circle",
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "left": "0x",
+                  "top": "0x",
+                  "right": "6x",
+                  "bottom": "0x"
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "vertical_gravity": "top",
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "1x"
+                  },
+                  "detail": {
+                    "text": "-",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "alignment": "right"
+                  },
+                  "detail_position": "top"
+                },
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "3x"
                   }
-                ]
+                }
+              ]
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "6x",
+              "right": "8x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": [
+              {
+                "type": "text",
+                "text": "ИИС 403C6X3",
+                "should_send_to_backend": false
               },
-              "paddings": {
-                "left": "8x",
-                "top": "6x",
-                "right": "8x",
-                "bottom": "8x"
+              {
+                "type": "server_action",
+                "message_name": "RUN_APP",
+                "server_action": {
+                  "action_id": "run_app",
+                  "app_info": {
+                    "systemName": "info_about_brokerage_account"
+                  },
+                  "parameters": {
+                    "choice": "show_my_tariff_chosen",
+                    "contract_chosen": "403C6X3"
+                  }
+                }
               }
+            ]
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "ИИС 403C6X8",
+                  "typeface": "body1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "1x"
+                  }
+                },
+                "subtitle": {
+                  "text": "Тариф Инвестиционный",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "0x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://cdn.sberdevices.ru/VA/images/icons/ic_36_case_diagram_disabled_green.png",
+                  "hash": "881b5fb4491c98c31cf328bec3aacfb2"
+                },
+                "rounded_corners": "circle",
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "left": "0x",
+                  "top": "0x",
+                  "right": "6x",
+                  "bottom": "0x"
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "vertical_gravity": "top",
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "1x"
+                  },
+                  "detail": {
+                    "text": "-2 350,00 ₽ ",
+                    "typeface": "body1",
+                    "text_color": "secondary",
+                    "max_lines": 0,
+                    "alignment": "right"
+                  },
+                  "detail_position": "top"
+                }
+              ]
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "6x",
+              "right": "8x",
+              "bottom": "8x"
             }
-          ]
-        }
-      },
-      {
-        "bubble": {
-          "text": "Выберите, комиссии по какому счёту хотите узнать"
-        }
+          }
+        ]
       }
-    ],
-    "pronounceTextType": "application/ssml",
-    "auto_listening": false,
-    "finished": false,
-    "suggestions": {
-      "buttons": [
-        {
-          "title": "Пополнить брокерский счёт",
-          "actions": [
-            {
-              "type": "text",
-              "text": "Пополнить брокерский счёт",
-              "should_send_to_backend": false
-            },
-            {
-              "type": "server_action",
-              "message_name": "RUN_APP",
-              "server_action": {
-                "action_id": "run_app",
-                "app_info": {
-                  "systemName": "info_about_brokerage_account"
-                },
-                "parameters": {
-                  "choice": "refill_contract"
-                }
-              }
-            }
-          ]
-        },
-        {
-          "title": "Как сменить тариф?",
-          "actions": [
-            {
-              "type": "text",
-              "text": "Как сменить тариф?",
-              "should_send_to_backend": false
-            },
-            {
-              "type": "server_action",
-              "message_name": "RUN_APP",
-              "server_action": {
-                "action_id": "run_app",
-                "app_info": {
-                  "systemName": "info_about_brokerage_account"
-                },
-                "parameters": {
-                  "choice": "how_to_change_tariff"
-                }
-              }
-            }
-          ]
-        },
-        {
-          "title": "Мой брокерский портфель",
-          "actions": [
-            {
-              "type": "text",
-              "text": "Мой брокерский портфель",
-              "should_send_to_backend": false
-            },
-            {
-              "type": "server_action",
-              "message_name": "RUN_APP",
-              "server_action": {
-                "action_id": "run_app",
-                "app_info": {
-                  "systemName": "info_about_brokerage_account"
-                },
-                "parameters": {
-                  "choice": "my_brokerage_portfolio"
-                }
-              }
-            }
-          ]
-        }
-      ]
     },
-    "intent": "brokerage_faq.show_my_tariff",
-    "debug_info": {
-      "intent": "brokerage_faq",
-      "debug_info_key": "8d4f09f7-35fe-4927-bc3e-40d0ce93c38d"
-    },
-    "pronounceText": "Выберите счёт, чтобы узнать о комиссии"
-  },
-  "uuid": {
-    "userId": "9628D975-98BE-4102-93A7-C9EDA0323271",
-    "sub": "b4c7f5f98aab5fc1e08699827fe1a0113ed0a84d4ae83792c71c21521ce87a15a3028e64eea639f7",
-    "userChannel": "SBOL",
-    "sid": "ba19860a4130c6fca489f49b384e549e1b4d069fbcc7da26811614418946e0b9",
-    "uuid": "5ba9911f9ea07ef2acd37bf23921d213d80ab3e5338b1c61eac9458e14d72e35a86e3c953f793a25"
-  }
+    {
+      "bubble": {
+        "text": "Выберите, комиссии по какому счёту хотите узнать"
+      }
+    }
+  ]
 }
