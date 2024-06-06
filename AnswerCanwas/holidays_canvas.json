@@ -1,0 +1,168 @@
+{
+    "activate_app_info" : true,
+    "additional_apps_payload" : [
+
+    ],
+    "app_info" : {
+      "ageLimit" : 18,
+      "allowFastRunApp" : false,
+      "apkInfo" : {
+
+      },
+      "appearance" : {
+        "header" : {
+          "title" : "holidays_canvas"
+        }
+      },
+      "applicationId" : "9fd4c194-cdd4-4d4b-823c-8da61c4c7975",
+      "appversionId" : "036ab8e3-16e3-47a5-b2d3-acaf5865f0d5",
+      "availableOrientations" : [
+
+      ],
+      "frontendEndpoint" : "https:\/\/cntnt-canvas-ift.sberdevices.ru\/b2e_staticcontent\/8bc3f512-6136-4519-982b-014127be7129_000040",
+      "frontendStateId" : "7c60526e-49ba-4427-a8a9-52c549778a2a_9fd4c194-cdd4-4d4b-823c-8da61c4c7975_036ab8e3-16e3-47a5-b2d3-acaf5865f0d5",
+      "frontendType" : "WEB_APP",
+      "projectId" : "7c60526e-49ba-4427-a8a9-52c549778a2a",
+      "securityAccess" : {
+
+      },
+      "systemName" : "holidays_canvas"
+    },
+    "asr_hints" : {
+
+    },
+    "assistant_items" : [
+
+    ],
+    "auto_listening" : true,
+    "character" : {
+      "id" : "sber"
+    },
+    "finished" : false,
+    "intent" : "ASSISTANT_B2E_holiday",
+    "items" : [
+      {
+        "command" : {
+          "smart_app_data" : {
+            "commandName" : "holiday",
+            "commandParams" : {
+              "params" : {
+                "backButtonToExit" : true,
+                "data" : {
+                  "bg" : "world_environment_day",
+                  "birthdays" : [
+
+                  ],
+                  "color" : "white",
+                  "holiday" : "Всемирный день охраны окружающей среды",
+                  "title" : "Праздники сегодня"
+                },
+                "soundControl" : {
+                  "microfon" : true,
+                  "volume" : false
+                }
+              },
+              "screenName" : "main"
+            }
+          },
+          "type" : "smart_app_data"
+        }
+      },
+      {
+        "command" : {
+          "smart_app_data" : {
+            "commandName" : "holiday",
+            "commandParams" : {
+              "params" : {
+                "data" : {
+                  "cardTitle" : "ХОРОШЕГО ДНЯ!",
+                  "color" : "white",
+                  "holidayType" : "GD",
+                  "pictures" : [
+                    "flowers"
+                  ],
+                  "postcards" : [
+                    {
+                      "title" : "Цветы"
+                    },
+                    {
+                      "title" : "Сладости"
+                    },
+                    {
+                      "title" : "Кофе"
+                    },
+                    {
+                      "title" : "Пейзажи"
+                    },
+                    {
+                      "title" : "Животные"
+                    }
+                  ],
+                  "title" : "Хороший день"
+                },
+                "isViewing" : false,
+                "selected" : null,
+                "soundControl" : {
+                  "microfon" : true,
+                  "volume" : false
+                },
+                "toSend" : false
+              },
+              "screenName" : "holidayConfigurator"
+            }
+          },
+          "type" : "smart_app_data"
+        }
+      },
+      {
+        "command" : {
+          "smart_app_data" : {
+            "commandName" : "wrongAnswer",
+            "commandParams" : {
+              "params" : {
+                "alertSubtitle" : "Повторите свой запрос",
+                "alertTitle" : "Здесь явно какая-то неразбериха",
+                "data" : {
+                  "cardTitle" : "ХОРОШЕГО ДНЯ!",
+                  "color" : "white",
+                  "holidayType" : "GD",
+                  "pictures" : [
+                    "flowers"
+                  ],
+                  "postcards" : [
+                    {
+                      "title" : "Цветы"
+                    },
+                    {
+                      "title" : "Сладости"
+                    },
+                    {
+                      "title" : "Кофе"
+                    },
+                    {
+                      "title" : "Пейзажи"
+                    },
+                    {
+                      "title" : "Животные"
+                    }
+                  ],
+                  "title" : "Хороший день"
+                },
+                "sendAlert" : true,
+                "soundControl" : {
+                  "microfon" : true,
+                  "volume" : false
+                }
+              },
+              "screenName" : "holidayConfigurator"
+            }
+    ],
+    "projectName" : "holidays_canvas",
+    "smartBio" : {
+
+    },
+    "userSettings" : {
+
+    },
+    "voice" : "She_HQ"
+  }
