@@ -1,0 +1,121 @@
+{
+  "activate_app_info": true,
+  "additional_apps_payload": [],
+  "app_info": {
+    "affiliationType": "EXTERNAL",
+    "ageLimit": 0,
+    "allowFastRunApp": false,
+    "apkInfo": {},
+    "appearance": {
+      "header": {
+        "icon": {
+          "hash": "0974f44c6945245050680b21fae519a9",
+          "type": "url",
+          "url": "https://cdn.sberdevices.ru/static/services/target/3161c113-cf88-49db-ba8c-8cbc22921ef7/55e883b1-eca0-4a1c-92f1-1faf439ef210.png"
+        },
+        "title": "Печенье на внимание и реакцию"
+      }
+    },
+    "applicationId": "c4355dd8-39ea-4664-9716-9dc9d257307e",
+    "appversionId": "7fa3b18b-af3f-4d97-8c3a-6de615cd3c5a",
+    "availableOrientations": [],
+    "frontendEndpoint": "https://ab5ba231-3ee8-4381-9e2b-a006dc099476.static.developer.sberdevices.ru",
+    "frontendStateId": "d893e414-ae7f-4e12-bbb3-18b121fd16bc_c4355dd8-39ea-4664-9716-9dc9d257307e_7fa3b18b-af3f-4d97-8c3a-6de615cd3c5a",
+    "frontendType": "WEB_APP",
+    "nativeHeader": true,
+    "projectId": "d893e414-ae7f-4e12-bbb3-18b121fd16bc",
+    "projectName": "Печенье на внимание и реакцию",
+    "securityAccess": {},
+    "systemName": ""
+  },
+  "asr_hints": {},
+  "assistant_items": [],
+  "auto_listening": true,
+  "character": {
+    "id": "sber"
+  },
+  "debug_info": {},
+  "feature_launcher": {},
+  "install_app_info": true,
+  "intent": "run_app",
+  "items": [
+    {
+      "command": {
+        "smart_app_data": {
+          "payload": {
+            "app_info": {
+              "affiliationType": "EXTERNAL",
+              "ageLimit": 0,
+              "apkInfo": {},
+              "applicationId": "c4355dd8-39ea-4664-9716-9dc9d257307e",
+              "appversionId": "7fa3b18b-af3f-4d97-8c3a-6de615cd3c5a",
+              "frontendEndpoint": "https://ab5ba231-3ee8-4381-9e2b-a006dc099476.static.developer.sberdevices.ru",
+              "frontendType": "WEB_APP",
+              "projectId": "d893e414-ae7f-4e12-bbb3-18b121fd16bc",
+              "projectName": "Печенье на внимание и реакцию",
+              "systemName": ""
+            },
+            "device": {
+              "additionalInfo": {
+                "clientSessionId": "0d18e055-153d-44d2-b65b-cef4044dee46",
+                "host_app_id": "ru.inter.court",
+                "host_params": {},
+                "sdk_version": "24.6.2904",
+                "uiFamily": "Mobile"
+              },
+              "capabilities": {
+                "screen": {
+                  "available": true,
+                  "height": 2340,
+                  "scale_factor": 3,
+                  "width": 1080
+                }
+              },
+              "deviceId": "CF196F0C-A5B4-451D-9191-7663B421AE84",
+              "deviceManufacturer": "Apple",
+              "deviceModel": "iPhone14,4",
+              "features": {
+                "appTypes": [
+                  "DIALOG",
+                  "EMBEDDED_APP",
+                  "CHAT_APP",
+                  "WEB_APP"
+                ],
+                "clientFlags": {}
+              },
+              "platformType": "IOS",
+              "platformVersion": "17.5.1",
+              "surface": "SBOL",
+              "surfaceVersion": "15.11.0"
+            },
+            "projectName": "Печенье на внимание и реакцию",
+            "sub": "NhSw8fXS5xiR46nUQbOniaP/S1f0FAI7Xkm+IpKkVvmbUioIuRyO95D8BPHBSI/8iCVQVOBlQScNZjRh7WXkGtM7ydOKPZwot62w+tgN99XGElNVbNWUQREEhwT7BeWxOEaXhZ7DyzEHpSxFF2bvkFel50q/RRDlA7MkJxPgnhU="
+          },
+          "type": "sub"
+        },
+        "type": "smart_app_data"
+      }
+    }
+  ],
+  "header_buttons": [
+    {
+      "icon_address": {
+        "type": "url",
+        "url": "https://content.sberdevices.ru/smartmarket-smide-prod/97310/97311/EZoPmSYM4knMw9kv.png"
+      },
+      "log_id": "operator_header_button",
+      "actions": [
+        {
+          "type": "smartapp_text",
+          "smartapp_text": "действие, обрабатываемое на стороне canvas"
+        }
+      ]
+    }
+  ],
+  "projectName": "Печенье на внимание и реакцию",
+  "smartBio": {},
+  "userSettings": {
+    "initials": "СБ"
+  },
+  "voice": "She_HQ"
+}
