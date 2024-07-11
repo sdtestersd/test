@@ -1,0 +1,669 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "ИИС 403C611",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "1x"
+                  }
+                },
+                "subtitle": {
+                  "text": "Тариф Инвестиционный",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "0x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://cdn.sberdevices.ru/VA/images/icons/ic_36_case_diagramv_green.png",
+                  "hash": "089e9c69222b82793b9c99d8e82e7aca"
+                },
+                "rounded_corners": "circle",
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "left": "0x",
+                  "top": "0x",
+                  "right": "6x",
+                  "bottom": "0x"
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "vertical_gravity": "top",
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "1x"
+                  },
+                  "detail": {
+                    "text": "margins bottom 0",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "alignment": "right"
+                  },
+                  "detail_position": "top"
+                },
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "0x"
+                  }
+                }
+              ]
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "6x",
+              "right": "8x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": []
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "ИИС 403C611",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "1x"
+                  }
+                },
+                "subtitle": {
+                  "text": "Тариф Инвестиционный",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "0x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://cdn.sberdevices.ru/VA/images/icons/ic_36_case_diagramv_green.png",
+                  "hash": "089e9c69222b82793b9c99d8e82e7aca"
+                },
+                "rounded_corners": "circle",
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "left": "0x",
+                  "top": "0x",
+                  "right": "6x",
+                  "bottom": "0x"
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "vertical_gravity": "top",
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "1x"
+                  },
+                  "detail": {
+                    "text": "margins bottom 1",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "alignment": "right"
+                  },
+                  "detail_position": "top"
+                },
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "1x"
+                  }
+                }
+              ]
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "6x",
+              "right": "8x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": []
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "ИИС 403C611",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "1x"
+                  }
+                },
+                "subtitle": {
+                  "text": "Тариф Инвестиционный",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "0x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://cdn.sberdevices.ru/VA/images/icons/ic_36_case_diagramv_green.png",
+                  "hash": "089e9c69222b82793b9c99d8e82e7aca"
+                },
+                "rounded_corners": "circle",
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "left": "0x",
+                  "top": "0x",
+                  "right": "6x",
+                  "bottom": "0x"
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "vertical_gravity": "top",
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "1x"
+                  },
+                  "detail": {
+                    "text": "margins bottom 2",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "alignment": "right"
+                  },
+                  "detail_position": "top"
+                },
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "2x"
+                  }
+                }
+              ]
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "6x",
+              "right": "8x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": []
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "ИИС 403C611",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "1x"
+                  }
+                },
+                "subtitle": {
+                  "text": "Тариф Инвестиционный",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "0x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://cdn.sberdevices.ru/VA/images/icons/ic_36_case_diagramv_green.png",
+                  "hash": "089e9c69222b82793b9c99d8e82e7aca"
+                },
+                "rounded_corners": "circle",
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "left": "0x",
+                  "top": "0x",
+                  "right": "6x",
+                  "bottom": "0x"
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "vertical_gravity": "top",
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "1x"
+                  },
+                  "detail": {
+                    "text": "margins bottom 3",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "alignment": "right"
+                  },
+                  "detail_position": "top"
+                },
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "3x"
+                  }
+                }
+              ]
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "6x",
+              "right": "8x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": []
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "ИИС 403C611",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "1x"
+                  }
+                },
+                "subtitle": {
+                  "text": "Тариф Инвестиционный",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "0x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://cdn.sberdevices.ru/VA/images/icons/ic_36_case_diagramv_green.png",
+                  "hash": "089e9c69222b82793b9c99d8e82e7aca"
+                },
+                "rounded_corners": "circle",
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "left": "0x",
+                  "top": "0x",
+                  "right": "6x",
+                  "bottom": "0x"
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "vertical_gravity": "top",
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "1x"
+                  },
+                  "detail": {
+                    "text": "margins bottom 4",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "alignment": "right"
+                  },
+                  "detail_position": "top"
+                },
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "4x"
+                  }
+                }
+              ]
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "6x",
+              "right": "8x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": []
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "ИИС 403C611",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "1x"
+                  }
+                },
+                "subtitle": {
+                  "text": "Тариф Инвестиционный",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "0x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://cdn.sberdevices.ru/VA/images/icons/ic_36_case_diagramv_green.png",
+                  "hash": "089e9c69222b82793b9c99d8e82e7aca"
+                },
+                "rounded_corners": "circle",
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "left": "0x",
+                  "top": "0x",
+                  "right": "6x",
+                  "bottom": "0x"
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "vertical_gravity": "top",
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "1x"
+                  },
+                  "detail": {
+                    "text": "margins bottom 5",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "alignment": "right"
+                  },
+                  "detail_position": "top"
+                },
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "5x"
+                  }
+                }
+              ]
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "6x",
+              "right": "8x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": []
+          },
+          {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "ИИС 403C611",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "1x"
+                  }
+                },
+                "subtitle": {
+                  "text": "Тариф Инвестиционный",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 0,
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "0x"
+                  }
+                }
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://cdn.sberdevices.ru/VA/images/icons/ic_36_case_diagramv_green.png",
+                  "hash": "089e9c69222b82793b9c99d8e82e7aca"
+                },
+                "rounded_corners": "circle",
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "left": "0x",
+                  "top": "0x",
+                  "right": "6x",
+                  "bottom": "0x"
+                }
+              },
+              "icon_vertical_gravity": "center"
+            },
+            "right": {
+              "type": "right_cell_array_view",
+              "items": [
+                {
+                  "type": "detail_right_view",
+                  "vertical_gravity": "top",
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "1x"
+                  },
+                  "detail": {
+                    "text": "margins bottom 6",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 0,
+                    "alignment": "right"
+                  },
+                  "detail_position": "top"
+                },
+                {
+                  "type": "disclosure_right_view",
+                  "margins": {
+                    "left": "0x",
+                    "top": "0x",
+                    "right": "0x",
+                    "bottom": "6x"
+                  }
+                }
+              ]
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "6x",
+              "right": "8x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d5"
+            },
+            "actions": []
+          }
+        ]
+      }
+    }
+  ]
+}
