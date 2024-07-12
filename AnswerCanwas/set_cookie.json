@@ -1,0 +1,55 @@
+{
+  "additional_apps_payload": [],
+  "assistant_items": [],
+  "auto_listening": false,
+  "projectName": "Самокат",
+  "intent": "run_app",
+  "app_info": {
+    "affiliationType": "INTERNAL",
+    "ageLimit": 0,
+    "allowFastRunApp": true,
+    "apkInfo": {},
+    "appearance": {
+      "header": {
+        "icon": {
+          "hash": "247A766E96C4272B0BB9FFE39F325846",
+          "type": "url",
+          "url": "https://cdn.sberdevices.ru/catalog/images/Supermarket_icon.jpg"
+        },
+        "title": "Самокат"
+      }
+    },
+    "applicationId": "7a06903e-c0be-4dfd-89e3-c822a74de223",
+    "appversionId": "1e2c313c-be10-4a9e-8596-8f7805a3a273",
+    "availableOrientations": [],
+    "frontendEndpoint": "https://samokat.ift.app.sberdevices.ru/@mobile/shop",
+    "frontendStateId": "bf5f1916-e5b5-4aa8-aa25-32991bcbac43_7a06903e-c0be-4dfd-89e3-c822a74de223_1e2c313c-be10-4a9e-8596-8f7805a3a273",
+    "frontendType": "WEB_APP",
+    "nativeHeader": false,
+    "projectId": "bf5f1916-e5b5-4aa8-aa25-32991bcbac43",
+    "securityAccess": {},
+    "systemName": "grocery"
+  },
+  "activate_app_info": true,
+  "items": [
+    {
+      "command": {
+        "type": "set_cookie",
+        "cookie": [
+          {
+            "key": "testCookieFeature",
+            "value": "0J_QvtC70LjQvdCwLCDQtNC-0YDQvtCz0LDRjyEg0JLQvtGCINGC0LXQsdC1INGE0LXQudC6INC00LvRjyDQutGD0LrQuNGB"
+          },
+          {
+            "key": "ATHENADEV_15146",
+            "value": "test"
+          }
+        ]
+      }
+    }
+  ],
+  "voice": "She_HQ",
+  "character": {
+    "id": "sber"
+  }
+}
