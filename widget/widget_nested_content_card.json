@@ -1,0 +1,176 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "widget_nested_content_card",
+        "log_id": "logId",
+        "background_color": "#043C6B",
+        "paddings": {
+          "left": "8x",
+          "top": "0x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "header": {
+          "background_image": {
+            "url": "https://cdn.sberdevices.ru/cdn/wikipedia/Gref.png",
+            "hash": "392f529af7ccddb5ef2a99ff4e0d66aa",
+            "mask": "bottom"
+          },
+          "header_cell": {
+            "type": "left_right_cell_view",
+            "left": {
+              "type": "simple_left_view",
+              "title": {
+                "text": "Музыка",
+                "typeface": "footnote1",
+                "text_color": "default",
+                "margins": {
+                  "left": "6x",
+                  "top": "6x"
+                }
+              }
+            }
+          },
+          "height": {
+            "type": "aspect_ratio",
+            "value": 2
+          }
+        },
+        "body_cell": {
+          "type": "left_right_cell_view",
+          "paddings": {
+            "left": "8x",
+            "top": "0x",
+            "right": "8x",
+            "bottom": "2x"
+          },
+          "left": {
+            "type": "simple_left_view",
+            "texts": {
+              "title": {
+                "text": "KoЯn",
+                "typeface": "headline3",
+                "text_color": "default",
+                "max_lines": 0
+              },
+              "subtitle": {
+                "text": "Новости и факты",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "max_lines": 0,
+                "margins": {
+                  "top": "4x"
+                }
+              }
+            }
+          }
+        },
+        "nested_content": {
+          "type": "nested_content_list",
+          "list": [
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "bottom": "2x",
+                "left": "4x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon": {
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "address": {
+                    "type": "url",
+                    "url": "https://cdn.sberdevices.ru/cdn/wikipedia/Gref.png",
+                    "hash": "392f529af7ccddb5ef2a99ff4e0d66aa"
+                  }
+                },
+                "texts": {
+                  "title": {
+                    "text": "Американская ню-метал-группа, основанная в городе Бейкерсфилд в 1993 году",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "margins": {
+                      "bottom": "2x",
+                      "left": "4x"
+                    },
+                    "max_lines": 0
+                  }
+                }
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "bottom": "2x",
+                "left": "4x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon": {
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "address": {
+                    "type": "url",
+                    "url": "https://cdn.sberdevices.ru/cdn/wikipedia/Gref.png",
+                    "hash": "392f529af7ccddb5ef2a99ff4e0d66aa"
+                  }
+                },
+                "texts": {
+                  "title": {
+                    "text": "Группа стала пионером жанра ню-метал и вывела его в мейнстрим",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "margins": {
+                      "bottom": "2x",
+                      "left": "4x"
+                    },
+                    "max_lines": 0
+                  }
+                }
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "bottom": "2x",
+                "left": "4x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon": {
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "address": {
+                    "type": "url",
+                    "url": "https://cdn.sberdevices.ru/cdn/wikipedia/Gref.png",
+                    "hash": "392f529af7ccddb5ef2a99ff4e0d66aa"
+                  }
+                },
+                "texts": {
+                  "title": {
+                    "text": "4 февраля 2022 года вышел 14-ый альбом группы - Requiem",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "margins": {
+                      "bottom": "2x",
+                      "left": "4x"
+                    },
+                    "max_lines": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
