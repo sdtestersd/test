@@ -1,4 +1,6 @@
 {
+  "items": [
+      {
     "card":
     {
         "can_be_disabled": true,
@@ -311,4 +313,6 @@
             }
         ]
     }
+}
+  ]
 }
