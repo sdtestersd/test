@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "image_cell_view",
+            "content": {
+              "url": "https://va-res.online.sberbank.ru/VA/images/sao/ic_36_support_circle_dark.png",
+              "placeholder": "placeholder",
+              "height": 192
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
