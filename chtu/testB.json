@@ -1,0 +1,201 @@
+{
+   "styleType":"b",
+   "categoriesList":[
+      {
+         "categoryName":"Музыка и видео",
+         "backgroundImgUrl":"https://cdn.sberdevices.ru/chtu/Music_video.png",
+         "intents":[
+            "Включи второй канал",
+            "Открой комедии",
+            "Найди фильмы Гая Ричи",
+            "Поставь джаз",
+            "Включи радио",
+            "Какая песня играет?",
+            "Поставь джаз1",
+            "Включи радио1",
+            "Какая песня играет?1",
+            "Поставь джаз2",
+            "Включи радио2",
+            "Какая песня играет?2"
+         ],
+         "isPartial":true
+      },
+      {
+         "categoryName":"Управление контентом",
+         "backgroundImgUrl":"https://cdn.sberdevices.ru/chtu/Voice_control.png",
+         "intents":[
+            "Сделай громче",
+            "Перемотай песню на 30 секунд назад"
+         ],
+         "isPartial":true
+      },
+      {
+         "categoryName":"test.stat",
+         "backgroundImgUrl":"https://test.stat.online.sberbank.ru/VA/images/first_session/SberCat_VA2.jpg",
+         "intents":[
+            "Умножь 17 на 15",
+            "Установи таймер на полчаса",
+            "Придумай поздравление",
+            "Открой мои подписки"
+         ],
+         "isPartial":true
+      },
+      {
+         "categoryName":"psi.salute",
+         "backgroundImgUrl":"https://psi.salute.online.sberbank.ru:8443/target/uat/96114b7e-9594-45b6-992a-c8bbd6b66229/6066c1a9-5d05-4169-b0b4-01626dbfe574.jpg",
+         "intents":[
+            "Какая погода завтра в Сочи?",
+            "Какой курс юаня?",
+            "Что такое Sberboom?",
+            "Открой браузер",
+            "Включи главные новости"
+         ],
+         "isPartial":true
+      },
+      {
+         "categoryName":"Развлечения",
+         "backgroundImgUrl":"https://cdn.sberdevices.ru/chtu/Entertain_kitten.png",
+         "intents":[
+            "Нарисуй рыжего котёнка",
+            "Расскажи что-нибудь интересное",
+            "Какой сегодня праздник?",
+            "Открой Мой астролог",
+            "Найди бесплатные игры"
+         ],
+         "isPartial":true
+      },
+      {
+         "categoryName":"Для детей и родителей",
+         "backgroundImgUrl":"https://cdn.sberdevices.ru/chtu/Family_content.png",
+         "intents":[
+            "Чем занять ребёнка?",
+            "Ответы на детские вопросы",
+            "Включи детский режим",
+            "Расскажи сказку на ночь",
+            "Включи колыбельную",
+            "Запусти \"Кто говорит\""
+         ],
+         "isPartial":true
+      },
+     {
+         "categoryName":"Найти что посмотреть",
+         "intentHeader":"Найди…",
+         "backgroundImgUrl":"https://cdn.sberdevices.ru/chtu/Search_content.png",
+         "intents":[
+            "…комедии",
+            "…мультики на ютуб",
+            "…фильмы Гая Ричи",
+            "…комедии1",
+            "…мультики на ютуб1",
+            "…фильмы Гая Ричи1",
+            "…комедии2",
+            "…мультики на ютуб2",
+            "…фильмы Гая Ричи2"
+         ],
+         "isPartial":true
+      },
+      {
+         "categoryName":"Показать ТВ-каналы",
+         "intentHeader":"Включи первый канал",
+         "backgroundImgUrl":"https://cdn.sberdevices.ru/chtu/TV_channels.png",
+         "intents":[
+            "Открой программу передач",
+            "Покажи спортивные каналы",
+            "Открой программу передач1",
+            "Покажи спортивные каналы1",
+            "Открой программу передач2",
+            "Покажи спортивные каналы2",
+            "Открой программу передач3",
+            "Покажи спортивные каналы3"
+         ],
+         "isPartial":false
+      },
+      {
+         "categoryName":"test.stat.online.sberbank.ru",
+         "intentHeader":"Включи…",
+         "backgroundImgUrl":"https://test.stat.online.sberbank.ru/VA/images/first_session/SberCat_VA2.jpg",
+         "intents":[
+            "…джаз",
+            "…\"Русское радио\"",
+            "…Цоя",
+            "…колыбельную"
+         ],
+         "isPartial":true
+      },
+      {
+         "categoryName":"psi.salute.online.sberbank.ru:8443",
+         "intentHeader":"Придумай…",
+         "backgroundImgUrl":"https://psi.salute.online.sberbank.ru:8443/target/uat/96114b7e-9594-45b6-992a-c8bbd6b66229/6066c1a9-5d05-4169-b0b4-01626dbfe574.jpg",
+         "intents":[
+            "…поздравление",
+            "…стих про любовь",
+            "…план тренировки для ног"
+         ],
+         "isPartial":true
+      },
+      {
+         "categoryName":"Нарисовать картину",
+         "intentHeader":"Нарисуй…",
+         "backgroundImgUrl":"https://cdn.sberdevices.ru/chtu/Draw_picture.png",
+         "intents":[
+            "…автомобиль будущего",
+            "…цветущую сакуру",
+            "…рассвет в горах"
+         ],
+         "isPartial":true
+      },
+      {
+         "categoryName":"Развлечь ребёнка",
+         "intentHeader":"Чем занять ребёнка?",
+         "backgroundImgUrl":"https://cdn.sberdevices.ru/chtu/Entertain_child.png",
+         "intents":[
+            "Покажи ответы на детские вопросы",
+            "Включи детский режим"
+         ],
+         "isPartial":false
+      },
+      {
+         "categoryName":"Рассказать погоду",
+         "intentHeader":"Какая погода…",
+         "backgroundImgUrl":"https://cdn.sberdevices.ru/chtu/Weather.png",
+         "intents":[
+            "…на выходных?",
+            "…завтра утром?",
+            "…в Токио?"
+         ],
+         "isPartial":true
+      },
+      {
+         "categoryName":"Найти в энциклопедии",
+         "intentHeader":"Какая высота Эвереста?",
+         "backgroundImgUrl":"https://cdn.sberdevices.ru/chtu/Encyclopedia.png",
+         "intents":[
+            "Почему солнце встаёт на востоке?",
+            "Сколько живут акулы?"
+         ],
+         "isPartial":false
+      },
+      {
+         "categoryName":"Открыть приложение",
+         "intentHeader":"Открой…",
+         "backgroundImgUrl":"https://cdn.sberdevices.ru/chtu/Launch_app.png",
+         "intents":[
+            "…детскую комнату",
+            "…браузер",
+            "…Окко",
+            "…мои подписки"
+         ],
+         "isPartial":true
+      },
+      {
+         "categoryName":"Управлять голосом",
+         "intentHeader":"Поставь на паузу",
+         "backgroundImgUrl":"https://cdn.sberdevices.ru/chtu/Voice_control.png",
+         "intents":[
+            "Сделай громче",
+            "Выключи телевизор через час"
+         ],
+         "isPartial":false
+      }
+   ]
+}
