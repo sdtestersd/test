@@ -1,0 +1,126 @@
+
+{
+   "styleType":"a",
+   "categoriesList":[
+      {
+         "categoryName":"Найти что посмотреть",
+         "intentHeader":"Найди…",
+         "backgroundImgUrl":"https://cdn.sberdevices.ru/chtu/Search_content.png",
+         "intents":[
+            "…комедии",
+            "…мультики на ютуб",
+            "…фильмы Гая Ричи",
+            "…комедии1",
+            "…мультики на ютуб1",
+            "…фильмы Гая Ричи1",
+            "…комедии2",
+            "…мультики на ютуб2",
+            "…фильмы Гая Ричи2"
+         ],
+         "isPartial":true
+      },
+      {
+         "categoryName":"Показать ТВ-каналы",
+         "intentHeader":"Включи первый канал",
+         "backgroundImgUrl":"https://cdn.sberdevices.ru/chtu/TV_channels.png",
+         "intents":[
+            "Открой программу передач",
+            "Покажи спортивные каналы",
+            "Открой программу передач1",
+            "Покажи спортивные каналы1",
+            "Открой программу передач2",
+            "Покажи спортивные каналы2",
+            "Открой программу передач3",
+            "Покажи спортивные каналы3"
+         ],
+         "isPartial":false
+      },
+      {
+         "categoryName":"Включить музыку",
+         "intentHeader":"Включи…",
+         "backgroundImgUrl":"https://cdn.sberdevices.ru/chtu/Start_music.png",
+         "intents":[
+            "…джаз",
+            "…\"Русское радио\"",
+            "…Цоя",
+            "…колыбельную"
+         ],
+         "isPartial":true
+      },
+      {
+         "categoryName":"Придумать с GigaChat",
+         "intentHeader":"Придумай…",
+         "backgroundImgUrl":"https://cdn.sberdevices.ru/chtu/Invent_GigaChat.png",
+         "intents":[
+            "…поздравление",
+            "…стих про любовь",
+            "…план тренировки для ног"
+         ],
+         "isPartial":true
+      },
+      {
+         "categoryName":"Нарисовать картину",
+         "intentHeader":"Нарисуй…",
+         "backgroundImgUrl":"https://cdn.sberdevices.ru/chtu/Draw_picture.png",
+         "intents":[
+            "…автомобиль будущего",
+            "…цветущую сакуру",
+            "…рассвет в горах"
+         ],
+         "isPartial":true
+      },
+      {
+         "categoryName":"Развлечь ребёнка",
+         "intentHeader":"Чем занять ребёнка?",
+         "backgroundImgUrl":"https://cdn.sberdevices.ru/chtu/Entertain_child.png",
+         "intents":[
+            "Покажи ответы на детские вопросы",
+            "Включи детский режим"
+         ],
+         "isPartial":false
+      },
+      {
+         "categoryName":"Рассказать погоду",
+         "intentHeader":"Какая погода…",
+         "backgroundImgUrl":"https://cdn.sberdevices.ru/chtu/Weather.png",
+         "intents":[
+            "…на выходных?",
+            "…завтра утром?",
+            "…в Токио?"
+         ],
+         "isPartial":true
+      },
+      {
+         "categoryName":"Найти в энциклопедии",
+         "intentHeader":"Какая высота Эвереста?",
+         "backgroundImgUrl":"https://cdn.sberdevices.ru/chtu/Encyclopedia.png",
+         "intents":[
+            "Почему солнце встаёт на востоке?",
+            "Сколько живут акулы?"
+         ],
+         "isPartial":false
+      },
+      {
+         "categoryName":"Открыть приложение",
+         "intentHeader":"Открой…",
+         "backgroundImgUrl":"https://cdn.sberdevices.ru/chtu/Launch_app.png",
+         "intents":[
+            "…детскую комнату",
+            "…браузер",
+            "…Окко",
+            "…мои подписки"
+         ],
+         "isPartial":true
+      },
+      {
+         "categoryName":"Управлять голосом",
+         "intentHeader":"Поставь на паузу",
+         "backgroundImgUrl":"https://cdn.sberdevices.ru/chtu/Voice_control.png",
+         "intents":[
+            "Сделай громче",
+            "Выключи телевизор через час"
+         ],
+         "isPartial":false
+      }
+   ]
+}
