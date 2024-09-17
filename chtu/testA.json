@@ -1,4 +1,3 @@
-
 {
    "styleType":"a",
    "categoriesList":[
@@ -36,9 +35,9 @@
          "isPartial":false
       },
       {
-         "categoryName":"Включить музыку",
+         "categoryName":"test.stat.online.sberbank.ru",
          "intentHeader":"Включи…",
-         "backgroundImgUrl":"https://cdn.sberdevices.ru/chtu/Start_music.png",
+         "backgroundImgUrl":"https://test.stat.online.sberbank.ru/VA/images/first_session/SberCat_VA2.jpg",
          "intents":[
             "…джаз",
             "…\"Русское радио\"",
@@ -48,9 +47,9 @@
          "isPartial":true
       },
       {
-         "categoryName":"Придумать с GigaChat",
+         "categoryName":"psi.salute.online.sberbank.ru:8443",
          "intentHeader":"Придумай…",
-         "backgroundImgUrl":"https://cdn.sberdevices.ru/chtu/Invent_GigaChat.png",
+         "backgroundImgUrl":"https://psi.salute.online.sberbank.ru:8443/target/uat/96114b7e-9594-45b6-992a-c8bbd6b66229/6066c1a9-5d05-4169-b0b4-01626dbfe574.jpg",
          "intents":[
             "…поздравление",
             "…стих про любовь",
