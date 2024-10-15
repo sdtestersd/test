@@ -1,0 +1,157 @@
+{
+  "items": [
+    {
+      "card": {
+        "background_image": {
+          "url": "https://va-res.online.sberbank.ru/VA/images/launcher/backgrounds/gradient_for_offers.png"
+        },
+        "cells": [
+          {
+            "left": {
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "subtitle": {
+                  "max_lines": 2,
+                  "text": "Где искать поддержку",
+                  "text_color": "secondary",
+                  "typeface": "footnote1"
+                },
+                "title": {
+                  "text": "Чат с банком скоро переедет",
+                  "text_color": "default",
+                  "typeface": "headline3"
+                }
+              },
+              "type": "simple_left_view"
+            },
+            "paddings": {
+              "bottom": "6x",
+              "left": "7x",
+              "right": "0x",
+              "top": "6x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "content": {
+              "actions": [
+                {
+                  "deep_link": "sbolonline://offers/story?campaignId=39736&creativeId=583012",
+                  "type": "deep_link"
+                }
+              ],
+              "margins": {
+                "bottom": "6x",
+                "top": "6x"
+              },
+              "plasma_button": {
+                "actions": [
+                  {
+                    "deep_link": "sbolonline://offers/story?campaignId=39736&creativeId=583012",
+                    "type": "deep_link"
+                  }
+                ],
+                "style": "checked",
+                "text": "Подробнее"
+              },
+              "style": "default",
+              "text": "Узнать больше",
+              "type": "accept",
+              "typeface": "button2"
+            },
+            "paddings": {
+              "bottom": "6x",
+              "left": "6x",
+              "right": "6x",
+              "top": "6x"
+            },
+            "type": "button_cell_view"
+          }
+        ],
+        "log_id": "new_launcher_promo",
+        "paddings": {
+          "bottom": "2x",
+          "left": "2x",
+          "right": "2x",
+          "top": "2x"
+        },
+        "type": "list_card"
+      }
+    },
+    {
+      "card": {
+        "cells": [
+          {
+            "left": {
+              "icon_vertical_gravity": "center",
+              "texts": {
+                "subtitle": {
+                  "max_lines": 2,
+                  "text": "Где искать поддержку",
+                  "text_color": "secondary",
+                  "typeface": "footnote1"
+                },
+                "title": {
+                  "text": "Чат с банком скоро переедет",
+                  "text_color": "default",
+                  "typeface": "headline3"
+                }
+              },
+              "type": "simple_left_view"
+            },
+            "paddings": {
+              "bottom": "6x",
+              "left": "7x",
+              "right": "0x",
+              "top": "6x"
+            },
+            "type": "left_right_cell_view"
+          },
+          {
+            "content": {
+              "actions": [
+                {
+                  "deep_link": "sbolonline://offers/story?campaignId=39736&creativeId=583012",
+                  "type": "deep_link"
+                }
+              ],
+              "margins": {
+                "bottom": "6x",
+                "top": "6x"
+              },
+              "plasma_button": {
+                "actions": [
+                  {
+                    "deep_link": "sbolonline://offers/story?campaignId=39736&creativeId=583012",
+                    "type": "deep_link"
+                  }
+                ],
+                "style": "checked",
+                "text": "Подробнее"
+              },
+              "style": "default",
+              "text": "Узнать больше",
+              "type": "accept",
+              "typeface": "button2"
+            },
+            "paddings": {
+              "bottom": "6x",
+              "left": "6x",
+              "right": "6x",
+              "top": "6x"
+            },
+            "type": "button_cell_view"
+          }
+        ],
+        "log_id": "new_launcher_promo",
+        "paddings": {
+          "bottom": "2x",
+          "left": "2x",
+          "right": "2x",
+          "top": "2x"
+        },
+        "type": "list_card"
+      }
+    }
+  ]
+}
