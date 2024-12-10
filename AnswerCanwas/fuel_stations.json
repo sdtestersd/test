@@ -1,0 +1,203 @@
+{
+  "debug_info": {},
+  "additional_apps_payload": [],
+  "assistant_items": [],
+  "auto_listening": true,
+  "projectName": "Заправить Авто",
+  "intent": "fuel_stations",
+  "app_info": {
+    "projectId": "158f24bf-f9e1-4b4f-8be0-5749d80ba7c3",
+    "applicationId": "7f55bec2-4d3f-49bd-bb59-c620c51e7269",
+    "appversionId": "7c3f9448-9bd2-427e-a1e1-4e557033e0f9",
+    "systemName": "fuel_app",
+    "projectName": "Заправить Авто",
+    "frontendEndpoint": "https://fuel.prom.app.sberdevices.ru?intent=fuel_stations&userQuery=%D0%B7%D0%B0%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%D1%81%D1%8F&runAppCase=intent",
+    "frontendType": "WEB_APP",
+    "apkInfo": {},
+    "ageLimit": 18,
+    "affiliationType": "INTERNAL",
+    "frontendStateId": "158f24bf-f9e1-4b4f-8be0-5749d80ba7c3_7f55bec2-4d3f-49bd-bb59-c620c51e7269_7c3f9448-9bd2-427e-a1e1-4e557033e0f9",
+    "securityAccess": {},
+    "appearance": {
+      "header": {
+        "title": "Заправить Авто",
+        "icon": {
+          "type": "url",
+          "url": "https://cdn.sberdevices.ru/static/services/target/2ecad505-9165-4d7a-be04-47180b102ec4/e6ca08c5-1406-4e8a-9660-66ec5429e684.png",
+          "hash": "7a365aded211e5d893103f3722321303"
+        }
+      }
+    },
+    "allowFastRunApp": false,
+    "availableOrientations": [],
+    "nativeHeader": false
+  },
+  "activate_app_info": true,
+  "items": [
+    {
+      "command": {
+        "type": "smart_app_data",
+        "smart_app_data": {
+          "command": "wake_up_front",
+          "surface": "SBOL",
+          "projectId": "158f24bf-f9e1-4b4f-8be0-5749d80ba7c3",
+          "platformType": "ANDROID",
+          "character": "sber",
+          "location": {
+            "lat": 55.7999605,
+            "lon": 37.764085,
+            "accuracy": 11.932000160217285,
+            "timestamp": 1733837360991,
+            "source": "network"
+          },
+          "utc0Timestamp": 1733837371,
+          "isAbsoluteFirstUserSession": false,
+          "isUserLoggedIn": true,
+          "isEmailInProfile": true,
+          "analyticsId": "+MtLDYGpu6Vu51k15V9jVrUcQ/XQjVgRdCbwDTNkjqxIjcM1k6gKDIrO4g3JyBuXoOeOj5i5JsMPR1SgXsl+FT1vsPOrE5XlW3YuWADGJsQUj1W7dphEPNKLd2TtlYWsaG1xlOQeElWGvaBqh0uBMRETNVGUAv+SWfTFANx7fa8=",
+          "sid": "28e9a3e1c57b56c8bc139718ba7840b15e4e874c4084a06a1a9a7ae9a16148b7"
+        }
+      }
+    },
+    {
+      "command": {
+        "type": "smart_app_data",
+        "smart_app_data": {
+          "command": "READ_USER_SETTINGS",
+          "value": {
+            "maxTankVolume": 80,
+            "promoInfo": {
+              "spasiboBanner": {
+                "countViewed": 2,
+                "isHiddenByUser": false
+              },
+              "howToFuelBanner": {
+                "countViewed": 0,
+                "isHiddenByUser": false
+              }
+            },
+            "appLoader": {
+              "spasiboCount": 1
+            },
+            "userSessionsInfo": {
+              "count": 7,
+              "previousSessionTimeUTC": "Thu, 29 Aug 2024 11:08:50 GMT"
+            }
+          }
+        }
+      }
+    },
+    {
+      "command": {
+        "type": "smart_app_data",
+        "smart_app_data": {
+          "command": "GET_PROJECT_SC",
+          "x_project_id": "158f24bf-f9e1-4b4f-8be0-5749d80ba7c3",
+          "x_project_sc": "p9M6Mwsh0OKWlVqppWFjz9EVCntEWfiOOGGKfV2YXlYUQ4LgOEAxYvB7utnqdJw8"
+        }
+      }
+    },
+    {
+      "command": {
+        "type": "smart_app_data",
+        "smart_app_data": {
+          "command": "give_me_geo_info",
+          "value": {
+            "subcommand": "give_me_geo_info",
+            "data": {
+              "status": true,
+              "lat": 55.7999605,
+              "lon": 37.764085,
+              "accuracy": 11.932000160217285,
+              "timestamp": 1733837360991,
+              "geo_permission": "granted"
+            }
+          }
+        }
+      }
+    },
+    {
+      "command": {
+        "type": "smart_app_data",
+        "smart_app_data": {
+          "command": "get_frontend_flags_from_feature_launcher",
+          "allowDeeplinkPayment": true,
+          "allowDiscounts": true,
+          "allowOrderHistory": true,
+          "allowTestStation": true,
+          "allow_cache_bonus_data": true,
+          "assigned_testing_groups": [
+            "bannerIndex"
+          ],
+          "bannerIndex": true,
+          "cache_bonus_data_on_start": true,
+          "disable_override_endpoints": true,
+          "enableIntentRunAppToCatalog": true,
+          "enableLoyaltyAndSberPrime": true,
+          "enable_auto_listening_command": true,
+          "enable_summary_start": true,
+          "max_retries_of_no_match_messages": 1,
+          "send_debug_panel_from_start": true,
+          "send_memory_on_start": true,
+          "send_message_to_skill_data": true,
+          "spasiboPromotion": true,
+          "use_memory": true
+        }
+      }
+    },
+    {
+      "command": {
+        "type": "smart_app_data",
+        "smart_app_data": {
+          "command": "DEBUG_PANEL_FLAG"
+        }
+      }
+    },
+    {
+      "command": {
+        "type": "smart_app_data",
+        "smart_app_data": {
+          "command": "get_ihapi_token",
+          "status": true,
+          "token": "eyJhbGciOiJSU0EtT0FFUC0yNTYiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoic1F6QjVCV2l5NXNNakpDbVVXTVJQRi1Rdnk0SWl6NmpQdzAwNEUtTUV4OCIsInR5cCI6IkpXRSJ9.DJ4fs6wJ1E6AsV1PkEsamevEGbYZ6_T6y_hDqjeCbDWl9lNW_gw0SVTV4OrbmCvv_dVsqXc_bN818FpdU6q0hHG0nVStrlZzvHUFDo1ZSVtIq_5QjV7A6xs0Lu6kNBUntBtKj50Mzv2GDlWTeSZu8B5pTKxP291Jtj6ZBpzQ18YvXUYb1HQk08jLhLwtvh9gxTBrMp2h_xM8XvsPONtzB3RtexlRe-9EEn3hNBOePRpsL6y7L-sVRsj_w8x55lTwSffx03B6NcdM1tYJE-EuhketOJrQlAgGF3Bh0y8_fEowpeXoiMM4M0pL8zppUiWDNPLRL8aHJWkGAOXN8DX0lg.Q8pWj0LtMBTe-klzEXVjEw.RV-6rJ0xkTaPuWl-NJ_55Y1p4XOvYUjxtQHannad0u5S3SmacQiMWiXP23IW6o65E9qdu31sqx1v4k3xt2LIpmRNm2wWJ6QUH8anGPdx0s7W-2rHBhiiBhL9JjHo7lKIDU4smiSWOW6H6lvKFpFlTOV4PI9A4wx5xKADQZJk5G22VWCcXaBRHmkTyjaSADkNLowjxoat1EHcFS3MmiURF85nVM1bwimcxWO-1KE6IrWNG4mZod8erHAdoyQhNUq3qCS3p-AXp3grgzblCpxdN6bCWdzcIIOJ4BFq_1AEz_pZO5gV3T0B_AETg7H8aTuz7jxKKoaggOhQAaoa9DpzZxSq0JvCrH83Oj-yWDQeEP2DbJicAvjB7Urg4W0yBYCibRZZ9mcEiOQJWp7_atGQcHDTQ8QwcD-z49k4mjRxGLNgl6PabJoxr6LyETvZnnX6ClQM_sf5_QJoJwcJdFoqfS5ZEZMTKgWqQz1-PKy9qalHxxXbLMyakW2jjn1LqsN9t1OK2Js-BPJVkMiwtn9NyKrIs5Q9zlzL3vndKt19ncCsbbpqhytNfvO_eRWEtVjWgub5Fbafpqt5sVwjLl_Dl4iDEwC-IWY9QqDkYdARx9k-wpI0HleBUKTsiDAEuwyDD0JkaeHUWp-97yQOHjm6End5HB2va5aMy7ZWwlPe4X_oIkXwTa2yT7hphcGWoi8X4RW5T0wA4uCL0NsbAj5wghph0txBcAzKmA_2C4RNC20CInCPLPNvR7zSy0i8m4j1Af3o4GPXzlO6tYXQ1_l2d9iJrum9MP0jRZ9lhfJ-EC0PvQZNXfZxR_JZmOTcf6W5bTxRNharfX7vvH5-WbmPZhlnadKe25E4bFcnSzkutLN9XrJO1SUUWQR_5Tt4YMBoGN-H3DlzEP8pSVT_CiIgDaExljQg-RrxorZJtKkASBqKEDn3rjBFppLNEeMw536w3dK9Ii5jW7lq3dMpOIAztXgpZaxpAmPPwALo0PtlAEeUgH612Px4l7hD54z3YGB3KyIuUFxvoP6U4xRYGjJRn-NvUnXXW4OHsMMkz2o14meybZuVno9_93isJwcjnXuSVTVlEtxvVyS8oLoyJnviJWSd7p13Zid2jBUoI6W7cEIH8vtrWQt4EUwcrntUvDpFI0YYwXX0xQnLngJPYQPLi3C9r5JmSSsm9dxbI2uTYohyz3yptaieWS7U6SnggAkt3DX1Lw0k460oZSIHPJXIJQ.DEDwGTsaz8WdlzDhd6RY_3C3EJS8giOysxXskAe3sIQ",
+          "expiresTime": 1733838271000
+        }
+      }
+    },
+    {
+      "command": {
+        "type": "smart_app_data",
+        "smart_app_data": {
+          "command": "MESSAGE_TO_SKILL_DATA",
+          "messageId": 1733837341385,
+          "messageType": "voice",
+          "UCHandled": "wantToFillUp"
+        }
+      }
+    },
+    {
+      "command": {
+        "type": "smart_app_data",
+        "smart_app_data": {
+          "command": "LAUNCH_PARAMS",
+          "value": {
+            "intent": "fuel_stations",
+            "runAppCase": "intent"
+          }
+        }
+      }
+    }
+  ],
+  "asr_hints": {},
+  "smartBio": {},
+  "voice": "She_HQ",
+  "character": {
+    "id": "sber"
+  },
+  "userSettings": {
+    "initials": "АК"
+  },
+  "led_display": {},
+  "answerId": 1,
+  "last": true
+}
