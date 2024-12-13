@@ -1,0 +1,86 @@
+{
+  "additional_apps_payload": [],
+  "assistant_items": [],
+  "pronounceText": "Назовите кого-нибудь из списка контактов, блюдо, или букву Только не забудьте разрешить приложению доступ к Контактам.",
+  "auto_listening": true,
+  "projectName": "Лаборатория Речевых Технологий",
+  "intent": "run_app",
+  "app_info": {
+    "projectId": "23e35022-795c-4c95-bb63-acd285bc790c",
+    "applicationId": "74bcba88-8a0f-4c0c-a006-ed0192ea406c",
+    "appversionId": "88061038-6f35-43f5-a3f8-b5211d52232b",
+    "systemName": "",
+    "projectName": "Лаборатория Речевых Технологий",
+    "frontendEndpoint": null,
+    "frontendType": "DIALOG",
+    "apkInfo": {},
+    "ageLimit": 18,
+    "frontendStateId": "23e35022-795c-4c95-bb63-acd285bc790c_74bcba88-8a0f-4c0c-a006-ed0192ea406c_88061038-6f35-43f5-a3f8-b5211d52232b",
+    "securityAccess": {},
+    "appearance": {
+      "header": {
+        "title": "Лаборатория Речевых Технологий"
+      }
+    },
+    "allowFastRunApp": false,
+    "availableOrientations": [],
+    "nativeHeader": false
+  },
+  "activate_app_info": false,
+  "items": [
+    {
+      "bubble": {
+        "text": "Назовите кого-нибудь из списка контактов, блюдо, или букву",
+        "markdown": false
+      }
+    },
+    {
+      "bubble": {
+        "text": "Только не забудьте разрешить приложению доступ к Контактам.",
+        "markdown": false
+      }
+    }
+  ],
+  "asr_hints": {
+    "contexts": [
+      "mobile_contacts"
+    ],
+    "words": [
+      "Гуакомоле",
+      "Зуппа ди пеше",
+      "Гуакомоле",
+      "Зуппа ди пеше"
+    ],
+    "enable_letters": true
+  },
+  "suggestions": {
+    "buttons": [
+      {
+        "title": "Гуакомоле",
+        "action": {
+          "text": "Гуакомоле",
+          "type": "text"
+        }
+      },
+      {
+        "title": "Зуппа ди пеше",
+        "action": {
+          "text": "Зуппа ди пеше",
+          "type": "text"
+        }
+      }
+    ]
+  },
+  "smartBio": {},
+  "voice": "She_HQ",
+  "character": {
+    "id": "sber"
+  },
+  "userSettings": {
+    "initials": "АП"
+  },
+  "feature_launcher": {},
+  "led_display": {},
+  "answerId": 1,
+  "last": true
+}
