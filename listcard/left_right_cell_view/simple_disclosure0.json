@@ -47,7 +47,7 @@
             "actions": [
               {
                 "type": "deep_link",
-                "deep_link": "budgetonline-ios://sbolonline/insurance/services?name=travel_flights&contractId=004SB90811010419488800"
+                "deep_link": "budgetonline-ios://sbolonline/insurance/services"
               }
             ]
           }
