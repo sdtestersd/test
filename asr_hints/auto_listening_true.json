@@ -1,0 +1,100 @@
+{
+  "additional_info": "ANSWER_TO_USER",
+  "bytes": "0 bytes",
+  "last": true,
+  "system": {
+    "activate_app_info": true,
+    "additional_apps_payload": [],
+    "answerId": 1,
+    "app_info": {
+      "affiliationType": "INTERNAL",
+      "ageLimit": 0,
+      "allowFastRunApp": false,
+      "apkInfo": {},
+      "appearance": {
+        "header": {
+          "icon": {
+            "hash": "644ed406cdc3de247d390558ca388634",
+            "type": "url",
+            "url": "https://cdn.sberdevices.ru/catalog/images/boltalka_2.png"
+          },
+          "title": "Поговори с искусственным интеллектом"
+        }
+      },
+      "applicationId": "c692fd3e-b017-4e91-8129-de6bd88b941e",
+      "appversionId": "7bcc3868-94c9-4dc5-9e4d-ca96761a7e1d",
+      "availableOrientations": [],
+      "frontendEndpoint": null,
+      "frontendStateId": "179f5808-4d7a-4621-93fd-28c4699f06db_c692fd3e-b017-4e91-8129-de6bd88b941e_7bcc3868-94c9-4dc5-9e4d-ca96761a7e1d",
+      "frontendType": "DIALOG",
+      "nativeHeader": false,
+      "projectId": "179f5808-4d7a-4621-93fd-28c4699f06db",
+      "projectName": "Поговори с искусственным интеллектом",
+      "securityAccess": {},
+      "systemName": "axon"
+    },
+    "asr_hints": {
+      "words": [
+        "Расскажи шутку",
+        "👍",
+        "👎"
+      ]
+    },
+    "assistant_items": [],
+    "auto_listening": true,
+    "character": {
+      "id": "sber"
+    },
+    "debug_info": {},
+    "emotion": {
+      "emotionId": "neutral"
+    },
+    "feature_launcher": {},
+    "intent": "axon",
+    "items": [
+      {
+        "bubble": {
+          "text": "Приветствую! Как настроение?"
+        }
+      }
+    ],
+    "last": true,
+    "led_display": {
+      "sequence": []
+    },
+    "projectName": "Поговори с искусственным интеллектом",
+    "pronounceText": "<speak>Приветствую. Как настроение?</speak>",
+    "pronounceTextType": "application/ssml",
+    "sid": "",
+    "smartBio": {},
+    "suggestions": {
+      "buttons": [
+        {
+          "action": {
+            "text": "Расскажи шутку",
+            "type": "text"
+          },
+          "title": "Расскажи шутку"
+        },
+        {
+          "action": {
+            "text": "лайк",
+            "type": "text"
+          },
+          "title": "👍"
+        },
+        {
+          "action": {
+            "text": "дизлайк",
+            "type": "text"
+          },
+          "title": "👎"
+        }
+      ]
+    },
+    "userSettings": {},
+    "voice": "She_HQ"
+  },
+  "timestamp": 1734952852860,
+  "version": 0
+}
