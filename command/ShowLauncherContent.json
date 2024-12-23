@@ -1,0 +1,386 @@
+{
+  "debug_info": {},
+  "additional_apps_payload": [],
+  "assistant_items": [],
+  "auto_listening": true,
+  "projectName": "launcher",
+  "intent": "run_app",
+  "app_info": {
+    "projectId": "4db82831-e57b-42ad-b45e-323964ae01b4",
+    "applicationId": "651ac438-a9f1-4a65-a93d-8a0bbcdd04cf",
+    "appversionId": "d8eb6c7b-47f8-4b37-9f6a-f954099cfbd7",
+    "systemName": "launcher",
+    "projectName": "launcher",
+    "frontendEndpoint": null,
+    "frontendType": "EMBEDDED_APP",
+    "apkInfo": {},
+    "ageLimit": 0,
+    "affiliationType": "INTERNAL",
+    "frontendStateId": "4db82831-e57b-42ad-b45e-323964ae01b4_651ac438-a9f1-4a65-a93d-8a0bbcdd04cf_d8eb6c7b-47f8-4b37-9f6a-f954099cfbd7",
+    "securityAccess": {},
+    "appearance": {
+      "header": {
+        "title": "launcher"
+      }
+    },
+    "allowFastRunApp": false,
+    "availableOrientations": [],
+    "nativeHeader": false
+  },
+  "activate_app_info": true,
+  "items": [
+    {
+      "command": {
+        "type": "smart_app_data",
+        "smart_app_data": {
+          "command": "ShowLauncherContent",
+          "widgets": [
+            {
+              "type": "list_card",
+              "log_id": "chat",
+              "cells": [
+                {
+                  "type": "text_cell_view",
+                  "content": {
+                    "text": "Чат с оператором",
+                    "typeface": "headline3",
+                    "text_color": "default"
+                  },
+                  "paddings": {
+                    "left": "8x",
+                    "right": "8x",
+                    "top": "8x",
+                    "bottom": "6x"
+                  }
+                },
+                {
+                  "type": "operator_chat_cell_view",
+                  "icon": {
+                    "size": {
+                      "width": "medium",
+                      "height": "medium"
+                    },
+                    "address": {
+                      "type": "url",
+                      "url": "https://va-res.online.sberbank.ru/VA/images/sao/ic_36_support_circle_light.png"
+                    },
+                    "margins": {
+                      "right": "4x"
+                    }
+                  },
+                  "placeholder": {
+                    "text": "Диалог завершён. Спасибо!",
+                    "typeface": "body1",
+                    "text_color": "default"
+                  },
+                  "title": {
+                    "style": {
+                      "typeface": "footnote1",
+                      "text_color": "secondary"
+                    }
+                  },
+                  "subtitle": {
+                    "style": {
+                      "typeface": "body1",
+                      "text_color": "default"
+                    },
+                    "margins": {
+                      "right": "4x",
+                      "top": "2x"
+                    }
+                  },
+                  "badge": {
+                    "color": "solid_warning"
+                  },
+                  "paddings": {
+                    "left": "6x",
+                    "right": "6x",
+                    "top": "6x",
+                    "bottom": "6x"
+                  }
+                },
+                {
+                  "type": "button_cell_view",
+                  "content": {
+                    "text": "Посмотреть историю",
+                    "typeface": "button2",
+                    "style": "default",
+                    "type": "disabled",
+                    "actions": [
+                      {
+                        "type": "deep_link",
+                        "deep_link": "android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/assistant/launcher?systemName=A02.01680.Where_history_references&deeplink_guid=deeplink&navigation_info=history_chat"
+                      }
+                    ],
+                    "margins": {
+                      "top": "6x",
+                      "bottom": "6x"
+                    },
+                    "plasma_button": {
+                      "text": "Посмотреть историю",
+                      "actions": [
+                        {
+                          "type": "deep_link",
+                          "deep_link": "android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/assistant/launcher?systemName=A02.01680.Where_history_references&deeplink_guid=deeplink&navigation_info=history_chat"
+                        }
+                      ],
+                      "style": "secondary"
+                    }
+                  },
+                  "paddings": {
+                    "left": "8x",
+                    "right": "8x",
+                    "top": "8x",
+                    "bottom": "8x"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "widget_title_card",
+              "cell": {
+                "type": "left_right_cell_view",
+                "left": {
+                  "type": "simple_left_view",
+                  "texts": {
+                    "title": {
+                      "text": "Стела, чем могу помочь? Скажите, например:",
+                      "typeface": "headline6",
+                      "text_color": "default",
+                      "margins": {
+                        "left": "8x",
+                        "right": "6x"
+                      },
+                      "max_lines": 4
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "list_card",
+              "log_id": "skills",
+              "cells": [
+                {
+                  "type": "left_right_cell_view",
+                  "log_id": "skills.Pokazhi_moi_poslednie_operacii",
+                  "paddings": {
+                    "left": "7x",
+                    "right": "4x",
+                    "top": "6x",
+                    "bottom": "6x"
+                  },
+                  "left": {
+                    "type": "simple_left_view",
+                    "texts": {
+                      "title": {
+                        "text": "Покажи мои последние операции",
+                        "typeface": "body1",
+                        "text_color": "default",
+                        "max_lines": 2
+                      }
+                    },
+                    "icon_vertical_gravity": "center"
+                  },
+                  "right": {
+                    "type": "disclosure_right_view"
+                  },
+                  "divider": {
+                    "size": "d3",
+                    "style": "default"
+                  },
+                  "actions": [
+                    {
+                      "type": "deep_link",
+                      "deep_link": "android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/assistant/launcher?data=%7B%22text%22%3A%22%D0%9F%D0%BE%D0%BA%D0%B0%D0%B6%D0%B8%20%D0%BC%D0%BE%D0%B8%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D0%B8%D0%B5%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8%22%7D&sT=sbol_launcher&sN=skills.0.Pokazhi_moi_poslednie_operacii"
+                    }
+                  ]
+                },
+                {
+                  "type": "left_right_cell_view",
+                  "log_id": "skills.landing",
+                  "paddings": {
+                    "left": "7x",
+                    "right": "4x",
+                    "top": "6x",
+                    "bottom": "6x"
+                  },
+                  "left": {
+                    "type": "simple_left_view",
+                    "texts": {
+                      "title": {
+                        "text": "Переведи деньги по СБП",
+                        "typeface": "body1",
+                        "text_color": "default",
+                        "max_lines": 2
+                      },
+                      "subtitle": {
+                        "text": "Например: «Переведи маме 1 000 рублей в Альфа-Банк»",
+                        "typeface": "footnote1",
+                        "text_color": "secondary",
+                        "margins": {
+                          "top": "1x"
+                        },
+                        "max_lines": 2
+                      }
+                    },
+                    "icon_vertical_gravity": "center"
+                  },
+                  "right": {
+                    "type": "disclosure_right_view"
+                  },
+                  "divider": {
+                    "size": "d3",
+                    "style": "default"
+                  },
+                  "actions": [
+                    {
+                      "type": "deep_link",
+                      "deep_link": "android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/assistant/launcher?systemName=landing&action_id=run_app&skill=sbp&size=760p&btn=0&sT=sbol_launcher&sN=skills.1.landing.sbp&deeplink_guid=deeplink"
+                    }
+                  ]
+                },
+                {
+                  "type": "left_right_cell_view",
+                  "log_id": "skills.How_to_check_your_SPASIBO_bonus_balance",
+                  "paddings": {
+                    "left": "7x",
+                    "right": "4x",
+                    "top": "6x",
+                    "bottom": "6x"
+                  },
+                  "left": {
+                    "type": "simple_left_view",
+                    "texts": {
+                      "title": {
+                        "text": "Сколько у меня бонусов?",
+                        "typeface": "body1",
+                        "text_color": "default",
+                        "max_lines": 2
+                      }
+                    },
+                    "icon_vertical_gravity": "center"
+                  },
+                  "right": {
+                    "type": "disclosure_right_view"
+                  },
+                  "divider": {
+                    "size": "d3",
+                    "style": "default"
+                  },
+                  "actions": [
+                    {
+                      "type": "deep_link",
+                      "deep_link": "android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/assistant/launcher?systemName=How_to_check_your_SPASIBO_bonus_balance&action_id=run_app&intent=A0501.How_to_check_your_SPASIBO_bonus_balance&sT=sbol_launcher&sN=skills.2.How_to_check_your_SPASIBO_bonus_balance&deeplink_guid=deeplink"
+                    }
+                  ]
+                },
+                {
+                  "type": "left_right_cell_view",
+                  "log_id": "skills.Moi_limity",
+                  "paddings": {
+                    "left": "7x",
+                    "right": "4x",
+                    "top": "6x",
+                    "bottom": "6x"
+                  },
+                  "left": {
+                    "type": "simple_left_view",
+                    "texts": {
+                      "title": {
+                        "text": "Мои лимиты",
+                        "typeface": "body1",
+                        "text_color": "default",
+                        "max_lines": 2
+                      }
+                    },
+                    "icon_vertical_gravity": "center"
+                  },
+                  "right": {
+                    "type": "disclosure_right_view"
+                  },
+                  "actions": [
+                    {
+                      "type": "deep_link",
+                      "deep_link": "android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/assistant/launcher?data=%7B%22text%22%3A%22%D0%9C%D0%BE%D0%B8%20%D0%BB%D0%B8%D0%BC%D0%B8%D1%82%D1%8B%22%7D&sT=sbol_launcher&sN=skills.3.Moi_limity"
+                    }
+                  ]
+                }
+              ],
+              "paddings": {
+                "left": "2x",
+                "right": "2x",
+                "top": "6x",
+                "bottom": "6x"
+              }
+            },
+            {
+              "type": "list_card",
+              "cells": [
+                {
+                  "type": "left_right_cell_view",
+                  "paddings": {
+                    "left": "7x",
+                    "right": "4x",
+                    "top": "6x",
+                    "bottom": "6x"
+                  },
+                  "left": {
+                    "type": "simple_left_view",
+                    "texts": {
+                      "title": {
+                        "text": "Что ещё ты умеешь?",
+                        "typeface": "body1",
+                        "text_color": "default",
+                        "max_lines": 1
+                      },
+                      "subtitle": {
+                        "text": "Покажу больше возможностей",
+                        "typeface": "footnote1",
+                        "text_color": "secondary",
+                        "margins": {
+                          "top": "1x"
+                        },
+                        "max_lines": 2
+                      }
+                    },
+                    "icon_vertical_gravity": "center"
+                  },
+                  "right": {
+                    "type": "disclosure_right_view"
+                  },
+                  "actions": [
+                    {
+                      "type": "deep_link",
+                      "deep_link": "android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/assistant/launcher?systemName=sbol_onboarding_app&deeplink_guid=guid&campaign_name=sbol_launcher&campaign_type=sbol_launcher_widget_catalognew"
+                    }
+                  ]
+                }
+              ],
+              "paddings": {
+                "left": "2x",
+                "right": "2x",
+                "top": "6x",
+                "bottom": "6x"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "asr_hints": {},
+  "smartBio": {},
+  "voice": "She_HQ",
+  "character": {
+    "id": "sber"
+  },
+  "userSettings": {
+    "initials": "СБ"
+  },
+  "feature_launcher": {},
+  "led_display": {},
+  "sid": "",
+  "answerId": 1,
+  "last": true
+}
