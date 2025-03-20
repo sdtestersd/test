@@ -1,0 +1,55 @@
+{
+  "items": [
+    {
+      "command": {
+        "type": "action",
+        "action": {
+          "type": "open_keyboard"
+        }
+      }
+    },
+    {
+      "card": {
+        "type": "list_card",
+        "paddings": {
+          "bottom": "9x"
+        },
+        "cells": [
+          {
+            "type": "image_cell_view",
+            "content": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Northern_Spotted_Owl.USFWS.jpg/808px-Northern_Spotted_Owl.USFWS.jpg",
+              "size": {
+                "width": "resizable",
+                "aspect_ratio": 1.45
+              }
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Совообра́зные (лат. Strigiformes) — отряд хищных птиц, включающий более 200 крупных и средней величины видов, в основном ночных птиц, распространённых во всех странах мира. В отряде два современных семейства: совиные, или настоящие совы, и сипуховые.Краткая характеристика: крупная голова, большие круглые глаза спереди головы, клюв короткий, хищный. Охотится ночью, оперение мягкое, полёт бесшумный, когти длинные и острые, окрас маскирующий.",
+              "typeface": "body2",
+              "text_color": "default",
+              "max_lines": 0
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "4x",
+              "right": "8x"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "bubble": {
+        "text": "**Жирный** - жирный маркдаун",
+        "markdown": true
+      }
+    },
+    {
+      "command": {}
+    }
+  ]
+}
