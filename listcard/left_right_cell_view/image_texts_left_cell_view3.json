@@ -55,6 +55,7 @@
               "type": "image_texts_left_cell_view",
               "image": {
                 "url": "https://avatars.mds.yandex.net/get-marketcms/475644/img-0ec60a9f-2803-4ab0-8408-ed0dd2cbec79.png/optimize",
+                "hash": "bc46908ec89ff2b6ec5ba6887b006d2d",
                 "height": {
                   "type": "fixed",
                   "value": 40
