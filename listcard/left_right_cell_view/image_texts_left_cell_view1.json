@@ -72,16 +72,19 @@
               "texts": {
                 "title": {
                   "text": "ИВИ >",
-                  "plasma_typeface": "body2",
+                  "typeface": "body2",
+                  "plasma_typeface": "title1",
                   "plasma_text_color": "textPrimary"
                 },
                 "subtitle": {
                   "text": "СберКарта ** 9112 и еще 2",
+                  "typeface": "body2",
                   "plasma_typeface": "body4",
                   "plasma_text_color": "textSecondary"
                 },
                 "caption": {
                   "text": "Спишется через 3 дня",
+                  "typeface": "body2",
                   "plasma_typeface": "body4",
                   "plasma_text_color": "textSecondary"
                 },
