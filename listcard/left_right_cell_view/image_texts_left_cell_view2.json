@@ -74,19 +74,22 @@
                   "text": "ИВИ >",
                   "typeface": "body2",
                   "plasma_typeface": "title1",
-                  "plasma_text_color": "textPrimary"
+                  "plasma_text_color": "textPrimary",
+                  "text_color":"default"
                 },
                 "subtitle": {
                   "text": "СберКарта ** 9112 и еще 2",
                   "typeface": "body2",
                   "plasma_typeface": "body4",
-                  "plasma_text_color": "textSecondary"
+                  "plasma_text_color": "textSecondary",
+                  "text_color":"default"
                 },
                 "caption": {
                   "text": "Спишется через 3 дня",
                   "typeface": "body2",
                   "plasma_typeface": "body4",
-                  "plasma_text_color": "textSecondary"
+                  "plasma_text_color": "textSecondary",
+                  "text_color":"default"
                 },
                 "margins": {
                   "left": "6x",
